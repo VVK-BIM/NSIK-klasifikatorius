@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<BuildingInformation>
+	<Classification>
+		<System>
+			<Name>NSIK &lt;L&gt;F</Name>
+			<EditionVersion>1.0</EditionVersion>
+			<EditionDate>
+				<Year>2023</Year>
+				<Month>09</Month>
+				<Day>01</Day>
+			</EditionDate>
+			<Description>Funkcinės sistemos</Description>
+			<Source>https://www.nsiklab.lt/</Source>
+			<Items>
+				<Item>
+					<ID>A</ID>
+					<Name>Paviršinė sistema</Name>
+					<Description>Erdves ant žemės paviršiaus formuojanti ar antžeminę statybą įgalinanti sistema, kuri atskiria statinio požeminę ir antžeminę dalis</Description>
+					<Children>
+						<Item>
+							<ID>%A10</ID>
+							<Name>Sutankinto grunto sistema</Name>
+							<Description>Sutankinto ar kitaip paruošto grunto pagrindo sistema,  perimanti apkrovas iš kitos, ant jos įrengtos, erdvę formuojančios sistemos</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%A20</ID>
+							<Name>Pamato sistema</Name>
+							<Description>Pamatų sistema, paskirstanti apkrovas nuo laikomų statinių ar įrenginių į aplinkui bei apačioje esantį paruoštą sutankintą gruntą</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%A30</ID>
+							<Name>Kelio ir/arba tako sistema</Name>
+							<Description>Transporto priemonių bei pėsčiųjų eismui skirtas erdves formuojanti sistema, išskyrus kelkraščius ir saugos juostas</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%A40</ID>
+							<Name>Kelkraščio sistema</Name>
+							<Description>Antžeminė sistema, formuojanti erdves lygiagrečiai kelio važiuojamosios dalies ir naudojama eismo saugumui užtikrinti, kuri įgalina pėsčiųjų bei dviratininkų judėjimą, transporto priemonių sustojimą avarinių situacijų metu ir apsaugo važiuojamąją kelio dalį nuo irimo</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%A50</ID>
+							<Name>Dirbtinės dangos sistema</Name>
+							<Description>Dirbtinės dangos sistema, įrengta iš dirbtinės vejos, dirbtinai įrengtos vejos, kietos dangos, kuri formuoja erdvę įvairioms veikloms nesusijusiomis su autotransporto ar pėsčiųjų nuolatiniu eismu, bet kuri gali būti naudojama autotransporto laikymui, žmonių susibūrimui, fizinio aktyvumo veikloms, sandėliavimui, orlaivių kilimui, tūpimui ar riedėjimui</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%A60</ID>
+							<Name>Želdynų ir želdinių sistema</Name>
+							<Description>Želdynams ir želdiniams skirtą erdvę formuojanti antžeminė sistema</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%A70</ID>
+							<Name>Sankasos sistema</Name>
+							<Description>Sankasos arba iškasų bei sankasų bendra sistema, kuri formuoja pagrindą bei perima apkrovas nuo autotransporto, geležinkelio kelio bei pėsčiųjų takų ir jas paskirsto į sutankintą pagrindą</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%A80</ID>
+							<Name>Paviršinė vandentvarkos sistema</Name>
+							<Description>Paviršinė funkcinė sistema, susidedanti iš griovių bei konstrukcijų, skirtų vandeniui nuvesti, nukreipti ar vandens telkiniams sujungti, formuoti erdves tvenkiniams ar kitus antžeminius vandentvarkos statinius</Description>
+							<Children />
+						</Item>
+					</Children>
+				</Item>
+				<Item>
+					<ID>B</ID>
+					<Name>Sienos sistema</Name>
+					<Description>Vertikaliai erdves atskirianti ar jas formuojanti bei statinio vertikalumą įgalinanti sistema</Description>
+					<Children>
+						<Item>
+							<ID>%B10</ID>
+							<Name>Išorinės sienos sistema</Name>
+							<Description>Išorinių sienų ar pertvarų sistema, atskirianti statinio išorę nuo vidaus</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%B20</ID>
+							<Name>Kolonų sistema</Name>
+							<Description>Neuždarą vertikalią erdvę formuojanti sistema, kuri įrengiama iš linijinių elementų ir įgalinanti statinio daugiaukštingumą ar vertikalumą</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%B30</ID>
+							<Name>Vidinės sienos sistema</Name>
+							<Description>Vidinių sienų ar pertvarų sistema, atskirianti statinio vidaus erdves</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%B40</ID>
+							<Name>Fasado sistema</Name>
+							<Description>Fasado sistema, atskirianti pastato vidų nuo išorės arba nuo atriumo</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%B50</ID>
+							<Name>Laisvai stovinčios sienos sistema</Name>
+							<Description>Vertikaliai lauko erdvę atskirianti sistema, kuri formuoja atvirą erdvę arba uždarą teritoriją. Daugiausiai veikiama savo pačios apkrovos.</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%B60</ID>
+							<Name>Atraminės sienos sistema</Name>
+							<Description>Gruntą ar vandenį sulaikanti atraminė sienos sistema, kuri formuoja atvirą erdvę vienoje pusėje ant žemės paviršiaus arba atskiria erdvę vandenyje</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%B70</ID>
+							<Name>Krantinės sienos sistema</Name>
+							<Description>Vandenį ir gruntą (ar vandenį iš abiejų pusių) vertikaliai skirianti sistema, kuri užtikrina grunto stabilumą vienoje pusėje ir formuoja krantinę kitoje pusėje</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%B80</ID>
+							<Name>Tunelio sistema</Name>
+							<Description>Vertikalių sienų sistema, formuojanti požeminę erdvę bei vertikaliai ją skirianti nuo supančio grunto</Description>
+							<Children />
+						</Item>
+					</Children>
+				</Item>
+				<Item>
+					<ID>C</ID>
+					<Name>Perdangos sistema</Name>
+					<Description>Horizontalias, pakeltas nuo žemės paviršiaus, bei statinio erdves formuojanti bei jas atskirianti sistema</Description>
+					<Children>
+						<Item>
+							<ID>%C10</ID>
+							<Name>Grindų sistema</Name>
+							<Description>Grindų sistema, įrengiama ant arba pakelta virš grunto, horizontaliai atskirianti gruntą nuo erdvės suformuotos viršuje</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%C20</ID>
+							<Name>Tarpaukštinės perdangos sistema</Name>
+							<Description>Horizontalias erdves statinyje atskirianti ir aukštus formuojanti perdangos sistema</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%C30</ID>
+							<Name>Pastogės perdangos sistema</Name>
+							<Description>Horizontalią erdvę tarp šlaitinio stogo ir paskutinio statinio aukšto formuojanti perdangos sistema</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%C40</ID>
+							<Name>Antresolės sistema</Name>
+							<Description>Pakeltos perdangos sistema, formuojanti tarpinę erdvę tarp aukštų statinyje arba platformą statinio viduje arba išorėje</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%C50</ID>
+							<Name>Tilto perdangos sistema</Name>
+							<Description>Tilto (viaduko) perdangos sistema, formuojanti pakeltą erdvę transporto priemonėms, pėstiesiems ar gyvūnams judėti virš vandens, gatvės ar žemės. Yra dalis gatvių, kelių ar takų.</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%C60</ID>
+							<Name>Terasos sistema</Name>
+							<Description>Lauko grindų sistema, įrengiama tiesiai ant (arba pakeliama virš) grunto, stogo ar kito objekto bei kuri formuoja horizontalią visiškai ar dalinai atvirą erdvę virš savęs</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%C70</ID>
+							<Name>Krantinės perdangos sistema</Name>
+							<Description>Lauko perdangos sistema, įrengiama virš vandens telkinio ir formuojanti horizontalią erdvę viršuje</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%C80</ID>
+							<Name>Gembinė sistema</Name>
+							<Description>Išorinės perdangos sistema, išsikišanti už statinio išorinių sienų ar konstrukcijų (gali būti palaikoma kolonų) ir formuojanti dalinai ar visiškai atviras erdves bei galinti pratęsti vidines statinio erdves į išorę</Description>
+							<Children />
+						</Item>
+					</Children>
+				</Item>
+				<Item>
+					<ID>D</ID>
+					<Name>Stogo sistema</Name>
+					<Description>Erdves užbaigianti bei iš viršaus statinį ar erdvę ribojanti sistema</Description>
+					<Children>
+						<Item>
+							<ID>%D10</ID>
+							<Name>Šlaitinio stogo sistema</Name>
+							<Description>Statinio vidinę erdvę iš viršaus ribojanti ir nuo išorės atskirianti nuožulni sistema</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%D20</ID>
+							<Name>Plokščio stogo sistema</Name>
+							<Description>Statinio vidinę erdvę iš viršaus ribojanti ir nuo išorės atskirianti plokščia sistema</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%D30</ID>
+							<Name>Stogo su terasa sistema</Name>
+							<Description>Statinio vidinę erdvę iš viršaus ribojanti ir nuo išorės atskirianti stogo sistema, kuri taip pat formuoja išorinę naudojamą erdvę ant stogo viršaus</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%D40</ID>
+							<Name>Žalio stogo sistema</Name>
+							<Description>Statinio vidinę erdvę iš viršaus ribojanti ir nuo išorės atskirianti apželdinto stogo sistema</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%D50</ID>
+							<Name>Didelio tarpatramio stogo sistema
+</Name>
+							<Description>Didelę statinio vidinę erdvę be tarpinių atramų dengianti, iš viršaus ribojanti ir nuo išorės atskirianti stogo sistema</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%D60</ID>
+							<Name>Išsikišusio stogo sistema</Name>
+							<Description>Už statinio kontūro išsikišusi stogo konstrukcija dengianti visiškai ar dalinai atvirą erdvę apačioje</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%D70</ID>
+							<Name>Kupolinio stogo sistema</Name>
+							<Description>Statinio vidinę erdvę iš viršaus ribojanti ir nuo išorės atskirianti skliautinė sistema</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%D80</ID>
+							<Name>Tunelio perdangos sistema</Name>
+							<Description>Požeminę erdvę iš viršaus ribojanti denginio sistema, kuri atskiria tunelio vidinę erdvę nuo viršuje esančio žemės grunto, ar kitos erdvės</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%D90</ID>
+							<Name>Atviros erdvės stogo sistema</Name>
+							<Description>Atvirą ar iš dalies atvirą lauko erdvę iš viršaus ribojanti denginio sistema, kuri formuoja erdvę po savimi</Description>
+							<Children />
+						</Item>
+					</Children>
+				</Item>
+				<Item>
+					<ID>E</ID>
+					<Name>Dujų ir oro sistema</Name>
+					<Description>Inžinerinė sistema, tiekianti technines dujas ar orą, kai oro kokybė negerinama</Description>
+					<Children>
+						<Item>
+							<ID>%E10</ID>
+							<Name>Dujų tiekimo sistema energetikos reikmėms</Name>
+							<Description>Inžinerinė sistema, tiekianti gamtines arba suskystintas dujas šildymo, karšto vandens ir/arba maisto ruošimo reikmėms</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%E20</ID>
+							<Name>Dujų tiekimo sistema gamybos reikmėms</Name>
+							<Description>Inžinerinė sistema, tiekianti technines dujas gamybos reikmėms</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%E30</ID>
+							<Name>Dujų tiekimo sistema medicinos reikmėms</Name>
+							<Description>Inžinerinė sistema, tiekianti medicinines dujas gydymo reikmėms</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%E40</ID>
+							<Name>Specialiosios paskirties dujų tiekimo sistema</Name>
+							<Description>Inžinerinė sistema, tiekianti dujas automobiliams ar kt. reikmėms</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%E50</ID>
+							<Name>Suspausto oro sistema</Name>
+							<Description>Inžinerinė sistema, tiekianti suspaustą orą</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%E60</ID>
+							<Name>Garo tiekimo sistema</Name>
+							<Description>Inžinerinė sistema, tiekianti garą technologinėms ir/arba energetikos reikmėms</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%E70</ID>
+							<Name>Vakuumo sistema</Name>
+							<Description>Inžinerinė sistema, sukurianti oro vakuumą vamzdyne</Description>
+							<Children />
+						</Item>
+					</Children>
+				</Item>
+				<Item>
+					<ID>F</ID>
+					<Name>Vandens ir skysčių sistema</Name>
+					<Description>Inžinerinė sistema, tiekianti geriamąjį vandenį, techninį vandenį ar kitus skysčius</Description>
+					<Children>
+						<Item>
+							<ID>%F10</ID>
+							<Name>Geriamojo vandens sistema</Name>
+							<Description>Geriamojo vandens kokybės tiekimo, skirstymo ir išleidimo sistema</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%F20</ID>
+							<Name>Priešgaisrinio vandens sistema</Name>
+							<Description>Gaisrams gesinti skirto vandens tiekimo, skirstymo ir išleidimo sistema</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%F30</ID>
+							<Name>Technologinio vandens sistema</Name>
+							<Description>Technologiniams ir gamybiniams poreikiams skirto vandens tiekimo, skirstymo ir išleidimo sistema</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%F40</ID>
+							<Name>Neparuošto vandens sistema</Name>
+							<Description>Neapdoroto vandens tiekimo, skirstymo ir išleidimo sistema</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%F50</ID>
+							<Name>Skysto kuro sistema</Name>
+							<Description>Skysto kuro tiekimo, skirstymo ir išleidimo sistema</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%F60</ID>
+							<Name>Specialiojo vandens sistema</Name>
+							<Description>Savitų ir specialių vandens savybių teikimo, skirstymo ir išleidimo sistema</Description>
+							<Children />
+						</Item>
+					</Children>
+				</Item>
+				<Item>
+					<ID>G</ID>
+					<Name>Nuotekų ir atliekų sistema</Name>
+					<Description>Nuotekų bei atliekų šalinimo sistema</Description>
+					<Children>
+						<Item>
+							<ID>%G10</ID>
+							<Name>Buitinių nuotekų sistema</Name>
+							<Description>Ūkio, buities skystų nuotekų sistema</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%G20</ID>
+							<Name>Paviršinių nuotekų sistema</Name>
+							<Description>Lietaus, požeminio ir/ar paviršinio drenažo skystų nuotekų sistema</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%G30</ID>
+							<Name>Technologinių nuotekų sistema</Name>
+							<Description>Technologinių ir/ar gamybos skystų nuotekų sistema</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%G40</ID>
+							<Name>Kietų atliekų sistema</Name>
+							<Description>Kieto pavidalo atliekų šalinimo sistema</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%G50</ID>
+							<Name>Mišrių nuotekų sistema</Name>
+							<Description>Nuotekų sistema vartotam vandeniui kartu su paviršinėmis ar kitos rūšies nuotekomis bėgdinti</Description>
+							<Children />
+						</Item>
+					</Children>
+				</Item>
+				<Item>
+					<ID>H</ID>
+					<Name>Vėsinimo ir/arba šildymo sistema</Name>
+					<Description>Inžinerinė sistema, užtikrinanti patalpos temperatūrą šiltuoju ir/arba šaltuoju metų laikotarpiu</Description>
+					<Children>
+						<Item>
+							<ID>%H10</ID>
+							<Name>Vėsinimo sistema</Name>
+							<Description>Inžinerinė sistema, užtikrinanti patalpos temperatūrą šiltuoju metų laikotarpiu</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%H20</ID>
+							<Name>Šildymo sistema</Name>
+							<Description>Inžinerinė sistema, užtikrinanti patalpos temperatūrą šaltuoju metų laikotarpiu</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%H30</ID>
+							<Name>Bendra šildymo ir vėsinimo sistema</Name>
+							<Description>Inžinerinė sistema, tais pačiais patalpos prietaisais užtikrinanti patalpos temperatūrą šiltuoju ir šaltuoju metų laikotarpiu</Description>
+							<Children />
+						</Item>
+					</Children>
+				</Item>
+				<Item>
+					<ID>J</ID>
+					<Name>Vėdinimo sistema</Name>
+					<Description>Inžinerinė sistema, gerinanti ir palaikanti patalpų oro kokybę keisdama ir/arba apdorodama patalpų orą</Description>
+					<Children>
+						<Item>
+							<ID>%J10</ID>
+							<Name>Bendrosios apykaitos vėdinimo sistema</Name>
+							<Description>Inžinerinė sistema, gerinanti ir palaikanti patalpų oro kokybę keisdama ir/arba apdorodama visos patalpos orą</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%J20</ID>
+							<Name>Dūmų ir šilumos valdymo sistema</Name>
+							<Description>Inžinerinė sistema, užtikrinanti gaisro metu susidarančių dūmų bei karšto oro šalinimą</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%J30</ID>
+							<Name>Vietinė vėdinimo sistema</Name>
+							<Description>Inžinerinė sistema, nusiurbianti teršalus arba gerinanti ir/arba palaikanti oro kokybę ribotoje patalpos erdvėje</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%J40</ID>
+							<Name>Avarinio vėdinimo sistema</Name>
+							<Description>Inžinerinė sistema, gerinanti ir palaikanti patalpų oro kokybę sugedus pagrindinei vėdinimo sistemai arba sutrikus technologiniam procesui</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%J50</ID>
+							<Name>Specialiosios paskirties vėdinimo sistema</Name>
+							<Description>Inžinerinė sistema, gebanti oro srautu transportuoti arba filtruoti įvairaus dydžio gamybos procesų teršalus arba elementus</Description>
+							<Children />
+						</Item>
+					</Children>
+				</Item>
+				<Item>
+					<ID>K</ID>
+					<Name>Elektros sistema</Name>
+					<Description>Įrenginių sistema, skirta elektros energijai gaminti, perduoti, skirstyti ir tiekti</Description>
+					<Children>
+						<Item>
+							<ID>%K10</ID>
+							<Name>Elektros gamybos sistema</Name>
+							<Description>Inžinerinė sistema, skirta elektros energijai gaminti</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%K20</ID>
+							<Name>Elektros perdavimo sistema</Name>
+							<Description>Inžinerinė sistema, skirta elektros energijai perduoti ir skirstyti elektros tinklais</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%K30</ID>
+							<Name>Elektros vartojimo sistema</Name>
+							<Description>Inžinerinė sistema, skirta elektros energijai tiekti galutiniams elektros vartotojams</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%K40</ID>
+							<Name>Elektros kaupimo sistema</Name>
+							<Description>Inžinerinė sistema, skirta elektros energijai saugoti ir patiekti, kuomet jos reikia</Description>
+							<Children />
+						</Item>
+					</Children>
+				</Item>
+				<Item>
+					<ID>L</ID>
+					<Name>Automatikos sistema</Name>
+					<Description>Įrenginių sistema, valdanti, reguliuojanti ir stebinti technines sistemas</Description>
+					<Children>
+						<Item>
+							<ID>%L10</ID>
+							<Name>Automatinio valdymo sistema</Name>
+							<Description>Automatikos sistema, skirta technologiniams procesams valdyti be žmogaus įsikišimo</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%L20</ID>
+							<Name>Automatizuotos gamybos sistema</Name>
+							<Description>Automatikos sistema, skirta technologiniams procesams atlikti be žmogaus įsikišimo</Description>
+							<Children />
+						</Item>
+					</Children>
+				</Item>
+				<Item>
+					<ID>M</ID>
+					<Name>Informacijos ir ryšių sistema</Name>
+					<Description>Sistema, užtikrinanti ryšius tarp asmenų ar techninių sistemų</Description>
+					<Children>
+						<Item>
+							<ID>%M10</ID>
+							<Name>Duomenų perdavimo sistema</Name>
+							<Description>Informacijos ir ryšių sistema, skirta duomenims perduoti</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%M20</ID>
+							<Name>Asmeninio ryšio sistema</Name>
+							<Description>Ryšio sistema, naudojama tarp atskirų asmenų</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%M30</ID>
+							<Name>Informavimo sistema</Name>
+							<Description>Visuotinė informavimo sistema</Description>
+							<Children />
+						</Item>
+					</Children>
+				</Item>
+				<Item>
+					<ID>N</ID>
+					<Name>Transportavimo sistema</Name>
+					<Description>Sistema skirta transportuoti keleivius bei krovinius</Description>
+					<Children>
+						<Item>
+							<ID>%N10</ID>
+							<Name>Žmonių transportavimo sistema</Name>
+							<Description>Sistema, skirta asmenims transportuoti iš vienos vietos į kitą</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%N20</ID>
+							<Name>Daiktų transportavimo sistema</Name>
+							<Description>Sistema, skirta daiktams transportuoti erdvėje iš vienos vietos į kitą</Description>
+							<Children />
+						</Item>
+					</Children>
+				</Item>
+				<Item>
+					<ID>P</ID>
+					<Name>Apsaugos ir saugos sistema</Name>
+					<Description>Sistema, skirta objektams nuo pavojaus ar žalos apsaugoti</Description>
+					<Children>
+						<Item>
+							<ID>%P10</ID>
+							<Name>Priešgaisrinės saugos sistema</Name>
+							<Description>Saugos sistema, skirta apsaugoti nuo gaisro pavojaus</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%P20</ID>
+							<Name>Elektrinės saugos sistema</Name>
+							<Description>Saugos sistema, skirta žmonėms ar įrenginiams apsaugoti nuo elektros pavojaus</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%P30</ID>
+							<Name>Asmeninės apsaugos sistema</Name>
+							<Description>Apsaugos sistema, skirta asmeniui apsaugoti, naudojant asmeninės apsaugos priemones</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%P40</ID>
+							<Name>Apsaugos nuo įsilaužimo sistema</Name>
+							<Description>Apsaugos sistema, skirta patalpoms nuo įsilaužimo apsaugoti</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%P50</ID>
+							<Name>Transporto saugos sistema</Name>
+							<Description>Saugos sistema, skirta apsaugoti nuo eismo įvykio</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%P60</ID>
+							<Name>Fizinės saugos sistema</Name>
+							<Description>Saugos sistema, skirta apsaugoti naudojant apsaugines medžiagas, fizines kliūtis ar barjerus</Description>
+							<Children />
+						</Item>
+					</Children>
+				</Item>
+				<Item>
+					<ID>Q</ID>
+					<Name>Apšvietimo sistema</Name>
+					<Description>Sistema, skirta erdvėms ar daiktams apšviesti</Description>
+					<Children>
+						<Item>
+							<ID>%Q10</ID>
+							<Name>Bendrosios paskirties apšvietimo sistema</Name>
+							<Description>Apšvietimo sistema, skirta naudoti darbo ar poilsio metu, naudojanti dirbtinę ir (arba) natūralią šviesą</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%Q20</ID>
+							<Name>Avarinio apšvietimo sistema</Name>
+							<Description>Apšvietimo sistema, naudojama avarijų metu, kai išsijungia pagrindinis (bendrosios paskirties) apšvietimas</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%Q30</ID>
+							<Name>Dekoratyvinio apšvietimo sistema</Name>
+							<Description>Apšvietimo sistema, skirta estetiniam interjero ar eksterjero vaizdui suteikti</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%Q40</ID>
+							<Name>Specialiosios paskirties apšvietimo sistema</Name>
+							<Description>Apšvietimo sistema, skirta naudoti specialioms reikmėms</Description>
+							<Children />
+						</Item>
+					</Children>
+				</Item>
+				<Item>
+					<ID>R</ID>
+					<Name>Geležinkelio sistema</Name>
+					<Description>Bėginių transporto priemonių kryptinio judėjimo, nukreipimo bei valdymo sistema</Description>
+					<Children>
+						<Item>
+							<ID>%R10</ID>
+							<Name>Pagrindinių bėgių sistema</Name>
+							<Description>Pagrindinė bėgių sistema, užtikrinanti bėginės transporto priemonės judėjimą</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%R20</ID>
+							<Name>Bėgių atšaka</Name>
+							<Description>Atšaka nuo pagrindinės bėgių sistemos, skirta nukreipti bėgines transporto priemones nuo pagrindinės bėgių sistemos į gretutinę bėgių sistemą krovinių krovimui, keleivių (į-) išlaipinimui, prasilenkimui, nukreipimui į kitą pagrindinę bėgių sistemą ar dėl kitos priežasties</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%R30</ID>
+							<Name>Bėgių perjungimo sistema</Name>
+							<Description>Sistema, skirta bėginei transporto priemonei nukreipti nuo vienų bėgių į kitus bėgius</Description>
+							<Children />
+						</Item>
+					</Children>
+				</Item>
+				<Item>
+					<ID>S</ID>
+					<Name>Įrenginių sistema</Name>
+					<Description>Sistema, kuri užpildo statinį ir jo erdves baldais, technine ar kito pobūdžio įranga</Description>
+					<Children>
+						<Item>
+							<ID>%S10</ID>
+							<Name>Buitinės technikos įranga</Name>
+							<Description>Negamybinė pagalbinė technikos įranga ir prietaisai, skirti palengvinti buitinių reikmių tenkinimą</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%S20</ID>
+							<Name>Apsaugos ir patekimo kontrolės įranga</Name>
+							<Description>Priemonės, skirtos apsisaugoti nuo nepageidautino pašalinio poveikio</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%S30</ID>
+							<Name>Gamybinis inventorius</Name>
+							<Description>Gamybinės paskirties daiktų visuma</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%S40</ID>
+							<Name>Eksploatacinė įranga (inventorius)</Name>
+							<Description>Būklę palaikančių įrenginių visuma</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%S50</ID>
+							<Name>Sanitarinė įranga</Name>
+							<Description>Įrangos, skirtos higienos reikalavimams įgyvendinti, sistema</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%S60</ID>
+							<Name>Klimato kontrolės sistema</Name>
+							<Description>Klimato kontrolės mechanizmų, užtikrinančių komfortiškas sąlygas, sistema</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%S70</ID>
+							<Name>Kėlimo sistema</Name>
+							<Description>Įrenginiai žmonėms ar kroviniams vertikaliai arba beveik vertikaliai kelti</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%S80</ID>
+							<Name>Erdvės formavimo sistema</Name>
+							<Description>Vizualiai ir fiziškai erdvę formuojančios priemonės</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%S90</ID>
+							<Name>Estetinės priemonės</Name>
+							<Description>Medžiaginės kultūros priemonės</Description>
+							<Children />
+						</Item>
+					</Children>
+				</Item>
+				<Item>
+					<ID>T</ID>
+					<Name>Eismo valdymo sistema</Name>
+					<Description>Sistema, skirta valdyti asmenų ar transporto priemonių judėjimą, valdyti ar stebėti srautą, jo greitį ar kitus rodiklius susijusius su eismu</Description>
+					<Children>
+						<Item>
+							<ID>%T10</ID>
+							<Name>Eismo signalizavimo sistema</Name>
+							<Description>Sistema skirta valdyti eismo srautus, srautų judėjimą</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%T20</ID>
+							<Name>Eismo uždarymo sistema</Name>
+							<Description>Sistema skirta užkardyti ir riboti eismo judėjimą vietovėje ar apriboti patekimą į tam tikrą vietovę</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%T30</ID>
+							<Name>Greičio stebėjimo sistema</Name>
+							<Description>Sistema skirta matuoti ar stebėti eismo dalyvių judėjimo greitį</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>%T40</ID>
+							<Name>Greičio kontrolės sistema</Name>
+							<Description>Sistema skirta lėtinti ar riboti eismo dalyvių judėjimo greitį</Description>
+							<Children />
+						</Item>
+					</Children>
+				</Item>
+			</Items>
+		</System>
+	</Classification>
+</BuildingInformation>
