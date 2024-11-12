@@ -1,0 +1,1291 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<BuildingInformation>
+	<Classification>
+		<System>
+			<Name>NSIK &lt;B&gt;</Name>
+			<EditionVersion>1.0</EditionVersion>
+			<EditionDate>
+				<Year>2024</Year>
+				<Month>11</Month>
+				<Day>01</Day>
+			</EditionDate>
+			<Description>Patalpos</Description>
+			<Source>https://www.nsiklab.lt/</Source>
+			<Items>
+				<Item>
+					<ID>A</ID>
+					<Name>Gyvenamųjų patalpų paskirčių tipo patalpa</Name>
+					<Description />
+					<Children>
+						<Item>
+							<ID>AA</ID>
+							<Name>Gyvenamųjų patalpų paskirties grupės patalpa</Name>
+							<Description />
+							<Children>
+								<Item>
+									<ID>AAA</ID>
+									<Name>Gyvenamųjų patalpų (butų) paskirties patalpa</Name>
+									<Description>Atskiru Nekilnojamojo turto kadastro objektu suformuota, nuo bendro naudojimo patalpų, kitų butų ar negyvenamųjų patalpų sienomis ir perdangomis (denginiu) atskirta pastato dalis, kurią sudaro vienas ar keli gyvenamieji kambariai ir kitos patalpos, turinti atskirą išėjimą į lauką arba į bendro naudojimo patalpas.</Description>
+									<Children>
+										<Item>
+											<ID>%AAA10</ID>
+											<Name>Butas</Name>
+											<Description />
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+							</Children>
+						</Item>
+						<Item>
+							<ID>AB</ID>
+							<Name>Įvairių socialinių grupių patalpų paskirties grupės patalpa</Name>
+							<Description />
+							<Children>
+								<Item>
+									<ID>ABA</ID>
+									<Name>Įvairių socialinių grupių patalpų paskirties patalpa</Name>
+									<Description>Atskiru Nekilnojamojo turto kadastro objektu suformuota, nuo bendro naudojimo patalpų, kitų gyvenamųjų ar negyvenamųjų patalpų sienomis ir perdangomis (denginiu) atskirta pastato dalis, kurią sudaro vienas ar keli gyvenamieji kambariai ir kitos patalpos, turinti atskirą išėjimą į lauką arba į bendro naudojimo patalpas.</Description>
+									<Children>
+										<Item>
+											<ID>%ABA10</ID>
+											<Name>Bendrabutis</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%ABA20</ID>
+											<Name>Globos namai</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%ABA30</ID>
+											<Name>Šeimos namai</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%ABA40</ID>
+											<Name>Vienuolynas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%ABA50</ID>
+											<Name>Motinos ir vaiko namai</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%ABA60</ID>
+											<Name>Pusiaukelės namai</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%ABA70</ID>
+											<Name>Kitos įstaigos, teikiančios socialinės globos ar socialinės priežiūros paslaugas su apgyvendinimu, patalpa</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%ABA80</ID>
+											<Name>Kita patalpa, atitinkanti paskirties aprašymą</Name>
+											<Description>Kita patalpa, atitinkanti įvairių socialinių grupių paskirties patalpos aprašymą ir nepriskirtina kitoms ABA klasės patalpoms.</Description>
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+							</Children>
+						</Item>
+					</Children>
+				</Item>
+				<Item>
+					<ID>B</ID>
+					<Name>Negyvenamųjų patalpų paskirčių tipo patalpa</Name>
+					<Description />
+					<Children>
+						<Item>
+							<ID>BA</ID>
+							<Name>Komercinių patalpų paskirties grupės patalpa</Name>
+							<Description />
+							<Children>
+								<Item>
+									<ID>BAA</ID>
+									<Name>Prekybos patalpų paskirties patalpa</Name>
+									<Description>Patalpa, skirta didmeninei ir mažmeninei prekybai.</Description>
+									<Children>
+										<Item>
+											<ID>%BAA10</ID>
+											<Name>Parduotuvė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BAA20</ID>
+											<Name>Vaistinė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BAA30</ID>
+											<Name>Knygynas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BAA40</ID>
+											<Name>Kita patalpa, atitinkanti paskirties aprašymą</Name>
+											<Description>Kita patalpa, atitinkanti prekybos paskirties patalpos aprašymą ir nepriskirtina kitoms BAA klasės patalpoms.</Description>
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+								<Item>
+									<ID>BAB</ID>
+									<Name>Viešbučių patalpų paskirties patalpa</Name>
+									<Description>Patalpa, skirta trumpalaikio apgyvendinimo paslaugoms teikti. Kiekviena atskiru Nekilnojamojo turto kadastro objektu suformuota viešbučių patalpa privalo turėti viešbučiui funkcionuoti tipologiškai būtinas pagalbines patalpas, atskirą (nuo kitų atskiru Nekilnojamojo turto kadastro objektu suformuotų viešbučių patalpų) išėjimą iš pastato. Patalpos kambariai (numeriai) atskirais Nekilnojamojo turto kadastro objektais neformuojami.</Description>
+									<Children>
+										<Item>
+											<ID>%BAB10</ID>
+											<Name>Viešbutis</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BAB20</ID>
+											<Name>Motelis</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BAB30</ID>
+											<Name>Jaunimo nakvynės namai (angl. hostel)</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BAB40</ID>
+											<Name>Kita patalpa, atitinkanti paskirties aprašymą</Name>
+											<Description>Kita patalpa, atitinkanti viešbučių paskirties patalpos aprašymą ir nepriskirtina kitoms BAB klasės patalpoms.</Description>
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+								<Item>
+									<ID>BAC</ID>
+									<Name>Bendro gyvenimo namų patalpų paskirties patalpa</Name>
+									<Description>Patalpa, skirta apgyvendinimo patalpų (kambarių) su nuomininkams bendrai naudoti skirtomis patalpomis nuomai. Šioje patalpoje nuomininkams bendrai naudoti skirtos patalpos (maitinimosi, poilsio, darbo ir pan. poreikiams tenkinti) turi sudaryti ne mažiau kaip 20 procentų apgyvendinti (nuomai) skirtų patalpų bendro ploto. Kiekviena atskiru Nekilnojamojo turto kadastro objektu suformuota bendro gyvenimo namų patalpa privalo turėti šiam patalpų tipui funkcionuoti būtinas bendras ir pagalbines patalpas, atskirą (nuo kitų atskiru Nekilnojamojo turto kadastro objektu suformuotų bendro gyvenimo namų patalpų) išėjimą iš pastato. Patalpos kambariai (numeriai) atskirais Nekilnojamojo turto kadastro objektais neformuojami.</Description>
+									<Children>
+										<Item>
+											<ID>%BAC10</ID>
+											<Name>Bendro gyvenimo namai</Name>
+											<Description />
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+								<Item>
+									<ID>BAD</ID>
+									<Name>Paslaugų patalpų paskirties patalpa</Name>
+									<Description>Patalpa, skirta paslaugoms (išskyrus specialiąsias) teikti.</Description>
+									<Children>
+										<Item>
+											<ID>%BAD10</ID>
+											<Name>Pirtis</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BAD20</ID>
+											<Name>Grožio salonas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BAD30</ID>
+											<Name>Skalbykla</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BAD40</ID>
+											<Name>Taisykla</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BAD50</ID>
+											<Name>Remonto dirbtuvės (išskyrus autoservisą)</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BAD60</ID>
+											<Name>Priėmimo punktas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BAD70</ID>
+											<Name>Išdavimo punktas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BAD80</ID>
+											<Name>Automobilių plovykla</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BAD90</ID>
+											<Name>Kita patalpa, atitinkanti paskirties aprašymą</Name>
+											<Description>Kita patalpa, atitinkanti paslaugų paskirties patalpos aprašymą ir nepriskirtina kitoms BAD klasės patalpoms.</Description>
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+								<Item>
+									<ID>BAE</ID>
+									<Name>Maitinimo patalpų paskirties patalpa</Name>
+									<Description>Patalpa, skirta žmonėms maitinti.</Description>
+									<Children>
+										<Item>
+											<ID>%BAE10</ID>
+											<Name>Valgykla</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BAE20</ID>
+											<Name>Restoranas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BAE30</ID>
+											<Name>Kavinė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BAE40</ID>
+											<Name>Baras</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BAE50</ID>
+											<Name>Kita patalpa, atitinkanti paskirties aprašymą</Name>
+											<Description>Kita patalpa, atitinkanti maitinimo paskirties patalpos aprašymą ir nepriskirtina kitoms BAE klasės patalpoms.</Description>
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+							</Children>
+						</Item>
+						<Item>
+							<ID>BB</ID>
+							<Name>Administracinių patalpų paskirties grupės patalpa</Name>
+							<Description />
+							<Children>
+								<Item>
+									<ID>BBA</ID>
+									<Name>Administracinių patalpų paskirties patalpa</Name>
+									<Description>Patalpa, skirta viešojo administravimo veiklai, komercinei veiklai ir komercinei veiklai administruoti.</Description>
+									<Children>
+										<Item>
+											<ID>%BBA10</ID>
+											<Name>Biuras</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BBA20</ID>
+											<Name>Bankas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BBA30</ID>
+											<Name>Paštas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BBA40</ID>
+											<Name>Valstybės įstaiga</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BBA50</ID>
+											<Name>Savivaldybės įstaiga</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BBA60</ID>
+											<Name>Ambasada</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BBA70</ID>
+											<Name>Teismas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BBA80</ID>
+											<Name>Kita įstaigos ir organizacijos administracinė patalpa</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BBA90</ID>
+											<Name>Kita patalpa, atitinkanti paskirties aprašymą</Name>
+											<Description>Kita patalpa, atitinkanti administracinės paskirties patalpos aprašymą ir nepriskirtina kitoms BBA klasės patalpoms.</Description>
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+							</Children>
+						</Item>
+						<Item>
+							<ID>BC</ID>
+							<Name>Transporto patalpų paskirties grupės patalpa</Name>
+							<Description />
+							<Children>
+								<Item>
+									<ID>BCA</ID>
+									<Name>Transporto patalpų paskirties patalpa</Name>
+									<Description>Patalpa, skirta transporto, susisiekimo tikslams, t. y. susijusi su transportavimu, gabenimu, vežimu</Description>
+									<Children>
+										<Item>
+											<ID>%BCA10</ID>
+											<Name>Oro uosto patalpa</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BCA20</ID>
+											<Name>Jūrų uosto patalpa</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BCA30</ID>
+											<Name>Upių uosto patalpa</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BCA40</ID>
+											<Name>Jūrų laivyno patalpa</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BCA50</ID>
+											<Name>Upių laivyno patalpa</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BCA60</ID>
+											<Name>Geležinkelio stotis</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BCA70</ID>
+											<Name>Autobusų stotis</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BCA80</ID>
+											<Name>Judėjimo postas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BCA90</ID>
+											<Name>Iešmų postas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BCA100</ID>
+											<Name>Dispečerinė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BCA110</ID>
+											<Name>Uosto terminalas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BCA120</ID>
+											<Name>Signalų perdavimo patalpa</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BCA130</ID>
+											<Name>Švyturio patalpa</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BCA140</ID>
+											<Name>Muitinės patalpa</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BCA150</ID>
+											<Name>Kita patalpa, atitinkanti paskirties aprašymą</Name>
+											<Description>Kita patalpa, atitinkanti transporto paskirties patalpos aprašymą ir nepriskirtina kitoms BCA klasės patalpoms.</Description>
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+								<Item>
+									<ID>BCB</ID>
+									<Name>Garažų patalpų paskirties patalpa</Name>
+									<Description>Patalpa transporto priemonėms laikyti, pasaugoti ir remontuoti, neteikiant kitų paslaugų. Patalpa atskiru Nekilnojamojo turto kadastro objektu neformuojama ir neregistruojama pagalbinio ūkio paskirties pastatuose.</Description>
+									<Children>
+										<Item>
+											<ID>%BCB10</ID>
+											<Name>Automobilių garažas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BCB20</ID>
+											<Name>Atviras požeminis garažas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BCB30</ID>
+											<Name>Uždaras požeminis garažas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BCB40</ID>
+											<Name>Antžeminė automobilių saugykla</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BCB50</ID>
+											<Name>Elingas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BCB60</ID>
+											<Name>Geležinkelio vagonų depas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BCB70</ID>
+											<Name>Autobusų garažas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BCB80</ID>
+											<Name>Troleibusų garažas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BCB90</ID>
+											<Name>Orlaivių angaras</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BCB100</ID>
+											<Name>Laivų angaras</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BCB110</ID>
+											<Name>Kita patalpa, atitinkanti paskirties aprašymą</Name>
+											<Description>Kita patalpa, atitinkanti garažų paskirties patalpos aprašymą ir nepriskirtina kitoms BCB klasės patalpoms.</Description>
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+							</Children>
+						</Item>
+						<Item>
+							<ID>BD</ID>
+							<Name>Pramonės ir sandėliavimo patalpų paskirties grupės patalpa</Name>
+							<Description />
+							<Children>
+								<Item>
+									<ID>BDA</ID>
+									<Name>Gamybos, pramonės patalpų paskirties patalpa</Name>
+									<Description>Gamybai skirta patalpa, įskaitant energijos gamybą, jos skirstymą.</Description>
+									<Children>
+										<Item>
+											<ID>%BDA10</ID>
+											<Name>Gamykla</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BDA20</ID>
+											<Name>Dirbtuvės</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BDA30</ID>
+											<Name>Produkcijos perdirbimo patalpa</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BDA40</ID>
+											<Name>Kalvė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BDA50</ID>
+											<Name>Gamybinė laboratorija</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BDA60</ID>
+											<Name>Skerdykla</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BDA70</ID>
+											<Name>Patalpa vandens organizmams veisti, auginti ir perdirbti</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BDA80</ID>
+											<Name>Elektrinė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BDA90</ID>
+											<Name>Katilinė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BDA100</ID>
+											<Name>Transformatorių pastotė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BDA110</ID>
+											<Name>Skirstykla</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BDA120</ID>
+											<Name>Naftos perdirbimo patalpa</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BDA130</ID>
+											<Name>Kita patalpa, atitinkanti paskirties aprašymą</Name>
+											<Description>Kita patalpa, atitinkanti gamybos paskirties patalpos aprašymą ir nepriskirtina kitoms BDA klasės patalpoms.</Description>
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+								<Item>
+									<ID>BDB</ID>
+									<Name>Energetikos patalpų paskirties patalpa</Name>
+									<Description>Patalpa, skirta energijai gaminti, energijos ištekliams išgauti, energijai perdirbti, perduoti ar skirstyti.</Description>
+									<Children>
+										<Item>
+											<ID>%BDB10</ID>
+											<Name>Elektrinė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BDB20</ID>
+											<Name>Katilinė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BDB30</ID>
+											<Name>Transformatorių pastotė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BDB40</ID>
+											<Name>Skirstykla</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BDB50</ID>
+											<Name>Naftos perdirbimo patalpa</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BDB60</ID>
+											<Name>Kita patalpa, atitinkanti paskirties aprašymą</Name>
+											<Description>Kita patalpa, atitinkanti energetikos paskirties patalpos aprašymą ir nepriskirtina kitoms BDB klasės patalpoms.</Description>
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+								<Item>
+									<ID>BDC</ID>
+									<Name>Sandėliavimo patalpų paskirties patalpa</Name>
+									<Description>Patalpa pagal paskirtį naudojama sandėliavimui.</Description>
+									<Children>
+										<Item>
+											<ID>%BDC10</ID>
+											<Name>Saugykla</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BDC20</ID>
+											<Name>Sandėlis</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BDC30</ID>
+											<Name>Kita patalpa, naudojama produkcijai laikyti ir saugoti</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BDC40</ID>
+											<Name>Kita patalpa, atitinkanti paskirties aprašymą</Name>
+											<Description>Kita patalpa, atitinkanti sandėliavimo paskirties patalpos aprašymą ir nepriskirtina kitoms BDC klasės patalpoms.</Description>
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+							</Children>
+						</Item>
+						<Item>
+							<ID>BE</ID>
+							<Name>Visuomeninių patalpų paskirties grupės patalpa</Name>
+							<Description />
+							<Children>
+								<Item>
+									<ID>BEA</ID>
+									<Name>Kultūros patalpų paskirties patalpa</Name>
+									<Description>Patalpa skirta kultūros tikslams.</Description>
+									<Children>
+										<Item>
+											<ID>%BEA10</ID>
+											<Name>Kino teatras</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEA20</ID>
+											<Name>Teatras</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEA30</ID>
+											<Name>Kultūros namai</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEA40</ID>
+											<Name>Klubas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEA50</ID>
+											<Name>Biblioteka</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEA60</ID>
+											<Name>Muziejus</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEA70</ID>
+											<Name>Archyvas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEA80</ID>
+											<Name>Parodų centras</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEA90</ID>
+											<Name>Planetariumas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEA100</ID>
+											<Name>Radijo patalpa</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEA110</ID>
+											<Name>Televizijos patalpa</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEA120</ID>
+											<Name>Saugomų teritorijų lankytojų centro patalpa</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEA130</ID>
+											<Name>Kita patalpa, atitinkanti paskirties aprašymą</Name>
+											<Description>Kita patalpa, atitinkanti kultūros paskirties patalpos aprašymą ir nepriskirtina kitoms BEA klasės patalpoms.</Description>
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+								<Item>
+									<ID>BEB</ID>
+									<Name>Mokslo patalpų paskirties patalpa</Name>
+									<Description>Patalpa skirta švietimo, ugdymo ir mokslo tikslams.</Description>
+									<Children>
+										<Item>
+											<ID>%BEB10</ID>
+											<Name>Mokslo įstaigos institutas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEB20</ID>
+											<Name>Mokslinio tyrimo įstaiga</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEB30</ID>
+											<Name>Observatorija</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEB40</ID>
+											<Name>Meteorologijos stotis</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEB50</ID>
+											<Name>Laboratorija (išskyrus gamybinę laboratoriją)</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEB60</ID>
+											<Name>Bendrojo lavinimo mokykla</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEB70</ID>
+											<Name>Profesinė mokykla</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEB80</ID>
+											<Name>Aukštoji mokykla</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEB90</ID>
+											<Name>Vaikų darželis</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEB100</ID>
+											<Name>Lopšelis</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEB110</ID>
+											<Name>Kita patalpa, atitinkanti paskirties aprašymą</Name>
+											<Description>Kita patalpa, atitinkanti mokslo paskirties patalpos aprašymą ir nepriskirtina kitoms BEB klasės patalpoms.</Description>
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+								<Item>
+									<ID>BEC</ID>
+									<Name>Gydymo patalpų paskirties patalpa</Name>
+									<Description>Patalpa, skirta gydymui, t. y. patalpa, kurioje teikiama medicininė pagalba ir priežiūra žmonėms ar gyvūnams.</Description>
+									<Children>
+										<Item>
+											<ID>%BEC10</ID>
+											<Name>Ligoninė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEC20</ID>
+											<Name>Klinika</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEC30</ID>
+											<Name>Poliklinika</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEC40</ID>
+											<Name>Sanatorija</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEC50</ID>
+											<Name>Reabilitacijos centras</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEC60</ID>
+											<Name>Gydykla</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEC70</ID>
+											<Name>Sveikatos priežiūros įstaigos slaugos namai</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEC80</ID>
+											<Name>Veterinarijos gydykla</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEC90</ID>
+											<Name>Kita patalpa, atitinkanti paskirties aprašymą</Name>
+											<Description>Kita patalpa, atitinkanti gydymo paskirties patalpos aprašymą ir nepriskirtina kitoms BEC klasės patalpoms.</Description>
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+								<Item>
+									<ID>BED</ID>
+									<Name>Sporto patalpų paskirties patalpa</Name>
+									<Description>Patalpa skirta sportui.</Description>
+									<Children>
+										<Item>
+											<ID>%BED10</ID>
+											<Name>Sporto salė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BED20</ID>
+											<Name>Sporto klubas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BED30</ID>
+											<Name>Uždaras teniso kortas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BED40</ID>
+											<Name>Baseinas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BED50</ID>
+											<Name>Čiuožykla</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BED60</ID>
+											<Name>Šaudykla</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BED70</ID>
+											<Name>Dengtas stadionas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BED80</ID>
+											<Name>Maniežas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BED90</ID>
+											<Name>Kita patalpa, atitinkanti paskirties aprašymą</Name>
+											<Description>Kita patalpa, atitinkanti sporto paskirties patalpos aprašymą ir nepriskirtina kitoms BED klasės patalpoms.</Description>
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+								<Item>
+									<ID>BEE</ID>
+									<Name>Religinių patalpų paskirties patalpa</Name>
+									<Description>Kulto patalpa skirta tradicinės religinės bendruomenės ir bendrijos narių religinėms apeigoms atlikti ir sakraliniams poreikiams tenkinti.</Description>
+									<Children>
+										<Item>
+											<ID>%BEE10</ID>
+											<Name>Bažnyčia</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEE20</ID>
+											<Name>Cerkvė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEE30</ID>
+											<Name>Koplyčia</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEE40</ID>
+											<Name>Kenesa</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEE50</ID>
+											<Name>Mečetė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEE60</ID>
+											<Name>Sinagoga</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEE70</ID>
+											<Name>Kita religiniams tikslams naudojama ir paskirties aprašymą atitinkanti patalpa</Name>
+											<Description>Kita patalpa, atitinkanti religinės paskirties patalpos aprašymą ir nepriskirtina kitoms BEE klasės patalpoms.</Description>
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+								<Item>
+									<ID>BEF</ID>
+									<Name>Specialiųjų patalpų paskirties patalpa</Name>
+									<Description>Patalpa specialiesiems tikslams.</Description>
+									<Children>
+										<Item>
+											<ID>%BEF10</ID>
+											<Name>Bet kuri krašto apsaugos tikslams skirta patalpa</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEF20</ID>
+											<Name>Kareivinės</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEF30</ID>
+											<Name>Suėmimo vykdymo patalpa</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEF40</ID>
+											<Name>Uždaro tipo bausmės atlikimo vietos patalpa</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEF50</ID>
+											<Name>Pusiau atviro tipo bausmės atlikimo vietos patalpa</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEF60</ID>
+											<Name>Policijos patalpa</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEF70</ID>
+											<Name>Priešgaisrinės ir gelbėjimo tarnybos patalpa</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEF80</ID>
+											<Name>Slėptuvė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEF90</ID>
+											<Name>Priedanga</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEF100</ID>
+											<Name>Kolektyvinės apsaugos patalpa</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEF110</ID>
+											<Name>Pasienio kontrolės punktas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEF120</ID>
+											<Name>Kita patalpa, atitinkanti paskirties aprašymą</Name>
+											<Description>Kita patalpa, atitinkanti specialiosios paskirties patalpos aprašymą ir nepriskirtina kitoms BEF klasės patalpoms.</Description>
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+							</Children>
+						</Item>
+						<Item>
+							<ID>BF</ID>
+							<Name>Pagalbinių patalpų paskirties grupės patalpa</Name>
+							<Description />
+							<Children>
+								<Item>
+									<ID>BFA</ID>
+									<Name>Pagalbinio ūkio patalpų paskirties patalpa</Name>
+									<Description>Pagalbinio ūkio patalpa, skirta aptarnauti kitoje pastate esančioje patalpoje vykdomą veiklą, t. y. pagrindinės patalpos priklausinys. Automobilių stovėjimo vietų patalpa pastate negali būti formuojama ir registruojama atskiru Nekilnojamojo turto kadastro objektu, jeigu šią patalpą planuojama naudoti ir kaip priedangą.</Description>
+									<Children>
+										<Item>
+											<ID>%BFA10</ID>
+											<Name>Rūsys</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BFA20</ID>
+											<Name>Sandėliukas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BFA30</ID>
+											<Name>Automobilio stovėjimo vietų patalpa</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BFA40</ID>
+											<Name>Rūsys (priedanga)</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BFA50</ID>
+											<Name>Automobilio stovėjimo vietų patalpa (priedanga)</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BFA60</ID>
+											<Name>Kita patalpa, atitinkanti paskirties aprašymą</Name>
+											<Description>Kita patalpa, atitinkanti pagalbinio ūkio paskirties patalpos aprašymą ir nepriskirtina kitoms BFA klasės patalpoms.</Description>
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+								<Item>
+									<ID>BFB</ID>
+									<Name>Kitų pagalbinių patalpų paskirties patalpa</Name>
+									<Description>Šis patalpos tipas skirtas tik iki 2024 m. lapkričio 1 d. Nekilnojamojo turto kadastre registruotai „Kitos paskirties“ patalpai. Naujai Nekilnojamojo turto registre registruojama patalpa šiai patalpos paskirčiai nepriskiriama.</Description>
+									<Children>
+										<Item>
+											<ID>%BFB10</ID>
+											<Name>Kitos pagalbinės paskirties patalpa</Name>
+											<Description />
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+							</Children>
+						</Item>
+						<Item>
+							<ID>BG</ID>
+							<Name>Viešosios rekreacijos patalpų paskirties grupės patalpa</Name>
+							<Description />
+							<Children>
+								<Item>
+									<ID>BGA</ID>
+									<Name>Viešojo poilsio patalpų paskirties patalpa</Name>
+									<Description>Patalpa naudojama viešajai rekreacijai. Naujai Nekilnojamojo turto registre registruojama patalpa šiai patalpos paskirčiai nepriskiriama.</Description>
+									<Children>
+										<Item>
+											<ID>%BGA10</ID>
+											<Name>Poilsio patalpa</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BGA20</ID>
+											<Name>Sanatorija</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BGA30</ID>
+											<Name>Apgyvendinimo patalpa</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BGA40</ID>
+											<Name>Kita patalpa, atitinkanti paskirties aprašymą</Name>
+											<Description>Kita patalpa, atitinkanti viešojo poilsio paskirties patalpos aprašymą ir nepriskirtina kitoms BGA klasės patalpoms.</Description>
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+							</Children>
+						</Item>
+						<Item>
+							<ID>BH</ID>
+							<Name>Asmeninės rekreacijos patalpų paskirties grupės patalpa</Name>
+							<Description />
+							<Children>
+								<Item>
+									<ID>BHA</ID>
+									<Name>Asmeninio poilsio patalpų paskirties patalpa</Name>
+									<Description>Patalpa skirta asmeninei rekreacijai. Šios paskirties patalpa gali būti formuojama tik rekreacinės paskirties asmeninio poilsio paskirties ir mišriuose (polifunkciniuose) pastatuose.</Description>
+									<Children>
+										<Item>
+											<ID>%BHA10</ID>
+											<Name>Asmeninio poilsio patalpa</Name>
+											<Description />
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+							</Children>
+						</Item>
+						<Item>
+							<ID>BY</ID>
+							<Name>Specialiųjų paslaugų patalpų paskirties grupės patalpa</Name>
+							<Description />
+							<Children>
+								<Item>
+									<ID>BYA</ID>
+									<Name>Specialiųjų paslaugų patalpų paskirties patalpa</Name>
+									<Description>Patalpa skirta specialiosioms paslaugoms, kurioje vykdoma veikla gali turėti tiesioginę įtaką pastate ar gretimoje teritorijoje esantiems kitų paskirčių pastatų ar patalpų naudotojams, teikti.</Description>
+									<Children>
+										<Item>
+											<ID>%BYA10</ID>
+											<Name>Autoservisas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BYA20</ID>
+											<Name>Laidojimo namai</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BYA30</ID>
+											<Name>Morgas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BYA40</ID>
+											<Name>Lošimo namai</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BYA50</ID>
+											<Name>Šarvojimo salė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BYA60</ID>
+											<Name>Kita patalpa, atitinkanti paskirties aprašymą</Name>
+											<Description>Kita patalpa, atitinkanti specialiųjų paslaugų paskirties patalpos aprašymą ir nepriskirtina kitoms BYA klasės patalpoms.</Description>
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+							</Children>
+						</Item>
+					</Children>
+				</Item>
+			</Items>
+		</System>
+	</Classification>
+</BuildingInformation>

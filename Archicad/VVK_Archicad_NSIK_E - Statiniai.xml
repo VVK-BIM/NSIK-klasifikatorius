@@ -3,10 +3,10 @@
 	<Classification>
 		<System>
 			<Name>NSIK &lt;E&gt;</Name>
-			<EditionVersion>0.9</EditionVersion>
+			<EditionVersion>1.0</EditionVersion>
 			<EditionDate>
-				<Year>2023</Year>
-				<Month>09</Month>
+				<Year>2024</Year>
+				<Month>11</Month>
 				<Day>01</Day>
 			</EditionDate>
 			<Description>Statiniai</Description>
@@ -14,88 +14,109 @@
 			<Items>
 				<Item>
 					<ID>A</ID>
-					<Name>Gyvenamasis pastatas</Name>
-					<Description>Pastatas skirtas žmonėms gyventi</Description>
+					<Name>Gyvenamųjų pastatų paskirčių tipo pastatas</Name>
+					<Description />
 					<Children>
 						<Item>
 							<ID>AA</ID>
-							<Name>Vieno buto pastatas</Name>
-							<Description>Gyvenamasis pastatas skirtas gyventi vienai šeimai</Description>
+							<Name>Vienbučių ir dvibučių pastatų paskirties grupės pastatas</Name>
+							<Description />
 							<Children>
 								<Item>
 									<ID>AAA</ID>
-									<Name>Vieno buto pastatas</Name>
-									<Description>Gyvenamasis pastatas, skirtas gyventi vienai šeimai</Description>
-									<Children />
+									<Name>Vienbučių pastatų paskirties pastatas</Name>
+									<Description>Pastatas, kuriame įrengtos gyvenamosios patalpos (kambariai) ir pagalbinės patalpos (garažas, rūsys).Kaip vienas Nekilnojamojo turto kadastro objektas (statinys) formuojamas pastatas, atskirais Nekilnojamojo turto kadastro objektais (patalpomis) neskaidomas.</Description>
+									<Children>
+										<Item>
+											<ID>%AAA10</ID>
+											<Name>Vienbutis namas</Name>
+											<Description />
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+								<Item>
+									<ID>AAB</ID>
+									<Name>Dvibučių pastatų paskirties pastatas</Name>
+									<Description>Pastatas, kurį sudaro du butai, butų pagalbinės, garažo, rūsio patalpos ir prireikus – bendro naudojimo patalpos. Kaip vienas Nekilnojamojo turto kadastro objektas (pastatas) formuojamas pastatas, kuriame atskirais Nekilnojamojo turto kadastro objektais formuojamos dvi patalpos (butai). Į daugiau atskirų Nekilnojamojo turto kadastro objektų (patalpų) neskaidomas</Description>
+									<Children>
+										<Item>
+											<ID>%AAB10</ID>
+											<Name>Dvibutis namas</Name>
+											<Description />
+											<Children />
+										</Item>
+									</Children>
 								</Item>
 							</Children>
 						</Item>
 						<Item>
 							<ID>AB</ID>
-							<Name>Dviejų butų pastatas</Name>
-							<Description>Gyvenamasis pastatas skirtas gyventi dviem šeimoms</Description>
+							<Name>Daugiabučių pastatų paskirties grupės pastatas</Name>
+							<Description />
 							<Children>
 								<Item>
 									<ID>ABA</ID>
-									<Name>Dviejų butų pastatas</Name>
-									<Description>Gyvenamasis pastatas, skirtas gyventi dviem šeimoms</Description>
-									<Children />
+									<Name>Daugiabučių pastatų paskirties pastatas</Name>
+									<Description>Pastatas, kurį sudaro trys ir daugiau butų ir prireikus – bendro naudojimo patalpos. Daugiabučiame name gali būti ir pagalbinio ūkio paskirties patalpos.</Description>
+									<Children>
+										<Item>
+											<ID>%ABA10</ID>
+											<Name>Daugiabutis namas</Name>
+											<Description />
+											<Children />
+										</Item>
+									</Children>
 								</Item>
 							</Children>
 						</Item>
 						<Item>
 							<ID>AC</ID>
-							<Name>Trijų ir daugiau butų (daugiabutis) pastatas</Name>
-							<Description>Skirtas gyventi trims šeimoms ir daugiau</Description>
+							<Name>Įvairių socialinių grupių pastatų paskirties grupės pastatas</Name>
+							<Description />
 							<Children>
 								<Item>
 									<ID>ACA</ID>
-									<Name>Trijų ir daugiau butų (daugiabučiai) pastatai</Name>
-									<Description>Gyvenamasis pastatas, skirtas gyventi trims ir daugiau šeimų</Description>
-									<Children />
-								</Item>
-							</Children>
-						</Item>
-						<Item>
-							<ID>AD</ID>
-							<Name>Pastatas įvairių socialinių grupių asmenims</Name>
-							<Description>Skirtas gyventi įvairių socialinių grupių asmenims</Description>
-							<Children>
-								<Item>
-									<ID>ADA</ID>
-									<Name>Bendrabutis</Name>
-									<Description>Gyvenamasis pastatas, kuriame dalijamasi tam tikromis bendromis patalpomis (tokiomis kaip virtuvė, tualetas ir kt.)</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>ADB</ID>
-									<Name>Vaikų namai</Name>
-									<Description>Našlaičių apgyvendinimo, globos ir švietimo įstaiga</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>ADC</ID>
-									<Name>Prieglaudos</Name>
-									<Description>Socialinės globos įstaigos pastatas, dažniausiai išlaikoma bažnyčios, labdaros organizacijų ar privačių asmenų</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>ADD</ID>
-									<Name>Globos namai</Name>
-									<Description>Valstybinė arba privati įstaiga, kurioje vaikams, neįgaliesiems, pagyvenusiems ar kitiems socialinių problemų turintiems asmenims teikiamos užimtumo, priežiūros, ugdymo, krizių įveikimo, socialinės globos, laisvalaikio organizavimo ir kitos paslaugos</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>ADE</ID>
-									<Name>Šeimos namai</Name>
-									<Description>Visuomenės poreikius tenkinanti įstaiga, dirbanti vaiko ir soc. rizikos šeimos gerovei ir teikianti aukštos kokybės socialines paslaugas. siekiant palaikyti vaikų ir neįgaliųjų savarankiškumą, gerinti socialinį gyvenimą, mažinti socialinę atskirtį, skatinti jų socialinę integraciją į visuomenę</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>ADF</ID>
-									<Name>Vienuolynas</Name>
-									<Description>Gyvenamųjų bei kitokių statinių, kuriuose gyvena, dirba, meldžiasi vienuoliai, visuma. Vienuolyno sudėtinės dalys: klauzūra, dormitoriumas (miegojimui skirtos patalpos), celės, refektoriumas, koplyčia, skriptoriumas, vienuolyno biblioteka).</Description>
-									<Children />
+									<Name>Įvairių socialinių grupių pastatų paskirties pastatas</Name>
+									<Description>Pastatas skirtas įvairių socialinių grupių asmenims gyventi. Kaip vienas Nekilnojamojo turto kadastro objektas (statinys) formuojamas pastatas, atskirais Nekilnojamojo turto kadastro objektais (patalpomis) neskaidomas.</Description>
+									<Children>
+										<Item>
+											<ID>%ACA10</ID>
+											<Name>Bendrabutis</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%ACA20</ID>
+											<Name>Vienuolynas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%ACA30</ID>
+											<Name>Motinos ir vaiko namai</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%ACA40</ID>
+											<Name>Pusiaukelės namai</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%ACA50</ID>
+											<Name>Kita įstaiga, teikianti socialinės globos ar socialinės priežiūros paslaugas su apgyvendinimu</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%ACA60</ID>
+											<Name>Kitas pastatas, atitinkantis paskirties aprašymą</Name>
+											<Description>Kitas pastatas, atitinkantis įvairių socialinių grupių paskirties pastato aprašymą ir nepriskirtinas kitiems ACA klasės pastatams.</Description>
+											<Children />
+										</Item>
+									</Children>
 								</Item>
 							</Children>
 						</Item>
@@ -103,916 +124,1404 @@
 				</Item>
 				<Item>
 					<ID>B</ID>
-					<Name>Negyvenamasis pastatas</Name>
-					<Description>Negyvenamosios paskirties pastatas</Description>
+					<Name>Negyvenamųjų pastatų paskirčių tipo pastatas</Name>
+					<Description />
 					<Children>
 						<Item>
 							<ID>BA</ID>
-							<Name>Viešbučių paskirties pastatas</Name>
-							<Description>Trumpalaikio apgyvendinimo pastatas</Description>
+							<Name>Komercinių pastatų paskirties grupės pastatas (pastatas, skirtas komercinei veiklai vykdyti, išskyrus kitose paskirtyse nurodytuose pastatuose vykdomą komercinę veiklą)</Name>
+							<Description />
 							<Children>
 								<Item>
 									<ID>BAA</ID>
-									<Name>Viešbutis</Name>
-									<Description>Nakvynės bei trumpalaikio apgyvendinimo ir su tuo susijusias paslaugas teikianti įstaiga</Description>
-									<Children />
+									<Name>Viešbučių pastatų paskirties pastatas</Name>
+									<Description>Pastatas, skirtas trumpalaikio apgyvendinimo paslaugoms teikti.</Description>
+									<Children>
+										<Item>
+											<ID>%BAA10</ID>
+											<Name>Viešbutis</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BAA20</ID>
+											<Name>Motelis</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BAA30</ID>
+											<Name>Jaunimo nakvynės namai (angl. hostel)</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BAA40</ID>
+											<Name>Kitas pastatas, atitinkantis paskirties aprašymą</Name>
+											<Description>Kitas pastatas, atitinkantis viešbučių paskirties pastato aprašymą ir nepriskirtinas kitiems BAA klasės pastatams.</Description>
+											<Children />
+										</Item>
+									</Children>
 								</Item>
 								<Item>
 									<ID>BAB</ID>
-									<Name>Motelis</Name>
-									<Description>Nakvynės bei trumpalaikio apgyvendinimo paslaugas teikianti įstaiga, ekonominės klasės viešbutis, orientuota į motorinėmis transporto priemonėmis keliaujančiųjų poreikius; pastatas, padalintas į privačias gyvenamąsias patalpas su pagrindiniais patogumais ir su tiesioginiu išėjimu į automobilių stovėjimo aikštelę; kai kuriais atvejais - atskiri nameliai su bendra automobilių stovėjimo aikštele</Description>
-									<Children />
+									<Name>Bendro gyvenimo namų pastatų paskirties pastatas</Name>
+									<Description>Pastatas skirtas apgyvendinimo patalpų (kambarių) su nuomininkams bendrai naudoti skirtomis patalpomis nuomai. Nuomininkams bendrai naudoti skirtos patalpos (maitinimosi, poilsio, darbo ir pan. poreikiams tenkinti) pastate turi sudaryti ne mažiau kaip 20 procentų apgyvendinti (nuomai) skirtų patalpų bendro ploto.</Description>
+									<Children>
+										<Item>
+											<ID>%BAB10</ID>
+											<Name>Bendro gyvenimo namai</Name>
+											<Description />
+											<Children />
+										</Item>
+									</Children>
 								</Item>
 								<Item>
 									<ID>BAC</ID>
-									<Name>Svečių namai</Name>
-									<Description>Klasifikuojama pagal Lietuvos viešbučių ir restoranų asociacijos reikalavimus apgyvendinimo paslaugas teikianti įstaiga, kurioje minimalus apgyvendinti skirtų kambarių skaičius ne mažiau penkių</Description>
-									<Children />
+									<Name>Prekybos pastatų paskirties pastatas</Name>
+									<Description>Pastatas, skirtas didmeninei ir mažmeninei prekybai.</Description>
+									<Children>
+										<Item>
+											<ID>%BAC10</ID>
+											<Name>Parduotuvė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BAC20</ID>
+											<Name>Vaistinė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BAC30</ID>
+											<Name>Knygynas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BAC40</ID>
+											<Name>Prekybos paviljonas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BAC50</ID>
+											<Name>Kitas pastatas, atitinkantis paskirties aprašymą</Name>
+											<Description>Kitas pastatas, atitinkantis prekybos paskirties pastato aprašymą ir nepriskirtinas kitiems BAC klasės pastatams.</Description>
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+								<Item>
+									<ID>BAD</ID>
+									<Name>Paslaugų pastatų paskirties pastatas</Name>
+									<Description>Pastatas, skirtas paslaugoms (išskyrus specialiąsias) teikti.</Description>
+									<Children>
+										<Item>
+											<ID>%BAD10</ID>
+											<Name>Pirtis</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BAD20</ID>
+											<Name>Grožio salonas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BAD30</ID>
+											<Name>Skalbykla</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BAD40</ID>
+											<Name>Taisykla</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BAD50</ID>
+											<Name>Remonto dirbtuvės (išskyrus autoservisus)</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BAD60</ID>
+											<Name>Priėmimo – išdavimo punktas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BAD70</ID>
+											<Name>Automobilių plovykla</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BAD80</ID>
+											<Name>Kitas pastatas, atitinkantis paskirties aprašymą</Name>
+											<Description>Kitas pastatas, atitinkantis paslaugų paskirties pastato aprašymą ir nepriskirtinas kitiems BAD klasės pastatams.</Description>
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+								<Item>
+									<ID>BAE</ID>
+									<Name>Maitinimo pastatų paskirties pastatas</Name>
+									<Description>Pastatas, skirtas žmonėms maitinti.</Description>
+									<Children>
+										<Item>
+											<ID>%BAE10</ID>
+											<Name>Valgykla</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BAE20</ID>
+											<Name>Restoranas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BAE30</ID>
+											<Name>Kavinė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BAE40</ID>
+											<Name>Baras</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BAE50</ID>
+											<Name>Kitas pastatas, atitinkantis paskirties aprašymą</Name>
+											<Description>Kitas pastatas, atitinkantis maitinimo paskirties pastato aprašymą ir nepriskirtinas kitiems BAE klasės pastatams.</Description>
+											<Children />
+										</Item>
+									</Children>
 								</Item>
 							</Children>
 						</Item>
 						<Item>
 							<ID>BB</ID>
-							<Name>Administracinės paskirties pastatas</Name>
-							<Description>Pastatas administraciniams tikslams</Description>
+							<Name>Administracinių pastatų paskirties grupės pastatas (negyvenamasis pastatas, skirtas viešojo administravimo veiklai, komercinei veiklai ir komercinei veiklai administruoti)</Name>
+							<Description />
 							<Children>
 								<Item>
 									<ID>BBA</ID>
-									<Name>Bankas</Name>
-									<Description>Finansų įstaiga, teikianti finansines paslaugas (renkanti indėlius ir išduodanti paskolas) pagal valstybės suteiktą licenciją</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BBB</ID>
-									<Name>Paštas</Name>
-									<Description>Siuntinių ir krovinių gabenimo sistemą valdančios įmonės pastatas; ryšių įstaiga, priimanti, persiunčianti, išduodanti ir teikianti adresatams įvairias siuntas</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BBC</ID>
-									<Name>Valstybės ar savivaldybės įstaiga</Name>
-									<Description>Pastatas, kuriame teikiamos viešosios paslaugos bei dirba savivaldybės darbuotojai ar valstybinių įstaigų darbuotojai</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BBD</ID>
-									<Name>Ambasada</Name>
-									<Description>Valstybės diplomatinės atstovybės užsienyje prie tarptautinės organizacijos arba užsienio valstybėje pastatas</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BBE</ID>
-									<Name>Teismas</Name>
-									<Description>Pastatas skirtas institucijai, kuriai pavedama spręsti teisinį ginčą, vykdyti teisingumą, vadovaujantis teisės viršenybės bei kitais principais</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BBF</ID>
-									<Name>Biurų pastatas</Name>
-									<Description>Administracinis pastatas skirtas įstaigų ar organizacijų veiklai</Description>
-									<Children />
+									<Name>Administracinių pastatų paskirties pastatas</Name>
+									<Description>Pastatas, skirtas valstybės, Europos Sąjungos ir savivaldybės institucijų, kitų iš valstybės ar savivaldybių biudžetų išlaikomų įstaigų funkcijoms vykdyti, taip pat veiklai administruoti, skaitmeninei produkcijai kurti, skaitmeninėms paslaugoms, konkrečiai žemės sklype vykdomai veiklai administruoti ir pan.</Description>
+									<Children>
+										<Item>
+											<ID>%BBA10</ID>
+											<Name>Bankas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BBA20</ID>
+											<Name>Paštas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BBA30</ID>
+											<Name>Valstybės ir savivaldybės įstaiga</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BBA40</ID>
+											<Name>Ambasada</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BBA50</ID>
+											<Name>Teismas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BBA60</ID>
+											<Name>Kitas įstaigos ir organizacijos administracinis pastatas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BBA70</ID>
+											<Name>Verslo centras</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BBA80</ID>
+											<Name>Biuras</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BBA90</ID>
+											<Name>Kitas pastatas, atitinkantis paskirties aprašymą</Name>
+											<Description>Kitas pastatas, atitinkantis administracinės paskirties pastato aprašymą ir nepriskirtinas kitiems BBA klasės pastatams.</Description>
+											<Children />
+										</Item>
+									</Children>
 								</Item>
 							</Children>
 						</Item>
 						<Item>
 							<ID>BC</ID>
-							<Name>Prekybos paskirties pastatas</Name>
-							<Description>Pastatas skirtas didmeninei ir mažmeninei prekybos veiklai</Description>
+							<Name>Transporto pastatų paskirties grupės pastatas</Name>
+							<Description />
 							<Children>
 								<Item>
 									<ID>BCA</ID>
-									<Name>Parduotuvė</Name>
-									<Description>Prekybos veiklai skirtas pastatas</Description>
-									<Children />
+									<Name>Transporto pastatų paskirties pastatas</Name>
+									<Description>Pastatas transporto, susisiekimo tikslams, t. y. susijęs su transportavimu, gabenimu, vežimu ir pan.</Description>
+									<Children>
+										<Item>
+											<ID>%BCA10</ID>
+											<Name>Oro uosto pastatas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BCA20</ID>
+											<Name>Jūrų uosto pastatas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BCA30</ID>
+											<Name>Upių uosto pastatas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BCA40</ID>
+											<Name>Jūrų laivyno pastatas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BCA50</ID>
+											<Name>Upių laivyno pastatas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BCA60</ID>
+											<Name>Geležinkelio stotis</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BCA70</ID>
+											<Name>Autobusų stotis</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BCA80</ID>
+											<Name>Judėjimo postas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BCA90</ID>
+											<Name>Dispečerinės postas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BCA100</ID>
+											<Name>Iešmų postas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BCA110</ID>
+											<Name>Uosto terminalas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BCA120</ID>
+											<Name>Signalų perdavimo pastatas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BCA130</ID>
+											<Name>Švyturys</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BCA140</ID>
+											<Name>Muitinė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BCA150</ID>
+											<Name>Kitas pastatas, atitinkantis paskirties aprašymą</Name>
+											<Description>Kitas pastatas, atitinkantis transporto paskirties pastato aprašymą ir nepriskirtinas kitiems BCA klasės pastatams.</Description>
+											<Children />
+										</Item>
+									</Children>
 								</Item>
 								<Item>
 									<ID>BCB</ID>
-									<Name>Degalinių operatorinė su prekybos sale</Name>
-									<Description>Automobilinio transporto aptarnavimo įstaigos pakelės teritorijoje pastatas, prekiaujanti degalais, variklių lubrikantais ir kitomis motorinio transporto priežiūros priemonėmis</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BCC</ID>
-									<Name>Vaistinė</Name>
-									<Description>Specializuotos parduotuvės pastatas, veikiančios sveikatos apsaugos sistemoje, kurios pagrindinė funkcija yra suteikti farmacinę paslaugą bei išduoti vaistus (receptinius ir nereceptinius) ir kitas medicininės paskirties prekes: higienos prekes, vitaminus, maisto papildus, tvarsliavą ir pan. kai kuriose vaistinėse taip pat gali būti užsiimama vaistų gamyba</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BCD</ID>
-									<Name>Knygynas</Name>
-									<Description>Pastatas, kuriame vykdoma neperiodinių spaudinių (knygų, brošiūrų, bukletų, plakatų, atvirukų, natų, fotoreprodukcijų ir kitų) prekyba</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BCE</ID>
-									<Name>Prekybos paviljonas</Name>
-									<Description>Lengvų konstrukcijų pastatas, kuriame įrengiamos įvairios prekybinės paskirties patalpos</Description>
-									<Children />
+									<Name>Garažų pastatų paskirties pastatas</Name>
+									<Description>Pastatas, skirtas transporto priemonėms laikyti, pasaugoti ir (ar) remontuoti, neteikiant paslaugų.</Description>
+									<Children>
+										<Item>
+											<ID>%BCB10</ID>
+											<Name>Automobilių garažas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BCB20</ID>
+											<Name>Atviras požeminis garažas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BCB30</ID>
+											<Name>Uždaras požeminis garažas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BCB40</ID>
+											<Name>Antžeminė automobilių saugykla</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BCB50</ID>
+											<Name>Elingas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BCB60</ID>
+											<Name>Geležinkelio vagonų depas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BCB70</ID>
+											<Name>Autobusų garažas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BCB80</ID>
+											<Name>Troleibusų garažas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BCB90</ID>
+											<Name>Orlaivių angaras</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BCB100</ID>
+											<Name>Laivų angaras</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BCB110</ID>
+											<Name>Kitas pastatas, atitinkantis paskirties aprašymą</Name>
+											<Description>Kitas pastatas, atitinkantis garažų paskirties pastato aprašymą ir nepriskirtinas kitiems BCB klasės pastatams.</Description>
+											<Children />
+										</Item>
+									</Children>
 								</Item>
 							</Children>
 						</Item>
 						<Item>
 							<ID>BD</ID>
-							<Name>Paslaugų paskirties pastatas</Name>
-							<Description>Skirtas paslaugoms teikti (tarp jų buities) ir buitiniam aptarnavimui</Description>
+							<Name>Pramonės ir sandėliavimo pastatų paskirties grupės pastatas</Name>
+							<Description />
 							<Children>
 								<Item>
 									<ID>BDA</ID>
-									<Name>Pirtis</Name>
-									<Description>Apsišvarinimo kaitinimo procedūromis pastatas, skirtas kaitintis, pertis ir maudytis.</Description>
-									<Children />
+									<Name>Gamybos, pramonės pastatų paskirties pastatas</Name>
+									<Description>Pastatas, skirtas pramoninei gamybai.</Description>
+									<Children>
+										<Item>
+											<ID>%BDA10</ID>
+											<Name>Gamykla</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BDA20</ID>
+											<Name>Dirbtuvės</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BDA30</ID>
+											<Name>Produkcijos perdirbimo įmonė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BDA40</ID>
+											<Name>Pramonės įmonė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BDA50</ID>
+											<Name>Kalvė </Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BDA60</ID>
+											<Name>Gamybinė laboratorija</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BDA70</ID>
+											<Name>Skerdykla</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BDA80</ID>
+											<Name>Pastatas, kuriame įrengta technologija vandens organizmams uždaru būdu veisti, auginti ir perdirbti</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BDA90</ID>
+											<Name>Kitas pastatas, atitinkantis paskirties aprašymą</Name>
+											<Description>Kitas pastatas, atitinkantis gamybos, pramonės paskirties pastato aprašymą ir nepriskirtinas kitiems BDA klasės pastatams.</Description>
+											<Children />
+										</Item>
+									</Children>
 								</Item>
 								<Item>
 									<ID>BDB</ID>
-									<Name>Grožio salonas</Name>
-									<Description>Įstaigos, kuri dirba kosmetinių procedūrų vyrams ir moterims srityje pastatas. Gali būti orientuota į odos, veido estetikos, kojų priežiūros, nagų manikiūro, aromaterapijos, purvo vonių, kirpimo ir kitas paslaugas.</Description>
-									<Children />
+									<Name>Energetikos pastatų paskirties pastatas</Name>
+									<Description>Pastatas, skirtas energijai gaminti, energijos ištekliams išgauti, energijai perdirbti, perduoti ar skirstyti.</Description>
+									<Children>
+										<Item>
+											<ID>%BDB10</ID>
+											<Name>Elektrinė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BDB20</ID>
+											<Name>Katilinė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BDB30</ID>
+											<Name>Transformatorių pastotė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BDB40</ID>
+											<Name>Skirstykla</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BDB50</ID>
+											<Name>Naftos perdirbimo pastatas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BDB60</ID>
+											<Name>Kitas pastatas, atitinkantis paskirties aprašymą</Name>
+											<Description>Kitas pastatas, atitinkantis energetikos paskirties pastato aprašymą ir nepriskirtinas kitiems BDB klasės pastatams.</Description>
+											<Children />
+										</Item>
+									</Children>
 								</Item>
 								<Item>
 									<ID>BDC</ID>
-									<Name>Skalbykla</Name>
-									<Description>Pastatas, kuriame teikiamos drabužių ir įvairios tekstilės valymo, cheminio valymo, džiovinimo ir lyginimo paslaugos</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BDD</ID>
-									<Name>Taisykla</Name>
-									<Description>Pastatas, kuriame teikiamos įvairių buitinių prietaisų, elektronikos, drabužių, avalynės, galanterijos ir kitų prekių taisymo paslaugos</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BDE</ID>
-									<Name>Priėmimo - išdavimo punktas</Name>
-									<Description>Prekių priėmimo tam tikroms paslaugoms ir išdavimo jas atlikus pastatas</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BDF</ID>
-									<Name>Autoservisas</Name>
-									<Description>Pastatas, kuriame atliekamas automobilių remontas ir techninė priežiūra</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BDG</ID>
-									<Name>Plovykla</Name>
-									<Description>Pastatas, kuriame atliekamas motorinių transporto priemonių valymas ir plovimas</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BDH</ID>
-									<Name>Laidojimo namai</Name>
-									<Description>Trumpalaikio atsisveikinimo su mirusiuoju pastatas, kuriame įsikūrusi įstaiga organizuoja ir vykdo įvairius ritualus - iškilmingas ceremonijas, religines apeigas, tam tikras socialines, kultūrines ar religines nuostatas ir vertybes išreiškiančias etiketo procedūras</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BDJ</ID>
-									<Name>Krematoriumas</Name>
-									<Description>Mirusio žmogaus palaikų deginimo specialiai paruoštoje ugniavietėje pastatas</Description>
-									<Children />
+									<Name>Sandėliavimo pastatų paskirties pastatas</Name>
+									<Description>Pastatas pagal savo tiesioginę paskirtį naudojamas sandėliuoti.</Description>
+									<Children>
+										<Item>
+											<ID>%BDC10</ID>
+											<Name>Saugykla</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BDC20</ID>
+											<Name>Bendro naudojimo sandėlis</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BDC30</ID>
+											<Name>Specialus sandėlis</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BDC40</ID>
+											<Name>Kitas pastatas, naudojamas produkcijai laikyti ir saugoti</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BDC50</ID>
+											<Name>Kitas pastatas, atitinkantis paskirties aprašymą</Name>
+											<Description>Kitas pastatas, atitinkantis sandėliavimo paskirties pastato aprašymą ir nepriskirtinas kitiems BDC klasės pastatams.</Description>
+											<Children />
+										</Item>
+									</Children>
 								</Item>
 							</Children>
 						</Item>
 						<Item>
 							<ID>BE</ID>
-							<Name>Maitinimo paskirties pastatas</Name>
-							<Description>Pastatas, skirtas žmonių maitinimo paslaugoms teikti</Description>
+							<Name>Visuomeninių pastatų paskirties grupės pastatas</Name>
+							<Description />
 							<Children>
 								<Item>
 									<ID>BEA</ID>
-									<Name>Valgykla</Name>
-									<Description>Ekonominės klasės maitinimo paskirties pastatas orientuotas į kasdienio masinio maitinimo poreikių tenkinimą</Description>
-									<Children />
+									<Name>Kultūros pastatų paskirties pastatas</Name>
+									<Description>Pastatas, skirtas kultūros reikmėms.</Description>
+									<Children>
+										<Item>
+											<ID>%BEA10</ID>
+											<Name>Kino teatras</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEA20</ID>
+											<Name>Teatras</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEA30</ID>
+											<Name>Kultūros namai</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEA40</ID>
+											<Name>Klubas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEA50</ID>
+											<Name>Biblioteka</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEA60</ID>
+											<Name>Muziejus</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEA70</ID>
+											<Name>Meno galerija</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEA80</ID>
+											<Name>Archyvas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEA90</ID>
+											<Name>Parodų centras</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEA100</ID>
+											<Name>Planetariumas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEA110</ID>
+											<Name>Radijo pastatas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEA120</ID>
+											<Name>Televizijos pastatas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEA130</ID>
+											<Name>Saugomų teritorijų lankytojų centras</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEA140</ID>
+											<Name>Kitas pastatas, atitinkantis paskirties aprašymą</Name>
+											<Description>Kitas pastatas, atitinkantis kultūros paskirties pastato aprašymą ir nepriskirtinas kitiems BEA klasės pastatams.</Description>
+											<Children />
+										</Item>
+									</Children>
 								</Item>
 								<Item>
 									<ID>BEB</ID>
-									<Name>Restoranas</Name>
-									<Description>Vidutinės ar aukštos klasės maitinimo paskirties įstaigos pastatas, kuri dirba pagal aukštus kokybės ir kultūros standartus bei orientuota į žmonių socializacijos poreikius, pagal užsakymą iš meniu arba lankytojų pageidavimus vietoje gaminanti ir parduodanti patiekalus</Description>
-									<Children />
+									<Name>Mokslo pastatų paskirties pastatas</Name>
+									<Description>Pastatas, skirtas švietimo ir mokslo, ugdymo reikmėms.</Description>
+									<Children>
+										<Item>
+											<ID>%BEB10</ID>
+											<Name>Mokslo įstaigos institutas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEB20</ID>
+											<Name>Mokslinio tyrimo įstaiga</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEB30</ID>
+											<Name>Observatorija</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEB40</ID>
+											<Name>Meteorologijos stotis</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEB50</ID>
+											<Name>Laboratorija (išskyrus gamybines laboratorijas)</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEB60</ID>
+											<Name>Bendrojo lavinimo mokykla</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEB70</ID>
+											<Name>Neformaliojo ugdymo mokykla</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEB80</ID>
+											<Name>Profesinė mokykla</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEB90</ID>
+											<Name>Aukštoji mokykla</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEB100</ID>
+											<Name>Vaikų darželis</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEB110</ID>
+											<Name>Lopšelis</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEB120</ID>
+											<Name>Kitas pastatas, atitinkantis paskirties aprašymą</Name>
+											<Description>Kitas pastatas, atitinkantis mokslo paskirties pastatų aprašymą. Kitas pastatas, atitinkantis mokslo paskirties pastato aprašymą ir nepriskirtinas kitiems BEB klasės pastatams.</Description>
+											<Children />
+										</Item>
+									</Children>
 								</Item>
 								<Item>
 									<ID>BEC</ID>
-									<Name>Kavinė</Name>
-									<Description>Maitinimo paskirties įstaigos pastatas, kurioje įvairiais būdais ruošiama kava išsinešimui ar vartojimui vietoje. Papildomai gali būti prekiaujama desertais ir užkandžiais, gaiviaisiais gėrimais ar arbata</Description>
-									<Children />
+									<Name>Gydymo pastatų paskirties pastatas</Name>
+									<Description>Pastatas, skirtas gydymo tikslams, t. y. pastatas, kuriame teikiama medicininė pagalba ir priežiūra žmonėms ar gyvūnams.</Description>
+									<Children>
+										<Item>
+											<ID>%BEC10</ID>
+											<Name>Ligoninė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEC20</ID>
+											<Name>Klinika</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEC30</ID>
+											<Name>Poliklinika</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEC40</ID>
+											<Name>Sanatorija</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEC50</ID>
+											<Name>Reabilitacijos centras</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEC60</ID>
+											<Name>Specialiosios įstaigos sveikatos apsaugos pastatas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEC70</ID>
+											<Name>Gydykla</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEC80</ID>
+											<Name>Sveikatos priežiūros įstaigos slaugos namai</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEC90</ID>
+											<Name>Veterinarijos gydyklos pastatas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEC100</ID>
+											<Name>Kitas pastatas, atitinkantis paskirties aprašymą</Name>
+											<Description>Kitas pastatas, atitinkantis gydymo paskirties pastato aprašymą ir nepriskirtinas kitiems BEC klasės pastatams.</Description>
+											<Children />
+										</Item>
+									</Children>
 								</Item>
 								<Item>
 									<ID>BED</ID>
-									<Name>Baras</Name>
-									<Description>Maitinimo paskirties įstaigos pastatas, prekiaujanti gėrimais ir užkandžiais, kurioje užsakymai priimami ir pateikiami prie stalo-užtvaros, prie kurios paprastai yra galimybė ir sėdėti</Description>
-									<Children />
+									<Name>Sporto pastatų paskirties pastatas</Name>
+									<Description>Pastatas, skirtas sportuoti, stebėti sporto varžybas</Description>
+									<Children>
+										<Item>
+											<ID>%BED10</ID>
+											<Name>Sporto salė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BED20</ID>
+											<Name>Sporto klubas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BED30</ID>
+											<Name>Teniso kortai</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BED40</ID>
+											<Name>Baseinas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BED50</ID>
+											<Name>Čiuožykla</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BED60</ID>
+											<Name>Šaudykla</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BED70</ID>
+											<Name>Stadionas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BED80</ID>
+											<Name>Maniežas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BED90</ID>
+											<Name>Kitas pastatas, atitinkantis paskirties aprašymą</Name>
+											<Description>Kitas pastatas, atitinkantis sporto paskirties pastato aprašymą ir nepriskirtinas kitiems BED klasės pastatams.</Description>
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+								<Item>
+									<ID>BEE</ID>
+									<Name>Religinių pastatų paskirties pastatas</Name>
+									<Description>Kulto pastatas, skirtas tradicinės religinės bendruomenės ir bendrijos narių religinėms apeigoms atlikti ir sakraliniams poreikiams tenkinti.</Description>
+									<Children>
+										<Item>
+											<ID>%BEE10</ID>
+											<Name>Bažnyčia</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEE20</ID>
+											<Name>Cerkvė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEE30</ID>
+											<Name>Koplyčia</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEE40</ID>
+											<Name>Sinagoga</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEE50</ID>
+											<Name>Mečetė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEE60</ID>
+											<Name>Kenesa</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEE70</ID>
+											<Name>Maldos namai</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEE80</ID>
+											<Name>Kitas pastatas, atitinkantis paskirties aprašymą</Name>
+											<Description>Kitas pastatas, atitinkantis religinės paskirties pastato aprašymą ir nepriskirtinas kitiems BEE klasės pastatams.</Description>
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+								<Item>
+									<ID>BEF</ID>
+									<Name>Specialiųjų pastatų paskirties pastatas</Name>
+									<Description>Pastatas, skirtas specialiesiems tikslams.</Description>
+									<Children>
+										<Item>
+											<ID>%BEF10</ID>
+											<Name>Bet kuris krašto apsaugos tikslams skirtas pastatas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEF20</ID>
+											<Name>Kareivinės</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEF30</ID>
+											<Name>Suėmimo vykdymo pastatas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEF40</ID>
+											<Name>Uždaro tipo bausmės atlikimo vietos pastatas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEF50</ID>
+											<Name>Pusiau atviro tipo bausmės atlikimo vietos pastatas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEF60</ID>
+											<Name>Tardymo izoliatorius</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEF70</ID>
+											<Name>Policijos pastatas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEF80</ID>
+											<Name>Priešgaisrinės ir gelbėjimo tarnybos pastatas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEF90</ID>
+											<Name>Slėptuvė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEF100</ID>
+											<Name>Priedanga</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEF110</ID>
+											<Name>Pasienio kontrolės punktas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BEF120</ID>
+											<Name>Kitas pastatas, atitinkantis paskirties aprašymą</Name>
+											<Description>Kitas pastatas, atitinkantis specialiosios paskirties pastato aprašymą ir nepriskirtinas kitiems BEF klasės pastatams.</Description>
+											<Children />
+										</Item>
+									</Children>
 								</Item>
 							</Children>
 						</Item>
 						<Item>
 							<ID>BF</ID>
-							<Name>Transporto paskirties pastatas</Name>
-							<Description>Skirtas transporto reikmėms - susijęs su transportavimu</Description>
+							<Name>Pagalbinių pastatų paskirties grupės pastatas</Name>
+							<Description />
 							<Children>
 								<Item>
 									<ID>BFA</ID>
-									<Name>Oro uosto pastatas</Name>
-									<Description>Pastatas, skirtas oro transporto, orlaivių skrydžiams valdyti ir aptarnauti</Description>
-									<Children />
+									<Name>Pagalbinio ūkio pastatų paskirties pastatas</Name>
+									<Description>Pagalbinio ūkio pastatas, tarnaujantis pagrindiniam daiktui (jo priklausinys). Kaip vienas Nekilnojamojo turto kadastro objektas (statinys) formuojamas pastatas, atskirais Nekilnojamojo turto kadastro objektais (patalpomis) neskaidomas, gali būti statomas tik kaip pagrindinio pastato priklausinys. Tokio pastato įregistruoti kaip savarankiško Nekilnojamojo turto kadastro objekto, jei nėra pagrindinio pastato, negalima.</Description>
+									<Children>
+										<Item>
+											<ID>%BFA10</ID>
+											<Name>Tvartas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BFA20</ID>
+											<Name>Daržinė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BFA30</ID>
+											<Name>Sandėlis</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BFA40</ID>
+											<Name>Garažas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BFA50</ID>
+											<Name>Vasaros virtuvė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BFA60</ID>
+											<Name>Dirbtuvės</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BFA70</ID>
+											<Name>Pirtis</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BFA80</ID>
+											<Name>Kietojo kuro sandėlis (malkinė)</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BFA90</ID>
+											<Name>Požeminis sandėlis (priedanga)</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BFA100</ID>
+											<Name>Kitas pastatas, atitinkantis paskirties aprašymą</Name>
+											<Description>Kitas pastatas, atitinkantis pagalbinio ūkio paskirties pastato aprašymą ir nepriskirtinas kitiems BFA klasės pastatams.</Description>
+											<Children />
+										</Item>
+									</Children>
 								</Item>
 								<Item>
 									<ID>BFB</ID>
-									<Name>Jūros ir upių laivyno pastatas</Name>
-									<Description>Pastatas, skirtas jūros ir upių laivyno transportui valdyti ir aptarnauti</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BFC</ID>
-									<Name>Geležinkelio ir autobusų stoties pastatas</Name>
-									<Description>Pastatų ir įrenginių kompleksas traukiniams priimti ir išleisti, keleiviams aptarnauti, kroviniams pakrauti ir iškrauti, aptarnaujančiam personalui dirbti</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BFD</ID>
-									<Name>Eismo valdymo postas</Name>
-									<Description>Eismo valdymo postas, per kurį valdomas judėjimas, objekto apsaugos, eismo arba asmenų, transporto priemonių praleidimo kontrolės užduotys, atsižvelgiant į reikiamų operacijų poreikius</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BFE</ID>
-									<Name>Dispečerinė</Name>
-									<Description>Valdymo ir informacinis punktas, turintis nuotolinio valdymo ir signalizacijos, televaldymo, telesignalizacijos sistemas, skirtas sistemai valdyti ir duomenims apie jos veikimą ir būseną kaupti, kuriame ryšio priemonėmis priimami užsakymai arba valdomas transporto eismas</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BFF</ID>
-									<Name>Uosto terminalas</Name>
-									<Description>Galinė jūros ar vidaus vandenų pakrantėje specialiai įrengta vieta laivams įplaukti, stovėti, aptarnauti, pakrauti ir iškrauti, įrenginių punkto statinys</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BFG</ID>
-									<Name>Signalų perdavimo statinys</Name>
-									<Description>Statinys, kuriame vykdomas signalų perdavimas laidinėmis, radijo, optinėmis ar kitomis elektromagnetinėmis priemonėmis</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BFH</ID>
-									<Name>Švyturys</Name>
-									<Description>Žinomų koordinačių stacionarusis arba plūduriuojantysis įrenginys laivams orientuoti ir laivybos saugumui garantuoti</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BFJ</ID>
-									<Name>Muitinės pastatas</Name>
-									<Description>Pastatas, kuriame veikia valstybės institucija, atsakinga už muitų ir kai kuriais atvejais kitų pasienyje mokamų mokesčių rinkimą valstybėje ir už įvežamų į valstybę krovinių kontrolę</Description>
-									<Children />
+									<Name>Kitų pagalbinių pastatų paskirties pastatas</Name>
+									<Description>Pastatas, kurio negalima priskirti kitai konkrečiai paskirčiai.</Description>
+									<Children>
+										<Item>
+											<ID>%BFB10</ID>
+											<Name>Fortas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BFB20</ID>
+											<Name>Bunkeris</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BFB30</ID>
+											<Name>Įmonės sargo pastatas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BFB40</ID>
+											<Name>Įstaigos sargo pastatas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BFB50</ID>
+											<Name>Teritorijos sargo pastatas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BFB60</ID>
+											<Name>Priedanga</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BFB70</ID>
+											<Name>Kitas pastatas, atitinkantis paskirties aprašymą</Name>
+											<Description>Kitas pastatas, atitinkantis kitos pagalbinės paskirties pastato aprašymą ir nepriskirtinas kitiems BFB klasės pastatams.</Description>
+											<Children />
+										</Item>
+									</Children>
 								</Item>
 							</Children>
 						</Item>
 						<Item>
 							<ID>BG</ID>
-							<Name>Garažų paskirties pastatas</Name>
-							<Description>Skirtas transporto priemonėms laikyti ir/arba remontuoti</Description>
+							<Name>Žemės ūkio pastatų paskirties grupės pastatas</Name>
+							<Description />
 							<Children>
 								<Item>
 									<ID>BGA</ID>
-									<Name>Automobilių garažas</Name>
-									<Description>Vienvietis ar daugiavietis pastatas, skirtas mechaninėms lengvojo ir kito automobilinio transporto priemonėms saugiai laikyti</Description>
-									<Children />
+									<Name>Gyvūnams auginti pastatų paskirties pastatas</Name>
+									<Description>Pastatas, skirtas gyvūnams auginti.</Description>
+									<Children>
+										<Item>
+											<ID>%BGA10</ID>
+											<Name>Kiaulidė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BGA20</ID>
+											<Name>Karvidė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BGA30</ID>
+											<Name>Arklidė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BGA40</ID>
+											<Name>Veršidė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BGA50</ID>
+											<Name>Paukštidė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BGA60</ID>
+											<Name>Žuvų auginimo baseinas (patalpoje)</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BGA70</ID>
+											<Name>Kitas pastatas, atitinkantis paskirties aprašymą</Name>
+											<Description>Kitas pastatas, atitinkantis gyvūnams auginti skirtos paskirties pastato aprašymą ir nepriskirtinas kitiems BGA klasės pastatams.</Description>
+											<Children />
+										</Item>
+									</Children>
 								</Item>
 								<Item>
 									<ID>BGB</ID>
-									<Name>Automobilių saugykla</Name>
-									<Description>Antžeminė ar požeminė trumpalaikio ar ilgalaikio automobilinio transporto saugaus laikymo pastatas</Description>
-									<Children />
+									<Name>Žemės ūkio produkcijai tvarkyti pastatų paskirties pastatas</Name>
+									<Description>Pastatas, skirtas žemės ūkiui, pirminiam jo produkcijos tvarkymui. Kaip vienas Nekilnojamojo turto kadastro objektas (statinys) formuojamas pastatas, atskirais Nekilnojamojo turto kadastro objektais (patalpomis) neskaidomas.</Description>
+									<Children>
+										<Item>
+											<ID>%BGB10</ID>
+											<Name>Svirnas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BGB20</ID>
+											<Name>Daržinė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BGB30</ID>
+											<Name>Angaras </Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BGB40</ID>
+											<Name>Garažas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BGB50</ID>
+											<Name>Kitas pastatas, atitinkantis paskirties aprašymą</Name>
+											<Description>Kitas pastatas, atitinkantis žemės ūkio produkcijai tvarkyti skirtos paskirties pastato aprašymą ir nepriskirtinas kitiems BGB klasės pastatams.</Description>
+											<Children />
+										</Item>
+									</Children>
 								</Item>
 								<Item>
 									<ID>BGC</ID>
-									<Name>Geležinkelio vagonų depas</Name>
-									<Description>Pastatų ir įrenginių kompleksas traukiniams priimti, saugiai laikyti, remontuoti ir išleisti</Description>
-									<Children />
+									<Name>Augalams auginti pastatų paskirties pastatas</Name>
+									<Description>Pastatas, skirtas augalams auginti.</Description>
+									<Children>
+										<Item>
+											<ID>%BGC10</ID>
+											<Name>Šiltnamis</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BGC20</ID>
+											<Name>Oranžerija</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BGC30</ID>
+											<Name>Žiemos sodas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BGC40</ID>
+											<Name>Kitas pastatas, atitinkantis paskirties aprašymą</Name>
+											<Description>Kitas pastatas, atitinkantis augalams auginti skirtos paskirties pastato aprašymą ir nepriskirtinas kitiems BGC klasės pastatams.</Description>
+											<Children />
+										</Item>
+									</Children>
 								</Item>
 								<Item>
 									<ID>BGD</ID>
-									<Name>Autobusų ir troleibusų garažas</Name>
-									<Description>Pastatas, kuriame laikomi, prižiūrimi ir remontuojami autobusai ir/arba troleibusai</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BGE</ID>
-									<Name>Orlaivių angaras</Name>
-									<Description>Pastatas lėktuvams ir kitiems orlaiviams laikyti, prižiūrėti, taisyti</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BGF</ID>
-									<Name>Sunkvežimių garažas</Name>
-									<Description>Pastatas skirtas laikyti, prižiūrėti ir/arba remontuoti sunkiasvores transporto priemones</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BGG</ID>
-									<Name>Dviračių garažas</Name>
-									<Description>Antžeminis ar požeminis statinys, skirtas trumpalaikiam ar ilgalaikiam dviračių transporto priemonių saugiam laikymui</Description>
-									<Children />
+									<Name>Mėgėjų sodų pastatų paskirties pastatas</Name>
+									<Description>Mėgėjų sodo teritorijoje esantis negyvenamasis pastatas. Atskirais Nekilnojamojo turto kadastro objektais (patalpomis) neskaidomas.</Description>
+									<Children>
+										<Item>
+											<ID>%BGD10</ID>
+											<Name>Sodo namas</Name>
+											<Description />
+											<Children />
+										</Item>
+									</Children>
 								</Item>
 							</Children>
 						</Item>
 						<Item>
 							<ID>BH</ID>
-							<Name>Gamybos, pramonės paskirties pastatas</Name>
-							<Description>Gamybos reikmėms skirtas pastatas</Description>
+							<Name>Viešosios rekreacijos pastatų paskirties grupės pastatas</Name>
+							<Description />
 							<Children>
 								<Item>
 									<ID>BHA</ID>
-									<Name>Gamykla</Name>
-									<Description>Mechanizuotos gamybos organizavimo techninis vienetas, pramonės įmonė, pagrįsta mašinų darbo naudojimu, darbo pasidalijimu</Description>
-									<Children />
+									<Name>Viešojo poilsio pastatų paskirties pastatas</Name>
+									<Description>Viešajai rekreacijai skirtas pastatas. Kaip vienas Nekilnojamojo turto kadastro objektas (statinys) formuojamas pastatas, atskirais Nekilnojamojo turto kadastro objektais (patalpomis) neskaidomas.</Description>
+									<Children>
+										<Item>
+											<ID>%BHA10</ID>
+											<Name>Kaimo turizmo pastatas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BHA20</ID>
+											<Name>Kempingas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BHA30</ID>
+											<Name>Kitas pastatas, atitinkantis paskirties aprašymą</Name>
+											<Description>Kitas pastatas, atitinkantis viešojo poilsio paskirties pastato aprašymą ir nepriskirtinas kitiems BHA klasės pastatams.</Description>
+											<Children />
+										</Item>
+									</Children>
 								</Item>
+							</Children>
+						</Item>
+						<Item>
+							<ID>BY</ID>
+							<Name>Asmeninės rekreacijos pastatų paskirties grupės pastatas</Name>
+							<Description />
+							<Children>
 								<Item>
-									<ID>BHB</ID>
-									<Name>Dirbtuvės</Name>
-									<Description>Pastatas technikai gaminti ir remontuoti</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BHC</ID>
-									<Name>Kalvės</Name>
-									<Description>Kalimo ir štampavimo darbų pastatas</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BHD</ID>
-									<Name>Energetikos pastatas</Name>
-									<Description>Energijos gavybai ir gamybai skirtas pastatas</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BHE</ID>
-									<Name>Gamybinė laboratorija</Name>
-									<Description>Specialiai įrengtas pastatas ar erdvė, kurioje atliekami moksliniai tyrimai, eksperimentinė veikla ir yra įsikūrusi tuos darbus atliekanti įstaiga</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BHF</ID>
-									<Name>Kūrybinės dirbtuvės</Name>
-									<Description>Menininko ir jo pagalbininkų darbo patalpa (išskyrus patalpas skirtas savo ar savo šeimos reikmėms ir/arba kuriose vienu metu dirba ne daugiau 5 žmonės ir nenaudojami potencialiai pavojingi įrenginiai), kurioje sukuriami meno kūriniai, ugdomi pradedančiųjų kūrybiniai gebėjimai ir įgūdžiai</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BHG</ID>
-									<Name>Skerdykla</Name>
-									<Description>Pastatas, kuriame skerdžiami gyvuliai ir paukščiai, t. p. iš dalies apdorojamos skerdienos</Description>
-									<Children />
+									<ID>BYA</ID>
+									<Name>Asmeninio poilsio pastatų paskirties pastatas</Name>
+									<Description>Pastatas, skirtas asmeninei rekreacijai.</Description>
+									<Children>
+										<Item>
+											<ID>%BYA10</ID>
+											<Name>Poilsio pastatas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BYA20</ID>
+											<Name>Vila (vasarnamis)</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BYA30</ID>
+											<Name>Kitas pastatas, atitinkantis paskirties aprašymą</Name>
+											<Description>Kitas pastatas, atitinkantis asmeninės poilsio paskirties pastato aprašymą ir nepriskirtinas kitiems BYA klasės pastatams.</Description>
+											<Children />
+										</Item>
+									</Children>
 								</Item>
 							</Children>
 						</Item>
 						<Item>
 							<ID>BJ</ID>
-							<Name>Sandėliavimo paskirties pastatas</Name>
-							<Description>Pastatas, pagal savo tiesioginę paskirtį naudojamas sandėliuoti</Description>
+							<Name>Specialiųjų paslaugų pastatų paskirties grupės pastatas</Name>
+							<Description />
 							<Children>
 								<Item>
 									<ID>BJA</ID>
-									<Name>Saugykla</Name>
-									<Description>Pastatas daiktiniams objektams ar IT duomenims saugoti</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BJB</ID>
-									<Name>Bendro naudojimo sandėlis</Name>
-									<Description>Pastatas ar aikštelė įvairioms medžiagoms, pramonės gaminiams ir pusgaminiams bei kitai produkcijai laikyti</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BJC</ID>
-									<Name>Specialus sandėlis</Name>
-									<Description>Pastatas ar aikštelė specializuotoms medžiagoms, pramonės gaminiams ir pusgaminiams bei kitai specializuotai produkcijai laikyti</Description>
-									<Children />
-								</Item>
-							</Children>
-						</Item>
-						<Item>
-							<ID>BK</ID>
-							<Name>Kultūros paskirties pastatas</Name>
-							<Description>Pastatas skirtas kultūros reikmėms</Description>
-							<Children>
-								<Item>
-									<ID>BKA</ID>
-									<Name>Kino teatras</Name>
-									<Description>Visuomeninis pastatas, jo dalis arba pastatų grupė kino filmams rodyti</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BKB</ID>
-									<Name>Teatras</Name>
-									<Description>Pastatas teatro renginiams - meno šakai, kurios meniniai vaizdai grindžiami erdvinių ir garsinių raiškos elementų sinteze; kultūros įstaiga</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BKC</ID>
-									<Name>Kultūros namai</Name>
-									<Description>Kultūros švietimo įstaigos būstinės pastatas: kultūros klubai, kultūros centrai</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BKD</ID>
-									<Name>Klubas</Name>
-									<Description>Visuomeninė organizacijos būstinė, vienijanti grupę žmonių, kuriuos sieja politiniai, mokslo, meno, sporto, turizmo ar kiti interesai</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BKE</ID>
-									<Name>Biblioteka</Name>
-									<Description>Speciali patalpa arba pastatas, kuriame laikomos knygos, jų rinkiniai, kolekcijos; socialinės komunikacijos institucija, kuri kaupia, tvarko, saugo ir teikia skaitytojams dokumentus</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BKF</ID>
-									<Name>Muziejus</Name>
-									<Description>Pastatas, kuriame įsikūrusi institucija, visuomenės, mokslo, edukacijos ir laisvalaikio organizavimo tikslais įgyjanti, konservuojanti, tyrinėjanti, populiarinanti ir eksponuojanti žmonijos ir jos aplinkos materialųjį ir nematerialųjį paveldą</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BKG</ID>
-									<Name>Archyvas</Name>
-									<Description>Pastatas, kuriame įsikūrusi įstaiga ar įstaigos, įmonės, organizacijų skyriai, kurie kaupia, saugo, tvarko, registruoja, moksliškai tiria ir naudoja įvairius dokumentus; pastatai ar jų dalys, kuriuose laikomi dokumentai</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BKH</ID>
-									<Name>Parodų centras</Name>
-									<Description>Pastatas, arba pastatų kompleksas, kuriame viešai demonstruojami žmonių įvairių veiklos sričių pasiekimai ir visuomeninio gyvenimo laimėjimai</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BKJ</ID>
-									<Name>Planetariumas</Name>
-									<Description>Pastatas, kuriame veikia mokslo ir švietimo įstaiga populiarinanti astronomiją, kuriame yra aparatas, skirtas žvaigždėto dangaus, saulės, mėnulio, planetų ir kitų astronominių reiškinių vaizdams projektuoti į ekraną</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BKK</ID>
-									<Name>Radijo ir televizijos pastatas</Name>
-									<Description>Pastatas ir įrenginių kompleksas radijo ir televizijos programoms transliuoti</Description>
-									<Children />
-								</Item>
-							</Children>
-						</Item>
-						<Item>
-							<ID>BL</ID>
-							<Name>Mokslo paskirties pastatas</Name>
-							<Description>Skirtas švietimo ir mokslo reikmėms</Description>
-							<Children>
-								<Item>
-									<ID>BLA</ID>
-									<Name>Institutas ir/arba mokslinio tyrimo įstaiga</Name>
-									<Description>Pastatas, kuriame veikia kurios nors srities mokslinio tyrimo įstaiga; aukštoji mokykla, rengianti vienos ar artimų sričių specialistus; mokomoji metodinė kvalifikacijos įstaiga</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BLB</ID>
-									<Name>Observatorija</Name>
-									<Description>Pastatas, kuriame veikia astronomijos mokslo įstaiga, tirianti visatos materijos judėjimą, sandarą, kilmę ir evoliuciją</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BLC</ID>
-									<Name>Meteorologijos stotis</Name>
-									<Description>Pastatas, kuriame veikia reguliarių meteorologinių stebėjimų įstaiga</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BLD</ID>
-									<Name>Laboratorija</Name>
-									<Description>Specialiai įrengtas pastatas ar erdvė, kurioje atliekami moksliniai tyrimai, eksperimentinė veikla, ir yra įsikūrusi tuos darbus atliekanti įstaiga. Išskyrus gamybinę laboratoriją.</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BLE</ID>
-									<Name>Bendrojo lavinimo mokykla</Name>
-									<Description>Pastatas, kuriame vykdomas lavinimas, kuris apima ikimokyklinį ugdymą, pradinį, pagrindinį ir vidurinį mokymą</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BLF</ID>
-									<Name>Profesinė ar aukštoji mokykla</Name>
-									<Description>Pastatas, kuriame vykdomas lavinimas, kuris apima aukštąjį, universitetinį arba profesinį ir techninį mokymą, veikia mokslinio tyrimo įstaiga</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BLG</ID>
-									<Name>Vaikų darželis</Name>
-									<Description>Pastatas, kuriame veikia ikimokyklinio, priešmokyklinio ir pradinio ugdymo įstaigos</Description>
-									<Children />
-								</Item>
-							</Children>
-						</Item>
-						<Item>
-							<ID>BM</ID>
-							<Name>Gydymo paskirties pastatas</Name>
-							<Description>Pastatas gydymo tikslams, kuriame teikiama medicininė pagalba ir priežiūra sergantiems žmonėms</Description>
-							<Children>
-								<Item>
-									<ID>BMA</ID>
-									<Name>Ligoninė</Name>
-									<Description>Pastatas, skirtas asmens sveikatos priežiūrai, licencijuotai fizinių ir juridinių asmenų įstaigų veiklai</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BMB</ID>
-									<Name>Klinika</Name>
-									<Description>Pastatas, kuriame įsikūrusi visuomeninė ar privati gydymo įstaiga.</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BMC</ID>
-									<Name>Poliklinika</Name>
-									<Description>Pastatas, kuriame veikia gydymo ir profilaktikos įstaiga, teikianti asmens sveiktos priežiūros ambulatorines paslaugas ateinantiems ir namie esantiems ligoniams</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BMD</ID>
-									<Name>Sanatorija</Name>
-									<Description>Pastatas, kuriame įsikūrusi stacionari profilaktikos, gydymo ir reabilitacijos įstaiga, kurioje dominuoja gydomas natūraliomis priemonėmis</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BME</ID>
-									<Name>Reabilitacijos centras</Name>
-									<Description>Pastatas, kuriame teikiamos koordinuotas kompleksinis sveikatos, socialinių įgūdžių atkūrimas ar prevencija.</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BMF</ID>
-									<Name>Specialiosios įstaigos sveikatos apsaugos pastatas</Name>
-									<Description>Pastatas, kuriame įgyvendinama specialiųjų įstaigų socialinių ir medicinos priemonių sistema, padedanti saugoti ir stiprinti psichinę ir fizinę sveikatą, palaikyti aktyvų gyvenimą, pablogėjus sveikatai suteikti reikiamą medicinos pagalbą</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BMG</ID>
-									<Name>Gydykla</Name>
-									<Description>Stacionari profilaktikos, gydymo ir reabilitacijos įstaiga, kurioje gydoma įvairios sudėties ir koncentracijos mineraliniais vandenimis</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BMH</ID>
-									<Name>Medicininės priežiūros įstaigos slaugos namai</Name>
-									<Description>Pastatas ligoniams ir beglobiams seneliams, kuriuose veikia sveikatai ir darbingumui saugoti bei stiprinti, sveikatos priežiūros institucija</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BMJ</ID>
-									<Name>Veterinarijos gydykla (klinika)</Name>
-									<Description>Pastatas, kuriame įgyvendinama mokslo ir praktinės veiklos sritis, apimanti gyvūnų laikymą, naudojimą, priežiūrą, ligų diagnostiką ir gydymą, pašarų gamybą, veterinarinių vaistų ir biocidų gamybą, paskirstymą ir naudojimą</Description>
-									<Children />
-								</Item>
-							</Children>
-						</Item>
-						<Item>
-							<ID>BN</ID>
-							<Name>Poilsio paskirties pastatas</Name>
-							<Description>Pastatas skirtas poilsiui</Description>
-							<Children>
-								<Item>
-									<ID>BNA</ID>
-									<Name>Poilsio namai</Name>
-									<Description>Pastatas, kurio pagrindinė paskirtis yra poilsis; skirtas žmonių poilsiui; laisvalaikio vieta, kurioje užsiimama specialia veikla, dėl kurios praeina nuovargis, žmogaus dvasinių ir/arba fizinių jėgų atgavimo procesas</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BNB</ID>
-									<Name>Turizmo centras</Name>
-									<Description>Pastatas ar patalpa, skirta turizmo paslaugų informacijos teikimui</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BNC</ID>
-									<Name>Kempingo pastatas</Name>
-									<Description>Motorizuotų turistų trumpalaikio poilsio stovyklos pastatas</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BND</ID>
-									<Name>Kaimo turizmo pastatas</Name>
-									<Description>Pastatas, skirtas kelionėms, atostogoms, ekskursijoms, susijusioms su kaimo pažinimu ir poilsiu jame. Kaimo vietovėje ar užmiestyje esanti sodyba, kurioje apgyvendinimo paslaugos teikiamos atskiroje, šeimai skirtoje gyvenamojoje patalpoje su valgio gaminimosi priemonėmis ir baldais.</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BNE</ID>
-									<Name>Vasarnamis</Name>
-									<Description>Pastatas poilsiui, dažniausiai užmiestyje ar kurortinėje vietoje</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BNF</ID>
-									<Name>Medžioklės namelis</Name>
-									<Description>Tykojimo (medžioklės) bokštelis medžioklės plotuose</Description>
-									<Children />
-								</Item>
-							</Children>
-						</Item>
-						<Item>
-							<ID>BP</ID>
-							<Name>Sporto paskirties pastatas</Name>
-							<Description>Pastatas skirtas sportuoti</Description>
-							<Children>
-								<Item>
-									<ID>BPA</ID>
-									<Name>Sporto salė</Name>
-									<Description>Sporto pastatas, statinys ir įrenginys, kuriame vyksta fizinio lavinimo, kūno kultūros pratybos, treniruotės, rengiamos sporto varžybos</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BPB</ID>
-									<Name>Teniso kortas</Name>
-									<Description>Pastatas ar statinys, kuriame įrengtas lygus vejos, gruntinės ar sintetinės dangos plotas, kuriame linijomis sužymėta aikštė tenisui žaisti</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BPC</ID>
-									<Name>Baseinas</Name>
-									<Description>Pastatas, kuriame įrengtas dirbtinis vandens telkinys plaukiojimui, nardymui bei kitoms su vandeniu susijusioms sporto šakoms ar veikloms</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BPD</ID>
-									<Name>Čiuožykla</Name>
-									<Description>Pastatas, kuriame įrengta užlieta ledu vieta čiuožti</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BPE</ID>
-									<Name>Jachtklubas</Name>
-									<Description>Pastatas, kuriame veikia visuomeninės vandens sporto organizacijos, tvarkančios buriavimo reikalus; buriuotojų klubai</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BPF</ID>
-									<Name>Tiras</Name>
-									<Description>Pastatas, skirtas šaudymo treniruotėms ir varžyboms iš individualaus (asmeninio) ir sportinio šaulių ginklo (šaudykla)</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BPG</ID>
-									<Name>Stadionas</Name>
-									<Description>Sporto statinys arba statinių bei įrenginių kompleksas įvairių sporto šakų pratyboms ir varžyboms</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BPH</ID>
-									<Name>Maniežas</Name>
-									<Description>Žirgų sporto statinys žirgų treniruotėms, jojimo sporto rungtynėms ir mokymui joti / sporto pastatų komplekso dalis lengvosios atletikos, gimnastikos, sporto žaidimų pratyboms ir varžyboms</Description>
-									<Children />
-								</Item>
-							</Children>
-						</Item>
-						<Item>
-							<ID>BQ</ID>
-							<Name>Religinės paskirties pastatas</Name>
-							<Description>Pastatas skirtas religiniams tikslams</Description>
-							<Children>
-								<Item>
-									<ID>BQA</ID>
-									<Name>Bažnyčia</Name>
-									<Description>Krikščionių maldos namų pastatas</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BQB</ID>
-									<Name>Cerkvė</Name>
-									<Description>Stačiatikių, sentikių ir unitų maldos namų pastatas</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BQC</ID>
-									<Name>Koplyčia</Name>
-									<Description>Nedidelis krikščionių sakralinis pastatas; bažnyčios priestatas arba patalpa su altoriumi, skirta religinėms apeigoms, dažniausiai mišioms, atlikti</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BQD</ID>
-									<Name>Sinagoga</Name>
-									<Description>Judėjų bendruomenės narių susirinkimų, maldos namų pastatas</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BQE</ID>
-									<Name>Mečetė</Name>
-									<Description>Musulmonų bendruomenės narių susirinkimų, maldos namų pastatas</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BQF</ID>
-									<Name>Maldos namai</Name>
-									<Description>Kreipimosi į dievą ar dieviškąją esybę žodžiais ir mintimis statinys</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BQG</ID>
-									<Name>Katedra</Name>
-									<Description>Krikščionių vyskupijos svarbiausia bažnyčia, sakralinio pastato tipas</Description>
-									<Children />
-								</Item>
-							</Children>
-						</Item>
-						<Item>
-							<ID>BR</ID>
-							<Name>Specialiosios paskirties pastatas</Name>
-							<Description>Pastatas skirtas specialiesiems tikslams</Description>
-							<Children>
-								<Item>
-									<ID>BRA</ID>
-									<Name>Kareivinių pastatas</Name>
-									<Description>Statinys, kuriame gyvena karinių vienetų kariai; jame yra miegamosios, mokomosios, tarnybinės, sanitarinės, buitinės, šaulių ginklų laikymo ir kt. patalpos</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BRB</ID>
-									<Name>Kalėjimas</Name>
-									<Description>Specialaus režimo įstaigos pastatas ar jų kompleksas, skirta suimtiesiems ir nuteistiesiems laisvės atėmimo bausme laikyti bei socialinei reabilitacijai</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BRC</ID>
-									<Name>Pataisos darbų kolonija</Name>
-									<Description>Terminuoto laisvės atėmimo ir laisvės atėmimo iki gyvos galvos bausmes vykdanti institucija. speciali darbo, auklėjimo ar bausmės įstaiga</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BRD</ID>
-									<Name>Tardymo izoliatorius</Name>
-									<Description>Pastatas arba specialiai įrengta patalpa, kuriame atliekami teisiniai procesiniai veiksmai, kuriais renkami, tiriami ir tikrinami įrodymai</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BRE</ID>
-									<Name>Policijos pastatas</Name>
-									<Description>Pastatas, kuriame veikia administracinė institucija esamai šalies santvarkai ginti ir visuomenės saugumui bei nustatytai viešajai tvarkai palaikyti</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BRF</ID>
-									<Name>Priešgaisrinės ir gelbėjimo tarnybos pastatas</Name>
-									<Description>Pastatas gaisrinei ir gelbėjimo technikai, gaisro gesinimo įrangai ir priemonėms laikyti. Priešgaisrinės saugos ir gelbėjimo departamentui pavaldi įstaiga, vykdanti valstybinei priešgaisrinei gelbėjimo tarnybai nustatytus uždavinius ir funkcijas</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BRG</ID>
-									<Name>Slėptuvė</Name>
-									<Description>Specialios paskirties statinys arba įrengta patalpa žmonėms apsaugoti nuo gyvybei ir sveikatai pavojingų veiksnių ekstremaliųjų situacijų ar karo metu</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BRH</ID>
-									<Name>Pasienio kontrolės punktas</Name>
-									<Description>Tarptautiniame oro uoste (aerodrome), atvirame tarptautinei laivybai uoste, geležinkelio stotyje ar prie automobilių kelio pasienyje įsteigta vieta, kurioje įgaliotos valstybės institucijos ir įstaigos atlieka patikrinimus</Description>
-									<Children />
-								</Item>
-							</Children>
-						</Item>
-						<Item>
-							<ID>BS</ID>
-							<Name>Pagalbinis ūkio paskirties pastatas</Name>
-							<Description>Sodybų ūkio pastatai, pagalbinio ūkio pastatai, kurie tarnauja pagrindiniam daiktui</Description>
-							<Children>
-								<Item>
-									<ID>BSA</ID>
-									<Name>Tvartas</Name>
-									<Description>Ūkinis pastatas gyvuliams laikyti, auginti, penėti arba veisti</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BSB</ID>
-									<Name>Daržinė</Name>
-									<Description>Ūkinis pastatas šienui ir šiaudams sukrauti</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BSC</ID>
-									<Name>Sandėlis</Name>
-									<Description>Pastatas ar aikštelė įvairioms medžiagoms, pramonės gaminiams ir pusgaminiams bei kitai produkcijai laikyti</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BSD</ID>
-									<Name>Vasaros virtuvė</Name>
-									<Description>Atskiras nešildomas pastatas valgiui ruošti, virti</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BSE</ID>
-									<Name>Kietojo kuro sandėlis</Name>
-									<Description>Kurui laikyti skirtas sandėliavimo pastatas</Description>
-									<Children />
-								</Item>
-							</Children>
-						</Item>
-						<Item>
-							<ID>BT</ID>
-							<Name>Fermų paskirties pastatas</Name>
-							<Description>Pastatas galvijams, gyvuliams, paukščiams auginti</Description>
-							<Children>
-								<Item>
-									<ID>BTA</ID>
-									<Name>Kiaulidė</Name>
-									<Description>Kiaulių tvartas</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BTB</ID>
-									<Name>Karvidė</Name>
-									<Description>Tvartas, kuriame laikomos karvės</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BTC</ID>
-									<Name>Arklidė</Name>
-									<Description>Arklių tvartas</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BTD</ID>
-									<Name>Veršidė</Name>
-									<Description>Veršelių tvartas</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BTE</ID>
-									<Name>Paukštidė</Name>
-									<Description>Naminių paukščių tvartas - vištidė, antidė, žąsidė</Description>
-									<Children />
-								</Item>
-							</Children>
-						</Item>
-						<Item>
-							<ID>BU</ID>
-							<Name>Žemės ūkio paskirties pastatas</Name>
-							<Description>Žemės ūkiui tvarkyti skirtas pastatas</Description>
-							<Children>
-								<Item>
-									<ID>BUA</ID>
-									<Name>Svirnas</Name>
-									<Description>Nešildomas pastatas grūdams, miltams, kitiems maisto produktams, ūkio padargams, namų apyvokos daiktams laikyti</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BUB</ID>
-									<Name>Angaras</Name>
-									<Description>Pastatas, kuriame laikomi, taisomi, prižiūrimi lėktuvai, sklandytuvai, skraidyklės, sraigtasparniai, burlaiviai, valtys</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BUC</ID>
-									<Name>Žemės ūkio technikos garažas</Name>
-									<Description>Atskiras pastatas arba patalpa žemės ūkio transporto priemonėms ir susijusiais technikai laikyti</Description>
-									<Children />
-								</Item>
-							</Children>
-						</Item>
-						<Item>
-							<ID>BV</ID>
-							<Name>Šiltnamių paskirties pastatas</Name>
-							<Description>Augalams auginti skirtas pastatas</Description>
-							<Children>
-								<Item>
-									<ID>BVA</ID>
-									<Name>Šiltnamis</Name>
-									<Description>Stiklu ar skaidria polimerine plėvele dengtas statinys, kuriame sudaromos palankus mikroklimatas augalams augti bet kuriuo metų laiku</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BVB</ID>
-									<Name>Oranžerija</Name>
-									<Description>Šildomas pastatas arba pastato dalis su stikliniu stogu ir dideliais langais šiltųjų kraštų augalams augti; statinys augalams dirbtinio mikroklimato sąlygomis auginti</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>BVC</ID>
-									<Name>Žiemos sodas</Name>
-									<Description>Pastato priestatas - didelė įstiklinta patalpa egzotiniams augalams auginti, taip pat naudojama pramogoms, poilsiui</Description>
-									<Children />
-								</Item>
-							</Children>
-						</Item>
-						<Item>
-							<ID>BW</ID>
-							<Name>Sodų paskirties pastatas</Name>
-							<Description>Sodininkų bendrijose esantis pastatas</Description>
-							<Children>
-								<Item>
-									<ID>BWA</ID>
-									<Name>Sodo namas</Name>
-									<Description>Nesudėtingas poilsiui skirtas statinys, esantis mėgėjų sodo sklype</Description>
-									<Children />
-								</Item>
-							</Children>
-						</Item>
-						<Item>
-							<ID>BZ</ID>
-							<Name>Kitos paskirties pastatas</Name>
-							<Description>Kitos paskirties pastatas, nurodant tikslinę paskirtį, kurių negalima priskirti prie kitų išvardintų pastatų grupių (pogrupių)</Description>
-							<Children>
-								<Item>
-									<ID>BZA</ID>
-									<Name>Lošimų namai</Name>
-									<Description>Pastatas, kur organizuojami stalo lošimai ir lošimai a kategorijos lošimo automatais</Description>
-									<Children />
+									<Name>Specialiųjų paslaugų pastatų paskirties pastatas</Name>
+									<Description>Pastatas, skirtas specialiosioms paslaugoms teikti, kuriame vykdoma veikla gali turėti tiesioginę įtaką gretimoje teritorijoje esantiems kitų paskirčių pastatų naudotojams.</Description>
+									<Children>
+										<Item>
+											<ID>%BJA10</ID>
+											<Name>Degalinės operatorių pastatas su prekybos sale</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BJA20</ID>
+											<Name>Autoservisas (variklinių transporto priemonių prekybos, remonto ir (ar) techninio aptarnavimo pastatas)</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BJA30</ID>
+											<Name>Laidojimo namai</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BJA40</ID>
+											<Name>Šarvojimo salė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BJA50</ID>
+											<Name>Morgas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BJA60</ID>
+											<Name>Krematoriumas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BJA70</ID>
+											<Name>Lošimo namai</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%BJA80</ID>
+											<Name>Kitas pastatas, atitinkantis paskirties aprašymą</Name>
+											<Description>Kitas pastatas, atitinkantis specialiųjų paslaugų paskirties pastato aprašymą ir nepriskirtinas kitiems BJA klasės pastatams.</Description>
+											<Children />
+										</Item>
+									</Children>
 								</Item>
 							</Children>
 						</Item>
@@ -1020,849 +1529,1096 @@
 				</Item>
 				<Item>
 					<ID>C</ID>
-					<Name>Susisiekimo komunikacija</Name>
-					<Description>Inžinerinis statinys, skirtas susisiekimui</Description>
+					<Name>Inžinerinis statinys</Name>
+					<Description />
 					<Children>
 						<Item>
 							<ID>CA</ID>
-							<Name>Kelias</Name>
-							<Description>Inžinerinis statinys, skirtas transporto priemonių, pėsčiųjų ir/arba dviračių eismui</Description>
+							<Name>Susisiekimo komunikacijų statinių paskirties grupės statinys</Name>
+							<Description />
 							<Children>
 								<Item>
 									<ID>CAA</ID>
-									<Name>Kelias</Name>
-									<Description>Inžinerinis statinys, skirtas transporto priemonių, pėsčiųjų ir/arba dviračių eismui</Description>
-									<Children />
+									<Name>Kelių statinių pogrupio (paskirties) statinys</Name>
+									<Description>Inžinerinis statinys, skirtas transporto priemonių ir pėsčiųjų eismui. Kelio elementai: žemės sankasa, važiuojamoji dalis, kelkraščiai, šaligatviai, skiriamoji juosta, kelio grioviai, kitos vandens nuleidimo sistemos, sankryžos, autobusų sustojimo aikštelės, poilsio aikštelės, pėsčiųjų ir dviračių takai, kelio statiniai, įvažiavimai į (išvažiavimai iš) šalia kelio esančius žemės sklypus ar teritorijas, techninės eismo reguliavimo priemonės, želdiniai, esantys kelio juostoje, kelio oro sąlygų stebėjimo ir transporto eismo apskaitos, apšvietimo ir kiti įrenginiai su šių elementų užimama žeme.</Description>
+									<Children>
+										<Item>
+											<ID>%CAA10</ID>
+											<Name>Kelias</Name>
+											<Description />
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+								<Item>
+									<ID>CAB</ID>
+									<Name>Gatvių statinių pogrupio (paskirties) statinys</Name>
+									<Description>Gatvė – tai kelias ar jo ruožas, esantis miesto ar kaimo gyvenamosios vietovės teritorijoje, paprastai turintis pavadinimą. Gatvės elementai – tokie patys kaip kelio elementai, nurodyti CAA 3 lygio klasės kodo aprašyme, esantys gatvės raudonųjų linijų ribose.</Description>
+									<Children>
+										<Item>
+											<ID>%CAB10</ID>
+											<Name>Gatvė</Name>
+											<Description />
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+								<Item>
+									<ID>CAC</ID>
+									<Name>Geležinkelių statinių pogrupio (paskirties) statinys</Name>
+									<Description>Geležinkelio kelias – inžinerinis statinys, kurį sudaro žemės sankasa, viršutinė kelio konstrukcija (antpilo sluoksnis, pabėgiai, bėgiai) ir kiti inžineriniai įrenginiai.</Description>
+									<Children>
+										<Item>
+											<ID>%CAC10</ID>
+											<Name>Geležinkelis</Name>
+											<Description />
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+								<Item>
+									<ID>CAD</ID>
+									<Name>Oro uostų statinių pogrupio (paskirties) statinys</Name>
+									<Description>Inžinerinis statinys, skirtas oro transportui funkcionuoti.</Description>
+									<Children>
+										<Item>
+											<ID>%CAD10</ID>
+											<Name>Oro uosto pakilimo takas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CAD20</ID>
+											<Name>Oro uosto tūpimo takas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CAD30</ID>
+											<Name>Oro uosto riedėjimo takas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CAD40</ID>
+											<Name>Peronas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CAD50</ID>
+											<Name>Orlaivių stovėjimo aikštelė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CAD60</ID>
+											<Name>Orlaivių specialioji aikštelė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CAD70</ID>
+											<Name>Skrydžių valdymo statinys</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CAD80</ID>
+											<Name>Radiotechninis žiburys</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CAD90</ID>
+											<Name>Elektros apšvietimo žiburys</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CAD100</ID>
+											<Name>Signalinis žiburys</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CAD110</ID>
+											<Name>Kitas inžinerinis statinys, atitinkantis paskirties aprašymą</Name>
+											<Description>Kitas inžinerinis statinys, atitinkantis oro uostų paskirties statinio aprašymą ir nepriskirtinas kitiems CAD klasės inžineriniams statiniams.</Description>
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+								<Item>
+									<ID>CAE</ID>
+									<Name>Vandens uostų statinių pogrupio (paskirties) statinys</Name>
+									<Description>Inžinerinis statinys, skirtas vandens transportui funkcionuoti.</Description>
+									<Children>
+										<Item>
+											<ID>%CAE10</ID>
+											<Name>Vandens uosto krantinė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CAE20</ID>
+											<Name>Dokas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CAE30</ID>
+											<Name>Prieplauka</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CAE40</ID>
+											<Name>Molas </Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CAE50</ID>
+											<Name>Atitveriamoji damba</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CAE60</ID>
+											<Name>Šalivagė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CAE70</ID>
+											<Name>Kitas inžinerinis statinys, atitinkantis paskirties aprašymą</Name>
+											<Description>Kitas inžinerinis statinys, atitinkantis vandens uostų paskirties statinio aprašymą ir nepriskirtinas kitiems CAE klasės inžineriniams statiniams.</Description>
+											<Children />
+										</Item>
+									</Children>
 								</Item>
 							</Children>
 						</Item>
 						<Item>
 							<ID>CB</ID>
-							<Name>Gatvė</Name>
-							<Description>Kelias ar jo ruožas, esantis miesto ar kaimo gyvenamosios vietovės teritorijoje, paprastai turintis pavadinimą</Description>
+							<Name>Inžinerinių tinklų statinių paskirties grupės statinys</Name>
+							<Description />
 							<Children>
 								<Item>
 									<ID>CBA</ID>
-									<Name>Gatvė</Name>
-									<Description>Kelias ar jo ruožas, esantis miesto ar kaimo gyvenamosios vietovės teritorijoje, paprastai turintis pavadinimą</Description>
-									<Children />
+									<Name>Naftos tinklų statinių pogrupio (paskirties) statinys</Name>
+									<Description>Inžinerinis statinys, skirtas naftai, jos produktams ir pan. transportuoti, skirstyti ir pan.</Description>
+									<Children>
+										<Item>
+											<ID>%CBA10</ID>
+											<Name>Magistralinis naftotiekis</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CBA20</ID>
+											<Name>Magistralinis produktotiekis</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CBA30</ID>
+											<Name>Skirstomasis naftos vamzdynas (naftai perkrauti ir (ar) transportuoti į technologinius įrenginius ar iš jų)</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CBA40</ID>
+											<Name>Skirstomojo naftos vamzdyno priklausinys</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CBA50</ID>
+											<Name>Skirstomasis naftos produktų vamzdynas (naftos produktams perkrauti ir (ar) transportuoti į technologinius įrenginius ar iš jų)</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CBA60</ID>
+											<Name>Skirstomojo naftos produktų vamzdyno priklausinys</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CBA70</ID>
+											<Name>Kitas inžinerinis statinys, atitinkantis paskirties aprašymą</Name>
+											<Description>Kitas inžinerinis statinys, atitinkantis naftos tinklų paskirties statinio aprašymą ir nepriskirtinas kitiems CBA klasės inžineriniams statiniams.</Description>
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+								<Item>
+									<ID>CBB</ID>
+									<Name>Dujų tinklų statinių pogrupio (paskirties) statinys</Name>
+									<Description>Inžinerinis statinys, skirtas dujoms transportuoti, skirstyti ir pan.</Description>
+									<Children>
+										<Item>
+											<ID>%CBB10</ID>
+											<Name>Magistralinis dujotiekis </Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CBB20</ID>
+											<Name>Magistralinio dujotiekio priklausinys</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CBB30</ID>
+											<Name>Didesnio kaip 5 bar, bet ne didesnio kaip 16 bar didžiausio darbinio slėgio skirstomasis dujotiekis</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CBB40</ID>
+											<Name>Suskystintų naftos dujų skirstomasis dujotiekis</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CBB50</ID>
+											<Name>Kitas inžinerinis statinys, atitinkantis paskirties aprašymą</Name>
+											<Description>Kitas inžinerinis statinys, atitinkantis dujų tinklų paskirties statinio aprašymą ir nepriskirtinas kitiems CBB klasės inžineriniams statiniams.</Description>
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+								<Item>
+									<ID>CBC</ID>
+									<Name>Vandentiekio tinklų statinių pogrupio (paskirties) statinys</Name>
+									<Description>Inžinerinis statinys, skirtas geriamajam, techniniam vandeniui tiekti, skirstyti ir pan.</Description>
+									<Children>
+										<Item>
+											<ID>%CBC10</ID>
+											<Name>Magistralinis vandentiekio tinklų vamzdynas šaltam vandeniui tiekti</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CBC20</ID>
+											<Name>Magistralinis vandentiekio tinklų vamzdynas karštam vandeniui tiekti</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CBC30</ID>
+											<Name>Skirstomasis vandentiekio tinklų vamzdynas šaltam vandeniui tiekti</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CBC40</ID>
+											<Name>Skirstomasis vandentiekio tinklų vamzdynas karštam vandeniui tiekti</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CBC50</ID>
+											<Name>Įvadinis vandentiekio tinklų vamzdynas šaltam vandeniui tiekti</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CBC60</ID>
+											<Name>Įvadinis vandentiekio tinklų vamzdynas karštam vandeniui tiekti</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CBC70</ID>
+											<Name>Artezinis šulinys</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CBC80</ID>
+											<Name>Hidrantas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CBC90</ID>
+											<Name>Rezervuaras</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CBC100</ID>
+											<Name>Vandentiekio bokštas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CBC110</ID>
+											<Name>Giluminis vandentiekio gręžinys, kuris yra statinys</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CBC120</ID>
+											<Name>Kitas inžinerinis statinys, atitinkantis paskirties aprašymą</Name>
+											<Description>Kitas inžinerinis statinys, atitinkantis vandentiekio tinklų paskirties statinio aprašymą ir nepriskirtinas kitiems CBC klasės inžineriniams statiniams.</Description>
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+								<Item>
+									<ID>CBD</ID>
+									<Name>Šilumos tinklų statinių pogrupio (paskirties) statinys</Name>
+									<Description>Inžinerinis statinys, skirtas šilumai tiekti, skirstyti ir pan. Šilumos perdavimo tinklus sudaro statinių ir įrenginių (vamzdynų, uždaromosios ir reguliuojamosios armatūros, siurblių, kontrolės ir matavimo prietaisų ir kitų elementų, kuriais šilumnešis (termofikacinis vanduo, garas ir panašiai) iš šilumos šaltinio perduodamas ir skirstomas vartotojams) kompleksas.</Description>
+									<Children>
+										<Item>
+											<ID>%CBD10</ID>
+											<Name>Magistralinis šilumos tinklų vamzdynas šilumai perduoti</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CBD20</ID>
+											<Name>Skirstomasis šilumos tinklų vamzdynas šilumai perduoti</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CBD30</ID>
+											<Name>Įvadinis šilumos tinklų vamzdynas šilumai perduoti</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CBD40</ID>
+											<Name>Kitas inžinerinis statinys, atitinkantis paskirties aprašymą</Name>
+											<Description>Kitas inžinerinis statinys, atitinkantis šilumos tinklų paskirties statinio aprašymą ir nepriskirtinas kitiems CBD klasės inžineriniams statiniams.</Description>
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+								<Item>
+									<ID>CBE</ID>
+									<Name>Nuotekų šalinimo tinklų statinių pogrupio (paskirties) statinys</Name>
+									<Description>Inžinerinis statinys, skirtas nuotekoms surinkti.</Description>
+									<Children>
+										<Item>
+											<ID>%CBE10</ID>
+											<Name>Nuotekų šalinimo kolektorius</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CBE20</ID>
+											<Name>Nuotekų rinktuvas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CBE30</ID>
+											<Name>Nuotekų tinklų išvadas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CBE40</ID>
+											<Name>Nuotekų slėginis tinklas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CBE50</ID>
+											<Name>Drenažo tinklas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CBE60</ID>
+											<Name>Kitas inžinerinis statinys, atitinkantis paskirties aprašymą</Name>
+											<Description>Kitas inžinerinis statinys, atitinkantis nuotekų šalinimo tinklų paskirties statinio aprašymą ir nepriskirtinas kitiems CBE klasės inžineriniams statiniams.</Description>
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+								<Item>
+									<ID>CBF</ID>
+									<Name>Elektros tinklų statinių pogrupio (paskirties) statinys</Name>
+									<Description>Inžinerinis statinys, skirtas elektrai tiekti.</Description>
+									<Children>
+										<Item>
+											<ID>%CBF10</ID>
+											<Name>Elektros energijos persiuntimui skirta aukštos įtampos elektros oro linija, įskaitant liniją laikančias atramas ir kitus statinio požymus atitinkančius technologinius priklausinius, kurie nėra pastatai</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CBF20</ID>
+											<Name>Elektros energijos persiuntimui skirta oro kabelių linija, įskaitant liniją laikančias atramas ir kitus statinio požymus atitinkančius technologinius priklausinius, kurie nėra pastatai</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CBF30</ID>
+											<Name>Elektros energijos persiuntimui skirta požeminių kabelių linija ir jos technologiniai priklausiniai, įskaitant požeminių kabelių kanalus, liniją laikančias atramas ir kitus statinio požymius atitinkančius technologinius priklausinius, kurie nėra pastatai</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CBF40</ID>
+											<Name>Elektros energijos persiuntimui skirta povandeninių kabelių linija ir jos technologiniai priklausiniai, įskaitant povandeninių kabelių kanalus, liniją laikančias atramas ir kitus statinio požymius atitinkančius technologinius priklausinius, kurie nėra pastatai</Name>
+											<Description />
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+								<Item>
+									<ID>CBG</ID>
+									<Name>Ryšių (telekomunikacijų) tinklų statinių pogrupio (paskirties) statinys</Name>
+									<Description>Inžinerinis statinys, skirtas elektroninių ryšių paslaugai teikti.</Description>
+									<Children>
+										<Item>
+											<ID>%CBG10</ID>
+											<Name>Kolektorius</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CBG20</ID>
+											<Name>Bokštas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CBG30</ID>
+											<Name>Stiebas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CBG40</ID>
+											<Name>Kitas inžinerinis statinys, skirtas elektroninių ryšių veiklai, atitinkantis paskirties aprašymą</Name>
+											<Description>Kitas inžinerinis statinys, atitinkantis ryšių (telekomunikacijų) tinklų paskirties statinio aprašymą ir nepriskirtinas kitiems CBG klasės inžineriniams statiniams.</Description>
+											<Children />
+										</Item>
+									</Children>
 								</Item>
 							</Children>
 						</Item>
 						<Item>
 							<ID>CC</ID>
-							<Name>Geležinkelio kelias</Name>
-							<Description>Inžinerinis statinys, kurį sudaro žemės sankasa, viršutinė kelio konstrukcija (balasto sluoksnis, pabėgiai, bėgiai) ir kiti inžineriniai įrenginiai</Description>
+							<Name>Hidrotechninių statinių paskirties grupės statinys</Name>
+							<Description />
 							<Children>
 								<Item>
 									<ID>CCA</ID>
-									<Name>Bėginis kelias</Name>
-									<Description>Inžinerinis statinys, skirtas bėginių transporto priemonių eismui</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>CCB</ID>
-									<Name>Pervaža</Name>
-									<Description>Geležinkelių susikirtimo su automobilių keliais tame pačiame lygyje vieta</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>CCC</ID>
-									<Name>Geležinkelio platforma</Name>
-									<Description>Paaukštinta aikštelė geležinkelio stotyje keleiviams įlipti arba išlipti, kroviniams krauti</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>CCD</ID>
-									<Name>Geležinkelio tiltas</Name>
-									<Description>Inžinerinis statinys ar įrenginiai su bėgiais geležinkelių, tramvajų, metropoliteno riedmenims važiuoti virš vandens telkinio, automobilių kelio, per daubą, griovį, slėnį, virš aikštės, pastato ar kitos kliūties</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>CCE</ID>
-									<Name>Geležinkelio tunelis</Name>
-									<Description>Inžinerinis statinys po žeme, pastatu, keliu, vandens telkiniu, skirtas geležinkelio traukinių eismui</Description>
-									<Children />
+									<Name>Hidrotechninių statinių pogrupio (paskirties) statinys</Name>
+									<Description>Statinys vandens ištekliams naudoti ir aplinkai nuo žalingo vandens poveikio saugoti.</Description>
+									<Children>
+										<Item>
+											<ID>%CCA10</ID>
+											<Name>Užtvanka</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CCA20</ID>
+											<Name>Damba</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CCA30</ID>
+											<Name>Hidroelektrinė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CCA40</ID>
+											<Name>Derivacinė elektrinė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CCA50</ID>
+											<Name>Hidroakumuliacinė elektrinė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CCA60</ID>
+											<Name>Siurblinė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CCA70</ID>
+											<Name>Vandens ėmykla</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CCA80</ID>
+											<Name>Jūros krantinė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CCA90</ID>
+											<Name>Upės krantinė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CCA100</ID>
+											<Name>Dokas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CCA110</ID>
+											<Name>Prieplauka</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CCA120</ID>
+											<Name>Molas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CCA130</ID>
+											<Name>Vandens pralaida</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CCA140</ID>
+											<Name>Vandenvietės statinys</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CCA150</ID>
+											<Name>Nusodintuvas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CCA160</ID>
+											<Name>Kanalas ir jo statiniai</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CCA170</ID>
+											<Name>Upės vagotvarkos statinys</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CCA180</ID>
+											<Name>Krantosaugos statinys</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CCA190</ID>
+											<Name>Žuvininkystės statinys</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CCA200</ID>
+											<Name>Laivininkystės statinys</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CCA210</ID>
+											<Name>Bangolaužis</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CCA220</ID>
+											<Name>Akvedukas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CCA230</ID>
+											<Name>Diukeris</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CCA240</ID>
+											<Name>Buna</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CCA250</ID>
+											<Name>Polderis</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CCA260</ID>
+											<Name>Žuvų pralaida</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CCA270</ID>
+											<Name>Melioracijos statinys</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CCA280</ID>
+											<Name>Kitas statinys, atitinkantis paskirties aprašymą</Name>
+											<Description>Kitas inžinerinis statinys, atitinkantis hidrotechninės paskirties statinio aprašymą ir nepriskirtinas kitiems CCA klasės inžineriniams statiniams.</Description>
+											<Children />
+										</Item>
+									</Children>
 								</Item>
 							</Children>
 						</Item>
 						<Item>
 							<ID>CD</ID>
-							<Name>Oro uosto statinys</Name>
-							<Description>Oro uostų pakilimo, tūpimo, riedėjimo takai, peronai, orlaivių stovėjimo ir specialiosios aikštelės, skrydžių valdymo statiniai, radiotechniniai, elektros apšvietimo, signalinių žiburių ir kiti įrenginiai</Description>
+							<Name>Kitų inžinerinių statinių paskirties grupės statinys</Name>
+							<Description />
 							<Children>
 								<Item>
 									<ID>CDA</ID>
-									<Name>Kilimo ir/arba tūpimo takas</Name>
-									<Description>Eismo sistemos dalis skirta orlaiviams pakilti ir/arba tūpti</Description>
-									<Children />
+									<Name>Energijos iš atsinaujinančių išteklių gamybos statinių pogrupio (paskirties) statinys</Name>
+									<Description>Iš atsinaujinančių neiškastinių energijos išteklių (vėjo, saulės energijos, aplinkos energijos, geoterminių, hidroterminių išteklių ir vandenynų energijos, biomasės, biodujų, įskaitant sąvartynų ir nuotekų perdirbimo įrenginių dujas ir pan.) elektros ir (ar) šilumos, vėsumos energiją gaminantis statinys ir jam aptarnauti ir (ar) eksploatuoti reikalinga infrastruktūra (elektros transformatorių pastotė, skirstykla, kiti skirstomojo ar perdavimo tinklo elementai ir pan.).</Description>
+									<Children>
+										<Item>
+											<ID>%CDA10</ID>
+											<Name>Vėjo elektrinė, taip pat jam aptarnauti ir (ar) eksploatuoti reikalinga infrastruktūra</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDA20</ID>
+											<Name>Saulės šviesos energijos elektrinė, taip pat jam aptarnauti ir (ar) eksploatuoti reikalinga infrastruktūra</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDA30</ID>
+											<Name>Saulės šilumos energijos kolektorius, taip pat jam aptarnauti ir (ar) eksploatuoti reikalinga infrastruktūra</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDA40</ID>
+											<Name>Kitas inžinerinis statinys (išskyrus hidrotechnikos statinį), atitinkantis paskirties aprašymą, taip pat jam aptarnauti ir (ar) eksploatuoti reikalinga infrastruktūra</Name>
+											<Description>Kitas inžinerinis statinys, atitinkantis energijos iš atsinaujinančių išteklių gamybos paskirties statinio aprašymą ir nepriskirtinas kitiems CDA klasės inžineriniams statiniams.</Description>
+											<Children />
+										</Item>
+									</Children>
 								</Item>
 								<Item>
 									<ID>CDB</ID>
-									<Name>Riedėjimo takas</Name>
-									<Description>Eismo sistemos dalis skirta orlaiviams judėti ant žemės</Description>
-									<Children />
+									<Name>Kitų transporto statinių pogrupio (paskirties) statinys</Name>
+									<Description>Inžinerinis statinys, skirtas transporto priemonių ir pėsčiųjų eismui, nepriskirtas CAA, CAB, CAC, CAD, CAE 3 lygio klasės kodų pavadinimams.</Description>
+									<Children>
+										<Item>
+											<ID>%CDB10</ID>
+											<Name>Tiltas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDB20</ID>
+											<Name>Viadukas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDB30</ID>
+											<Name>Estakada</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDB40</ID>
+											<Name>Pėsčiųjų tiltas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDB50</ID>
+											<Name>Geležinkelio tiltas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDB60</ID>
+											<Name>Geležinkelio pervaža</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDB70</ID>
+											<Name>Užtveriamasis statinys</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDB80</ID>
+											<Name>Geležinkelio platforma</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDB90</ID>
+											<Name>Tunelis</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDB100</ID>
+											<Name>Kelio pralaida</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDB110</ID>
+											<Name>Lyno kelias</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDB120</ID>
+											<Name>Atraminė sienelė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDB130</ID>
+											<Name>Pragina</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDB140</ID>
+											<Name>Triukšmą slopinanti sienelė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDB150</ID>
+											<Name>Gyvūnijos atitvaras</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDB160</ID>
+											<Name>Platforma</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CEB170</ID>
+											<Name>Pervaža</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDB180</ID>
+											<Name>Pridengta perėja</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDB190</ID>
+											<Name>Požeminė perėja</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDB200</ID>
+											<Name>Kitas inžinerinis statinys, atitinkantis paskirties aprašymą</Name>
+											<Description>Kitas inžinerinis statinys, atitinkantis kitų transporto paskirties statinio aprašymą ir nepriskirtinas kitiems CDB klasės inžineriniams statiniams.</Description>
+											<Children />
+										</Item>
+									</Children>
 								</Item>
 								<Item>
 									<ID>CDC</ID>
-									<Name>Peronas</Name>
-									<Description>Oro uosto dalis, skirta įlaipinti ir išlaipinti keleivius į orlaivį, pakrauti ir iškrauti bagažą, paštą ir krovinius, taip pat atlikti kitas paslaugas</Description>
-									<Children />
+									<Name>Sporto statinių pogrupio (paskirties) statinys</Name>
+									<Description>Sporto aikštynas žaidimams atvirame ore, bet koks lenktynių kelias, trasa ir kitas sportui skirtas inžinerinis statinys, kuris nėra pastatas.</Description>
+									<Children>
+										<Item>
+											<ID>%CDC10</ID>
+											<Name>Futbolo aikštynas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDC20</ID>
+											<Name>Krepšinio aikštynas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDC30</ID>
+											<Name>Beisbolo aikštynas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDC40</ID>
+											<Name>Regbio aikštynas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDC50</ID>
+											<Name>Kito lauko žaidimo aikštynas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDC60</ID>
+											<Name>Vandens sporto statinys</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDC70</ID>
+											<Name>Mašinų kelias</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDC80</ID>
+											<Name>Dviračių kelias</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDC90</ID>
+											<Name>Riedlenčių kelias</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDC100</ID>
+											<Name>Riedučių kelias</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDC110</ID>
+											<Name>Arklių lenktynių kelias</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDC120</ID>
+											<Name>Dviračių saugyklos inžinerinis statinys</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDC130</ID>
+											<Name>Kitas inžinerinis statinys, atitinkantis paskirties aprašymą</Name>
+											<Description>Kitas inžinerinis statinys, atitinkantis sporto paskirties statinio aprašymą ir nepriskirtinas kitiems CDC klasės inžineriniams statiniams.</Description>
+											<Children />
+										</Item>
+									</Children>
 								</Item>
 								<Item>
 									<ID>CDD</ID>
-									<Name>Orlaivių stebėjimo ir specialioji aikštelė</Name>
-									<Description>Specialiai įrengta aikštelė skirta stebėti orlaivių pakilimą ir tūpimą</Description>
-									<Children />
+									<Name>Kitų inžinerinių tinklų statinių pogrupio (paskirties) statinys</Name>
+									<Description>Kitas inžinerinių tinklų grupėje nenurodytas inžinerinis tinklas.</Description>
+									<Children>
+										<Item>
+											<ID>%CDD10</ID>
+											<Name>Technologinis vamzdynas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDD20</ID>
+											<Name>Kolektorius</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDD30</ID>
+											<Name>Apžvalgos kamera</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDD40</ID>
+											<Name>Kitas inžinerinių tinklų statinys, atitinkantis paskirties aprašymą</Name>
+											<Description>Kitas inžinerinis statinys, atitinkantis kitų inžinerinių tinklų paskirties statinio aprašymą ir nepriskirtinas kitiems CDD klasės inžineriniams statiniams.</Description>
+											<Children />
+										</Item>
+									</Children>
 								</Item>
 								<Item>
 									<ID>CDE</ID>
-									<Name>Skrydžių valdymo statiniai</Name>
-									<Description>Specializuotas statinys naudojamas orlaivių skrydžių valdymui</Description>
-									<Children />
-								</Item>
-							</Children>
-						</Item>
-						<Item>
-							<ID>CE</ID>
-							<Name>Vandens uosto statinys</Name>
-							<Description>Vandens uostų krantinės, elingai, dokai, prieplaukų statiniai, molai, atitveriamos dambos, šalivagės ir kiti inžineriniai statiniai</Description>
-							<Children>
-								<Item>
-									<ID>CEA</ID>
-									<Name>Uosto krantinė</Name>
-									<Description>Nustatyto ilgio, pločio ir leistinų apkrovų statinys, skirtas laivams švartuoti ir krauti, keleiviams įlaipinti ar išlaipinti, laivams remontuoti</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>CEB</ID>
-									<Name>Elingas</Name>
-									<Description>Konstrukciškai su krantu sujungtas vieno aukšto statinys be pastogės patalpų (mansardos, mezonino) vidaus vandenų uosto, prieplaukos teritorijoje ar akvatorijoje, skirtas laivams, jachtoms, valtims iškelti iš vandens, laikyti ir remontuoti</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>CEC</ID>
-									<Name>Dokas</Name>
-									<Description>Hidrotechnikos statinys ar įrenginys laivams iš vandens iškelti jų povandeninei daliai apžiūrėti, remontuoti, dažyti, kartais – kai kuriems laivų statybos darbams atlikti</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>CED</ID>
-									<Name>Prieplaukos statinys</Name>
-									<Description>Dalį uosto požymių turinti vieta su stacionariais arba plūduriuojančiais įrenginiais, skirta laivams priplaukti, stovėti, išplaukti, kroviniams krauti, keleiviams įlaipinti arba išlaipinti</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>CEE</ID>
-									<Name>Molas</Name>
-									<Description>Jūrinis uostų atitvėrimo hidrotechnikos statinys, vienu galu (šaknimi) susietas su krantu, tiesiai ar kitaip nutiestas į jūrą ir užsibaigiantis antgaliu (galva)</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>CEF</ID>
-									<Name>Atitveriama damba</Name>
-									<Description>Damba šalia vandens objekto esantiems plotams atitverti, saugant juos nuo apsėmimo bei užtvinimo arba sudarant pripildomą (natūraliai ar siurbliais) vandens saugyklą</Description>
-									<Children />
-								</Item>
-							</Children>
-						</Item>
-						<Item>
-							<ID>CZ</ID>
-							<Name>Kitas transporto statinys</Name>
-							<Description>Kito pobūdžio susisiekimo paskirties inžinerinis statinys</Description>
-							<Children>
-								<Item>
-									<ID>CZA</ID>
-									<Name>Tiltas</Name>
-									<Description>Inžinerinis statinys per vandens telkinį, skirtas transporto priemonių ir pėsčiųjų, dviračių eismui</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>CZB</ID>
-									<Name>Viadukas</Name>
-									<Description>Inžinerinis statinys skirtingų lygių eismo sankryžoje per kelią ar geležinkelio kelią, skirtas transporto priemonių ir pėsčiųjų, dviračių eismui arba gyvūnų judėjimui</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>CZC</ID>
-									<Name>Estakada</Name>
-									<Description>Inžinerinis statinys per daubą, griovą, slėnį, virš kelio, geležinkelio kelio, aikštės ar pastato, skirtas transporto priemonių ir pėsčiųjų, dviračių eismui</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>CZD</ID>
-									<Name>Pėsčiųjų tiltas</Name>
-									<Description>Inžinerinis statinys per vandens telkinį, daubą, griovį, slėnį, virš kelio, geležinkelio kelio, aikštės ar pastato, skirtas tik pėsčiųjų ir/arba dviračių eismui</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>CZE</ID>
-									<Name>Tunelis</Name>
-									<Description>Inžinerinis statinys po žeme, pastatu, keliu, vandens telkiniu, skirtas transporto priemonių ir pėsčiųjų, dviračių eismui</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>CZF</ID>
-									<Name>Kelio pralaida</Name>
-									<Description>Inžinerinis statinys po keliu ar geležinkelio keliu vandeniui tekėti</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>CZG</ID>
-									<Name>Lyno kelias</Name>
-									<Description>Paskyrimo vietoje pastatyta sistema, susidedanti iš statinių ir posistemių (lynai ir jų jungtys, pavaros ir stabdžiai, mechaninė įranga, vežtuvai, elektros įtaisai, gelbėjimo įranga)</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>CZH</ID>
-									<Name>Atraminė sienelė</Name>
-									<Description>Inžinerinis statinys, kuriuo sulaikomas už jo esantis gruntas, kad negriūtų ar nešliaužtų</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>CZJ</ID>
-									<Name>Gyvūnų pragina</Name>
-									<Description>Inžinerinis statinys po keliu ar geležinkelio keliu, skirtas laukiniams gyvūnams</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>CZK</ID>
-									<Name>Triukšmą slopinanti sienelė</Name>
-									<Description>Triukšmą mažinantis įrenginys, kuris užstoja tiesioginį kelių transporto sukeliamo ore sklindančio garso perdavimą</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>CZL</ID>
-									<Name>Gyvūnijos atitvaras</Name>
-									<Description>Atitvėrimo įrenginys ar statinys, skirtas apriboti bei nukreipti gyvūnų judėjimą</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>CZM</ID>
-									<Name>Platforma</Name>
-									<Description>Paaukštinta aikštelė keleiviams įlipti arba išlipti, kroviniams krauti</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>CZN</ID>
-									<Name>Pridengta arba požeminė perėja</Name>
-									<Description>Inžinerinis statinys po žeme, pastatu, keliu, vandens telkiniu, skirtas tik pėsčiųjų ir/arba dviračių eismui</Description>
-									<Children />
-								</Item>
-							</Children>
-						</Item>
-					</Children>
-				</Item>
-				<Item>
-					<ID>D</ID>
-					<Name>Inžinerinis tinklas</Name>
-					<Description>Inžinerinis tinklas, skirtas įvairių rūšių energijai</Description>
-					<Children>
-						<Item>
-							<ID>DA</ID>
-							<Name>Naftos tinklas</Name>
-							<Description>Magistralinis naftotiekis ir produktotiekis, skirstomasis naftos ir naftos produktų vamzdynas (naftai ar naftos produktams perkrauti ir/arba transportuoti iki technologinių įrenginių), naftos perdirbimo įrenginiai, naftos ir naftos produktų terminalas ir saugykla, kiti inžineriniai statiniai</Description>
-							<Children>
-								<Item>
-									<ID>DAA</ID>
-									<Name>Magistralinis naftotiekis</Name>
-									<Description>Aukšto slėgio vamzdynas ir/arba jo sistema, su juo susiję statiniai bei įrenginiai naftai apskaityti, perduoti į terminalų vamzdynus, technologinius tinklus ar įrenginius</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>DAB</ID>
-									<Name>Produktotiekis</Name>
-									<Description>Aukšto slėgio vamzdynas ir/arba jo sistema, su juo susiję statiniai bei įrenginiai naftos produktams apskaityti, perduoti į terminalų vamzdynus, technologinius tinklus ar įrenginius</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>DAC</ID>
-									<Name>Skirstomasis naftos ir naftos produktų vamzdynas</Name>
-									<Description>Naftai ir naftos produktams perkrauti ir/arba transportuoti iki technologinių įrenginių</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>DAD</ID>
-									<Name>Naftos perdirbimo įrenginys</Name>
-									<Description>Aparatai, mašinos, agregatai, stacionarūs ar judrūs prietaisai, jų valdymo sudėtinės dalys, detektavimo ar įspėjimo sistemos, kurie naudojami apdorojant, gaminant, perdirbant, transportuojant naftą ir naftos produktus</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>DAE</ID>
-									<Name>Naftos ir naftos produktų terminalas</Name>
-									<Description>Teritorija, susidedanti iš terminalui priskirtos sausumos teritorijos su joje esančiais pastatais, naftos rezervuarais, vamzdynais bei visais su jais susijusiais įrenginiais ir terminalo akvatorijos su joje esančiais navigaciniais objektais</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>DAF</ID>
-									<Name>Naftos ir naftos produktų saugykla</Name>
-									<Description>Teritorija, susidedanti iš terminalui priskirtos sausumos teritorijos su joje esančiais pastatais, naftos rezervuarais, vamzdynais bei visais su jais susijusiais įrenginiais ir terminalo akvatorijos su joje esančiais navigaciniais objektais</Description>
-									<Children />
-								</Item>
-							</Children>
-						</Item>
-						<Item>
-							<ID>DB</ID>
-							<Name>Dujų tinklas</Name>
-							<Description>Magistraliniai ir skirstomieji dujotiekiai, suskystintų gamtinių dujų įrenginiai, gamtinių dujų saugyklos, vartotojo įvadai, suskystintų naftos dujų sistema, kurią sudaro skirstomieji dujotiekiai, ir kiti inžineriniai statiniai</Description>
-							<Children>
-								<Item>
-									<ID>DBA</ID>
-									<Name>Magistralinis dujotiekis</Name>
-									<Description>Slėginiai vamzdynai ir jų atjungimo įtaisai, slėgio reguliavimo ir palaikymo technologiniai, automatikos įrenginiai bei apskaitos prietaisai, priešgaisrinės ir apsaugos nuo korozijos įrenginiai, statiniai, inžineriniai tinklai bei komunikacijos, kurių visuma užtikrina saugų ir patikimą dujų transportavimą bei apskaitą nuo dujų verslovių iki dujų skirstymo stočių imtinai. Magistralinių dujotiekių slėgis daugiau kaip 16 bar.</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>DBB</ID>
-									<Name>Skirstomasis dujotiekis ir/arba vartotojo įvadas</Name>
-									<Description>Žemo slėgio vamzdynai gamtinėms dujoms iš magistralinio dujotiekio gamtinių dujų skirstymo stočių pristatyti iki gamtinių dujų vartotojo sistemų, taip pat statiniai, įrenginiai ir priemonės šiems vamzdynams veikti</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>DBC</ID>
-									<Name>Suskystintų gamtinių dujų įrenginys</Name>
-									<Description>Terminalas gamtinėms dujoms skystinti, suskystintoms gamtinėms dujoms importuoti, priimti ir vėl joms dujinti, taip pat papildomoms paslaugoms teikti, įskaitant laikinąsias saugyklas, būtinas dujinimo ir vėlesnio pateikimo į perdavimo sistemą procesui vykti, tačiau išskyrus bet kurią suskystintų gamtinių dujų terminalų dalį, naudojamą gamtinėms dujoms laikyti</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>DBD</ID>
-									<Name>Suskystintų naftos dujų įrenginys</Name>
-									<Description>Suskystintųjų naftos dujų vamzdynų ir dujų įrenginių (išskyrus transporto priemonių dujų įrangą ir jos užpildymo įrenginius – degalines) SND transportuoti, laikyti, pilstyti, skirstyti ir vartoti (išskyrus buitinius dujų vartotojus) visuma</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>DBE</ID>
-									<Name>Dujų saugykla</Name>
-									<Description>Įrenginys  dujoms laikyti, įskaitant įrenginius suskystintoms  dujoms laikyti, išskyrus tuos įrenginius ar įrenginių dalį, kurie naudojami gavybos operacijoms vykdyti, ir įrenginius, skirtus vien tik perdavimo sistemos operatoriams, atliekantiems savo funkcijas</Description>
-									<Children />
-								</Item>
-							</Children>
-						</Item>
-						<Item>
-							<ID>DC</ID>
-							<Name>Vandentiekio tinklas</Name>
-							<Description>Magistraliniai, skirstomieji ir įvadiniai tinklų vamzdynai šaltam ir karštam vandeniui tiekti, arteziniai šuliniai, hidrantai, rezervuarai, vandentiekio bokštai, giluminiai vandentiekio gręžiniai, kurie yra statiniai, kiti inžineriniai statiniai</Description>
-							<Children>
-								<Item>
-									<ID>DCA</ID>
-									<Name>Magistralinis vandentiekis</Name>
-									<Description>Vandentiekio tinklo dalis esminiam vandens paskirstymui po rūpinamąją teritoriją, paprastai be vartotojų įvadų jungčių</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>DCB</ID>
-									<Name>Skirstomasis ar įvadinis vandentiekis</Name>
-									<Description>Vandentiekio tinklo dalis esminiam vandens paskirstymui po rūpinamąją teritoriją</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>DCD</ID>
-									<Name>Vandens rezervuaras</Name>
-									<Description>Dirbtinis atviras arba uždaras vandens telkinys, kuriame esantis vanduo nelaidžiomis konstrukcijomis atskirtas nuo aplinkos (baseinas, rezervuaras)</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>DCE</ID>
-									<Name>Vandentiekio bokštas</Name>
-									<Description>Vandens talpykla, ant dirbtinės konstrukcijos iškelta taip aukštai, kad savitaka tiektų vandenį rūpinamajai teritorijai</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>DCF</ID>
-									<Name>Giluminis vandentiekio gręžinys</Name>
-									<Description>Hidrotechninis įrenginys giliai po žeme esantiems vandens ištekliams išgauti</Description>
-									<Children />
-								</Item>
-							</Children>
-						</Item>
-						<Item>
-							<ID>DD</ID>
-							<Name>Šilumos tinklas</Name>
-							<Description>Šilumos perdavimo tinklus sudaro statinių ir įrenginių kompleksas, susidedantis iš vamzdynų, uždaromosios ir reguliuojamosios armatūros, siurblių, kontrolės ir matavimo prietaisų ir kitų elementų, kuriais šilumnešis (termofikacinis vanduo, garas ir panašiai) iš šilumos ar vėsos šaltinio perduodamas ir skirstomas vartotojams</Description>
-							<Children>
-								<Item>
-									<ID>DDA</ID>
-									<Name>Magistralinis vamzdynas šilumai perduoti</Name>
-									<Description>Šilumos tiekimo tinklai nuvesti nuo šilumos šaltinio iki atšakų į kvartalus, taip pat iki atskirų vartotojų grupinių šilumos punktų</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>DDB</ID>
-									<Name>Skirstomųjų tinklų vamzdynas</Name>
-									<Description>Šilumos tiekimo tinklai nuvesti nuo magistralinių tinklų iki atšakų į pastatus</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>DDC</ID>
-									<Name>Įvadinių tinklų vamzdynas</Name>
-									<Description>Šilumos tiekimo vamzdynai nuvesti nuo skirstomųjų (arba magistralinių) tinklų iki vartotojų pastato sienos išorinio paviršiaus</Description>
-									<Children />
-								</Item>
-							</Children>
-						</Item>
-						<Item>
-							<ID>DE</ID>
-							<Name>Nuotekų šalinimo tinklas</Name>
-							<Description>Statiniai ir įrenginiai, skirti nuotekų šalinimui, įskaitant nuotekų surinkimo, slėginius, drenažo tinklus ir kt.</Description>
-							<Children>
-								<Item>
-									<ID>DEA</ID>
-									<Name>Nuotekų savitakinis tinklas</Name>
-									<Description>Inžinerinių įrenginių, vamzdynų ir įrangos sistema, skirta nuotekoms surinkti ir transportuoti savitaka</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>DEB</ID>
-									<Name>Nuotekų slėginis tinklas</Name>
-									<Description>Vamzdynas, kuriame slėginiu būdu tekinamos nuotekos</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>DEC</ID>
-									<Name>Drenažo tinklas</Name>
-									<Description>Drenų, drenažo filtrų, šulinių ir vandens nuleistuvų visuma vandens pertekliui iš žemės sklypo surinkti ir pašalinti</Description>
-									<Children />
-								</Item>
-							</Children>
-						</Item>
-						<Item>
-							<ID>DF</ID>
-							<Name>Elektros tinklas</Name>
-							<Description>Statiniai ir įrenginiai, dalyvaujantys elektros energijos perdavime ir paskirstyme</Description>
-							<Children>
-								<Item>
-									<ID>DFA</ID>
-									<Name>Elektros perdavimo tinklas</Name>
-									<Description>Aukštosios įtampos elektros tinklai, kuriais perduodama elektros energija ir susiję statiniai</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>DFB</ID>
-									<Name>Elektros skirstymo tinklas</Name>
-									<Description>Statiniai ir įrenginiai, skirti elektros galiai ir energijai persiųsti žemosios ir vidutinės įtampos tinklais galutiniam vartotojui</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>DFC</ID>
-									<Name>Tiesioginių linijų elektros tinklas</Name>
-									<Description>Elektros energijos perdavimo linija, jungianti gamintoją su vartotoju, tačiau nepriklausanti perdavimo ir skirstymo tinklams</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>DFD</ID>
-									<Name>Transporto kontaktinis tinklas</Name>
-									<Description>Elektros tinklas, skirtas tiekti elektros energiją transporto priemonėms (troleibusams, tramvajams, geležinkelių riedmenims), varomoms elektriniu varikliu</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>DFE</ID>
-									<Name>Elektros pastotė</Name>
-									<Description>Elektros įrenginių vieta arba grupė stipriųjų srovių grandinėms perjungti, taip pat elektros energijai iš vienos įtampos į kitą, iš vieno dažnio į kitą, iš vienos rūšies į kitą keisti.</Description>
-									<Children />
-								</Item>
-							</Children>
-						</Item>
-						<Item>
-							<ID>DG</ID>
-							<Name>Ryšių (telekomunikacijų) tinklas</Name>
-							<Description>Elektroninių ryšių tinklai, skirti elektroninių ryšių veiklai</Description>
-							<Children>
-								<Item>
-									<ID>DGA</ID>
-									<Name>Kolektorius</Name>
-									<Description>Statiniai, skirti požeminiams įvairios paskirties kabeliams ir vamzdžiams pakloti bei atlikti jų montavimo, priežiūros ir remonto darbus</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>DGB</ID>
-									<Name>Ryšių tinklas</Name>
-									<Description>Susiję statiniai su signalų perdavimo sistemos,  komutavimo bei maršruto parinkimo įranga, kitos priemonės, įskaitant pasyviuosius elektroninių ryšių tinklo elementus, leidžiančios perduoti signalus laidinėmis, radijo, optinėmis ar kitomis elektromagnetinėmis priemonėmis, įskaitant palydovinius tinklus, mobiliojo ryšio tinklus, elektros perdavimo kabelines sistemas, tinklus, naudojamus radijo ir/arba televizijos programoms transliuoti (retransliuoti), ir kabelinės televizijos bei mikrobangų daugiakanalės televizijos tinklus</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>DGC</ID>
-									<Name>Antžeminis ryšių tinklas</Name>
-									<Description>Statiniai susiję su signalų perdavimo sistemomis, nesvarbu, ar jos yra grindžiamos nuolatine infrastruktūra ir/arba centralizuotai valdomos, ar ne, ir/arba komutavimo bei maršruto parinkimo įranga</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>DGD</ID>
-									<Name>Ryšių bokštas</Name>
-									<Description>Radijo, radijo ryšių ir televizijos bokštai, radijo navigacijos švyturiai, radiolokatoriai ir radijo ryšio statiniai (išskyrus antenas, sumontuotas ant statinių)</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>DGE</ID>
-									<Name>Ryšių stiebas</Name>
-									<Description>Stulpo formos elektroninių ryšių infrastruktūros statinys, skirtas radijo antenų montavimui, kuris yra palaikomas atotampomis</Description>
-									<Children />
-								</Item>
-							</Children>
-						</Item>
-					</Children>
-				</Item>
-				<Item>
-					<ID>E</ID>
-					<Name>Hidrotechnikos statinys</Name>
-					<Description>Statiniai ir įrenginiai vandens ištekliams naudoti ir aplinkai nuo žalingo vandens poveikio saugoti</Description>
-					<Children>
-						<Item>
-							<ID>EA</ID>
-							<Name>Patvenkimo statinys</Name>
-							<Description>Sausumos hidrotechnikos statiniai, skirti vandeniui patvenkti, sulaikyti</Description>
-							<Children>
-								<Item>
-									<ID>EAA</ID>
-									<Name>Užtvanka</Name>
-									<Description>Hidrotechnikos statinys, pertveriantis upę ar kitokią vandentėkmę ir pakeliantis joje vandens lygį</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>EAB</ID>
-									<Name>Hidroelektrinė</Name>
-									<Description>Elektrinė, verčianti vandens energiją elektros energija</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>EAC</ID>
-									<Name>Hidroakumuliacinė elektrinė</Name>
-									<Description>Hidroelektrinė, kuri naudodama kitų elektrinių nakties energijos perteklių siurbliais kelia vandenį iš žemutinio baseino į aukštutinį, o padidėjus elektros energijos poreikiui (vakare arba ryte), sukauptą vandenį leidžia per hidroturbinas ir tiekia elektros energiją</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>EAD</ID>
-									<Name>Derivacinė elektrinė</Name>
-									<Description>Hidroelektrinė, kurios slėgio aukščio didžioji dalis yra sudaroma derivacija</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>EAE</ID>
-									<Name>Damba</Name>
-									<Description>Hidrotechnikos vietovei nuo apsėmimo ar užtvinimo saugoti, vandens tėkmei nukreipti, dirbtiniam vandens objektui šalia vandentėkmės sudaryti</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>EAF</ID>
-									<Name>Šliuzas</Name>
-									<Description>Hidrotechnikos statinys vandens lygiui ir/arba debitams reguliuoti</Description>
-									<Children />
-								</Item>
-							</Children>
-						</Item>
-						<Item>
-							<ID>EB</ID>
-							<Name>Praleidimo statinys</Name>
-							<Description>Sausumos hidrotechnikos statiniai, skirti vandeniui pratekėti, ar nukreipti</Description>
-							<Children>
-								<Item>
-									<ID>EBA</ID>
-									<Name>Vandens pralaida</Name>
-									<Description>Hidrotechnikos statinys vandeniui praleisti</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>EBB</ID>
-									<Name>Aptekėjimo kanalas</Name>
-									<Description>Pertekliaus vandens pralaidos tipas: kanalas šalia užtvankos slėnio šlaite ar viršuje su specialiu antgaliu ar be jo, su šliuzu reguliatoriumi ar be jo, su daugiapakopiu ar gembiniu slenksčiu arba greitviete</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>EBC</ID>
-									<Name>Šliuzas reguliatorius</Name>
-									<Description>Hidrotechnikos statinys, statomas kanaluose/grioviuose vandens lygiams arba/ir debitams reguliuoti</Description>
-									<Children />
-								</Item>
-							</Children>
-						</Item>
-						<Item>
-							<ID>EC</ID>
-							<Name>Ėmimo ir saugojimo statinys</Name>
-							<Description>Sausumos hidrotechnikos statiniai, skirti vandeniui saugoti bei imti naudojimui</Description>
-							<Children>
-								<Item>
-									<ID>ECA</ID>
-									<Name>Vandens ėmykla</Name>
-									<Description>Hidrotechnikos statinys vandeniui iš paviršinių šaltinių imti ir jį praleisti į vandentakį</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>ECB</ID>
-									<Name>Vandens saugykla</Name>
-									<Description>Didelis (&gt; 100 ha) dirbtinis vandens telkinys, sudarytas vandentėkmėje vandens patvenkimo hidrotechnikos statinys, vandeniui kaupti, saugoti ir nuotėkiui reguliuoti</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>ECC</ID>
-									<Name>Tvenkinys</Name>
-									<Description>Nedidelis (0,1–100 ha) vandens telkinys, sudarytas vandentėkmėje vandens patvenkimo hidrotechnikos statinys</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>ECD</ID>
-									<Name>Vandenvietė</Name>
-									<Description>Požeminio vandens vandenvietė, iš kurios išgaunamas požeminis gėlas vanduo, atitinkantis teisės aktų nustatytus geriamojo vandens saugos ir kokybės reikalavimus arba naudojamas kaip žaliava geriamajam vandeniui ruošti</Description>
-									<Children />
-								</Item>
-							</Children>
-						</Item>
-						<Item>
-							<ID>ED</ID>
-							<Name>Tiekimo statinys</Name>
-							<Description>Sausumos hidrotechnikos statiniai, skirti tiekti bei nukreipti vandenį</Description>
-							<Children>
-								<Item>
-									<ID>EDA</ID>
-									<Name>Akvedukas</Name>
-									<Description>Latakinis neslėginis kanalo hidrotechnikos statinys vandeniui pravesti virš natūralių (daubų, slėnių, upių) ar dirbtinių (kitų kanalų, kelių iškasų) kliūčių</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>EDB</ID>
-									<Name>Diukeris</Name>
-									<Description>Vamzdinis slėginis kanalo hidrotechnikos statinys ar vamzdyno fragmentas vandeniui praleisti po natūraliomis ar dirbtinėmis kliūtimis, kai kada ir virš kliūčių</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>EDC</ID>
-									<Name>Kanalas ar jo statinys</Name>
-									<Description>Dirbtinė taisyklingo skerspjūvio atvira vaga, skirta vandeniui tiekti drėkinimo, hidroenergetikos, vandentiekos ir kt. reikmėms, naudoti laivybai ir pan.</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>EDD</ID>
-									<Name>Vamzdynas ir latakas</Name>
-									<Description>Atviri ir uždari vandens tiekimo statiniai ir įrenginiai, skirti takioms medžiagoms gabenti</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>EDE</ID>
-									<Name>Hidrotechninis tunelis</Name>
-									<Description>Statiniai hidromazguose pertekliaus vandeniui praleisti esant aklinoms užtvankoms, vandeniui tiekti į HE, į drėkinimo, vandentiekos, vandens gesinimo sistemas</Description>
-									<Children />
-								</Item>
-							</Children>
-						</Item>
-						<Item>
-							<ID>EE</ID>
-							<Name>Bjefų jungimo statinys</Name>
-							<Description>Sausumos hidrotechnikos statiniai, skirti sujungti aukštutiniame ir žemutiniame bjefe esančius vandenis</Description>
-							<Children>
-								<Item>
-									<ID>EEA</ID>
-									<Name>Slenkstis</Name>
-									<Description>Slenkstinės užtvankos, šliuzo reguliatoriaus ir pan. centrinė dalis, per kurią gali lietis paviršinis upės, kanalo ir pan. vanduo</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>EEB</ID>
-									<Name>Greitvietė</Name>
-									<Description>Hidrotechnikos statinys, kurio pagrindinės (pratekėjimo) dalies nuolydis yra didesnis už kritinį</Description>
-									<Children />
-								</Item>
-							</Children>
-						</Item>
-						<Item>
-							<ID>EF</ID>
-							<Name>Apsauginis statinys</Name>
-							<Description>Sausumos hidrotechnikos statiniai, skirti apsaugoti sausumos plotus bei statinius nuo vandens poveikio</Description>
-							<Children>
-								<Item>
-									<ID>EFA</ID>
-									<Name>Apsauginė damba</Name>
-									<Description>Neapsemiamoji atitvėrimo damba</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>EFB</ID>
-									<Name>Polderis</Name>
-									<Description>Nuo pastovaus ar periodinio apsėmimo arba užtvinimo atitvėrimo dambomis (polderių pylimais) atitvertas (apsaugotas) žemumos plotas</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>EFC</ID>
-									<Name>Žuvų pralaida</Name>
-									<Description>Žuvų praleidimo, apsaugos ir nukreipimo statinių bei įrenginių kompleksas, skirtas žuvims migracijos kliūtį įveikti</Description>
-									<Children />
-								</Item>
-							</Children>
-						</Item>
-						<Item>
-							<ID>EG</ID>
-							<Name>Specialusis statinys</Name>
-							<Description>Specialieji sausumos hidrotechnikos statiniai (laivininkystės, medienos transportavimo, hidrometrijos, apskaitos, rekreacijos, gynybos, uostai ir jų statiniai)</Description>
-							<Children>
-								<Item>
-									<ID>EGA</ID>
-									<Name>Siurblinė</Name>
-									<Description>Statinys įrenginiui, skirtas palaikyti reikiamą slėgi ir debitą vandentiekio tinkle, ar kituose hidrotechnikos statiniuose</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>EGB</ID>
-									<Name>Gręžinys</Name>
-									<Description>Žemės plutoje išgręžta nedidelio skersmens cilindrinė ertmė tyrimų, žemės gelmių turtų naudojimo ir kt. tikslais</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>EGC</ID>
-									<Name>Prieplauka</Name>
-									<Description>Nedidelis vidaus vandenų uostas su 1–2 laivų krantinėmis</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>EGD</ID>
-									<Name>Medienos transportavimo statinys</Name>
-									<Description>Medienai transportuoti vandens telkiniais skirti statiniai ir įrenginiai</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>EGE</ID>
-									<Name>Hidrometrijos statinys are įrenginys</Name>
-									<Description>Hidrologiniams stebėjimams bei matavimams atlikti skirti statiniai ir įrenginiai</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>EGF</ID>
-									<Name>Rekreacijos statinys</Name>
-									<Description>Poilsiui skirti hidrotechnikos statiniai (maudyklos, valčių prieplaukos ir kt.)</Description>
-									<Children />
-								</Item>
-							</Children>
-						</Item>
-						<Item>
-							<ID>EH</ID>
-							<Name>Jūrų hidrotechnikos statinys</Name>
-							<Description>Jūriniai hidrotechnikos statiniai, kurie nepriklauso vandens uostų statiniams</Description>
-							<Children>
-								<Item>
-									<ID>EHA</ID>
-									<Name>Buna</Name>
-									<Description>Neaukštas jūrų krantosaugos bei upių vagotvarkos statinys, nutiestas nuo kranto 70–110 laipsnių kampu grupėmis po kelias – keliasdešimt</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>EHB</ID>
-									<Name>Stapelis</Name>
-									<Description>Statinys laivų statykloje, ant kurio surenkamas ir nuo kurio nuleidžiamas į vandenį laivas</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>EHC</ID>
-									<Name>Pirsas</Name>
-									<Description>1) dvipusė laivų krantinė; 2) audringos vandens tėkmės hidrotechnikos statinys žemutiniame bjefe ramintuvo tipas</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>EHD</ID>
-									<Name>Bangolaužis</Name>
-									<Description>Jūrų uostų atitvėrimo ar krantosaugos hidrotechnikos statinys, statomas jūroje ir nesusiejamas su krantu</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>EHE</ID>
-									<Name>Krantinė</Name>
-									<Description>Hidrotechnikos statinys, atribojantis ežero, jūros, upės ar vandens saugyklos krantą ir sudarantis tinkamas sąlygas laivybai (laivų krantinė) ir miestų reikmėms (miestų krantinė)</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>EHF</ID>
-									<Name>Jūros naftos ir dujų gavybos statinys</Name>
-									<Description>Hidrotechnikos statinys, skirti išgauti naftą bei dujas jūroje, iš po jūros dugnu esančių telkinių</Description>
-									<Children />
-								</Item>
-							</Children>
-						</Item>
-						<Item>
-							<ID>EZ</ID>
-							<Name>Kitas hidrotechnikos statinys</Name>
-							<Description>Kiti hidrotechnikos statinių požymius atitinkantys inžineriniai statiniai</Description>
-							<Children>
-								<Item>
-									<ID>EZA</ID>
-									<Name>Kitas hidrotechnikos statinys</Name>
-									<Description>Kitas specialusis laivininkystės, upių vagotvarkos, krantosaugos, žuvininkystės, vandenruošos, melioracijos hidrotechnikos statinys</Description>
-									<Children />
-								</Item>
-							</Children>
-						</Item>
-					</Children>
-				</Item>
-				<Item>
-					<ID>Z</ID>
-					<Name>Kitas inžinerinis statinys</Name>
-					<Description>Kitos paskirties, C, D ir E klasėse nepaminėtas inžinerinis statinys</Description>
-					<Children>
-						<Item>
-							<ID>ZA</ID>
-							<Name>Sporto paskirties inžinerinis statinys</Name>
-							<Description>Inžineriniai statiniai, skirti įvairaus tipo sporto veiklai užtikrinti</Description>
-							<Children>
-								<Item>
-									<ID>ZAA</ID>
-									<Name>Sporto aikštynas</Name>
-									<Description>Inžinerinis statinys, skirtas žaidimams atvirame ore (futbolui, krepšiniui, regbiui, vandens sportui ir t.t)</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>ZAB</ID>
-									<Name>Mašinų, dviračių ar arklių lenktynių kelias</Name>
-									<Description>Keliai, trasos įrengtos specialiai mašinų, dviračių ar arklių lenktynėms</Description>
-									<Children />
-								</Item>
-							</Children>
-						</Item>
-						<Item>
-							<ID>ZB</ID>
-							<Name>Kitos paskirties inžinerinis statinys</Name>
-							<Description>Kiti inžinerinės paskirties statiniai ir įrenginiai, kurie nepriskiriami prieš tai įvardintoms statinių klasėms</Description>
-							<Children>
-								<Item>
-									<ID>ZBA</ID>
-									<Name>Fortas</Name>
-									<Description>Žiedinės gynybos ilgalaikis įtvirtinimas, paprastai tvirtovės įtvirtinimų dalis</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>ZBB</ID>
-									<Name>Bunkeris</Name>
-									<Description>Karinis gynybinis arba apsauginis statinys, apsaugantis jame esančius asmenis ir turtą nuo bombardavimo, artilerijos apšaudymo ar kitokios tiesioginės ginklų sukeliamos žalos</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>ZBC</ID>
-									<Name>Šaudykla</Name>
-									<Description>Statinys, kuriame rengiamos šaudymo į taikinius pratybos ar ginklų (šaudmenų) bandymai</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>ZBD</ID>
-									<Name>Techninis stebėjimo bokštas</Name>
-									<Description>Kitas bokšto statinys, skirtas įvairios paskirties stebėjimams, nepriskiriant prieš tai įvardintiems bokštiniams statiniams</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>ZBE</ID>
-									<Name>Sąvartynas</Name>
-									<Description>Atliekų šalinimo įrenginys ant žemės ar žemėje (po žeme)</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>ZBF</ID>
-									<Name>Atsinaujinančios energetikos statinys</Name>
-									<Description>Elektros energijos gamintojo nuosavybės ar kita teise valdomas energetikos objektas, elektros energijai iš vėjo energijos, saulės šviesos energijos, saulės šilumos energijos gaminti, susidedantis iš vieno ar daugiau tarpusavyje technologiškai susijusių elektros energiją generuojančių įrenginių</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>ZBG</ID>
-									<Name>Estrada</Name>
-									<Description>Pakyla ar lauko scena meno kolektyvams ar pavieniams artistams bei oratoriams pasirodyti</Description>
-									<Children />
-								</Item>
-								<Item>
-									<ID>ZBH</ID>
-									<Name>Nuotekų valyklos statinys</Name>
-									<Description>Inžinerinių įrenginių komplekso nuotekoms valyti statinys</Description>
-									<Children />
+									<Name>Kitos paskirties statinių pogrupio (paskirties) statinys</Name>
+									<Description>Kiti inžinerinis statinys, neįvardytas kituose inžinerinių statinių pogrupiuose (paskirtyse).</Description>
+									<Children>
+										<Item>
+											<ID>%CDE10</ID>
+											<Name>Degalinė (be pastatų)</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDE20</ID>
+											<Name>Fortas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDE30</ID>
+											<Name>Bunkeris</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDE40</ID>
+											<Name>Šaudykla</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDE50</ID>
+											<Name>Techninis stebėjimo bokštas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDE60</ID>
+											<Name>Sąvartynas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDE70</ID>
+											<Name>Transporterių galerija</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDE80</ID>
+											<Name>Estrada</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDE90</ID>
+											<Name>Automatizuoto sandėliavimo statinys</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDE100</ID>
+											<Name>Nuotekų valyklos statinys</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDE110</ID>
+											<Name>Nuotekų siurblinė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDE120</ID>
+											<Name>Užtvara</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDE130</ID>
+											<Name>Atraminė sienelė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDE140</ID>
+											<Name>Mėšlidė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDE150</ID>
+											<Name>Srutų kauptuvas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDE160</ID>
+											<Name>Plokščiadugnis grūdų saugojimo bokštas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDE170</ID>
+											<Name>Stacionari grūdų džiovykla</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDE180</ID>
+											<Name>Žaibosaugos statinys</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDE190</ID>
+											<Name>Šachtinis šulinys</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDE200</ID>
+											<Name>Terasa</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDE210</ID>
+											<Name>Aikštelė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDE220</ID>
+											<Name>Pavėsinė</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDE230</ID>
+											<Name>Lieptas</Name>
+											<Description />
+											<Children />
+										</Item>
+										<Item>
+											<ID>%CDE240</ID>
+											<Name>Kitas statinys, atitinkantis paskirties aprašymą</Name>
+											<Description>Kitas inžinerinis statinys, atitinkantis kitos paskirties statinio aprašymą ir nepriskirtinas kitiems CDE klasės inžineriniams statiniams.</Description>
+											<Children />
+										</Item>
+									</Children>
 								</Item>
 							</Children>
 						</Item>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<BuildingInformation>
+	<Classification>
+		<System>
+			<Name>NSIK &lt;C&gt;</Name>
+			<EditionVersion>1.0</EditionVersion>
+			<EditionDate>
+				<Year>2024</Year>
+				<Month>11</Month>
+				<Day>01</Day>
+			</EditionDate>
+			<Description>Teritorijos</Description>
+			<Source>https://www.nsiklab.lt/</Source>
+			<Items>
+				<Item>
+					<ID>A</ID>
+					<Name>Žemės ūkio</Name>
+					<Description>Žemės ūkio paskirties žemė</Description>
+					<Children>
+						<Item>
+							<ID>AA</ID>
+							<Name>Mėgėjų sodo žemės sklypai</Name>
+							<Description>Mėgėjų sodo teritorijos žemės sklypai, skirti mėgėjų sodininkystei, mėgėjų sodų paskirties pastatams, vienbučių paskirties pastatams.</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>AB</ID>
+							<Name>Sodininkų bendrijų bendrojo naudojimo žemės sklypai</Name>
+							<Description>Žemės sklypai, skirti sodininkų bendrijoms priklausantiems bendrojo naudojimo statiniams ir įrenginiams statyti, eksploatuoti, taip pat rekreacijai ir kitoms bendroms reikmėms.</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>AC</ID>
+							<Name>Specializuotų sodininkystės, gėlininkystės, šiltnamių, medelynų ir kitų specializuotų ūkių žemės sklypai</Name>
+							<Description>Žemės sklypai, skirti specializuotiems ūkiams tam tikros rūšies augalininkystės ar gyvulininkystės produkcijos gamybai, kurių ne mažiau kaip 50 proc. visos gaminamos prekinės produkcijos sudaro ūkio specializacijos krypties produkcija, taip pat ūkiams, užsiimantiems žuvų veisimu, auginimu ir žvejyba akvakultūros tvenkiniuose.</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>AD</ID>
+							<Name>Rekreacinio naudojimo žemės sklypai</Name>
+							<Description>Žemės sklypai, skirti kaimo turizmo paslaugoms teikti.</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>AE</ID>
+							<Name>Kiti žemės ūkio paskirties žemės sklypai</Name>
+							<Description>Kiti žemės sklypai, nepriskirti AA, AB, AC ir AD 2 lygio klasės kodo pavadinimams, kuriuose galima žemės ūkio veikla (žemės ūkio, maisto produktų gamyba ir apdorojimas, ūkyje pagamintų ir apdorotų žemės ūkio produktų perdirbimas ir šių produktų realizavimas, paslaugų žemės ūkiui teikimas, geros agrarinės ir aplinkosauginės žemės būklės išlaikymas). Šiuose sklypuose galimi ūkininkų sodybų ir žemės ūkio veiklai ar alternatyviajai veiklai reikalingi statiniai.</Description>
+							<Children />
+						</Item>
+					</Children>
+				</Item>
+				<Item>
+					<ID>B</ID>
+					<Name>Miškų ūkio</Name>
+					<Description>Miškų ūkio paskirties žemė</Description>
+					<Children>
+						<Item>
+							<ID>BA</ID>
+							<Name>Ekosistemų apsaugos miškų sklypai</Name>
+							<Description>Telmologinių, pedologinių, botaninių, zoologinių, botaninių-zoologinių, miško genetinių, kraštovaizdžio draustinių miškai, kitų draustinių dalyse, kuriose saugomos biologinės vertybės, esantys miškai, gamtos paveldo objektų, buveinių ir augalų genetinių išteklių plotų miškai, Baltijos jūros ir Kuršių marių pakrančių miškai ir priešeroziniai miškai.</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>BB</ID>
+							<Name>Rekreacinių miškų sklypai</Name>
+							<Description>Miško parkai, miesto miškai, valstybinių parkų rekreaciniai miško sklypai ir kiti miškai, naudojami gyventojų poilsiui.</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>BC</ID>
+							<Name>Apsauginių miškų sklypai</Name>
+							<Description>Geologinių, geomorfologinių, hidrografinių, kultūrinių ir kraštovaizdžio draustinių, kuriuose nėra biologinių vertybių, miškai, valstybinių parkų apsauginių zonų miškai, valstybinių rezervatų ir valstybinių parkų apsaugos zonų miškai, sanitarinių apsaugos zonų miškai, kelių apsauginės ir estetinės reikšmės miškai, laukų apsauginiai miškai, miško sėkliniai medynai ir vandens telkinių apsaugos zonų miškai.</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>BD</ID>
+							<Name>Ūkinių miškų sklypai</Name>
+							<Description>Kiti miškų ūkio paskirties žemės sklypai, nepriskirti BA, BB, BC 2 lygio klasės kodo pavadinimams.</Description>
+							<Children />
+						</Item>
+					</Children>
+				</Item>
+				<Item>
+					<ID>C</ID>
+					<Name>Vandens ūkio</Name>
+					<Description>Vandens ūkio paskirties žemė</Description>
+					<Children>
+						<Item>
+							<ID>CA</ID>
+							<Name>Ūkinei veiklai naudojami vandens telkiniai</Name>
+							<Description>Vandens telkiniai, skirti laivybai, hidrotechnikos statiniams, verslinei žvejybai (išskyrus priskirtus akvakultūros tvenkiniams), vandeniui išgauti, nuotekoms išleisti ir kita.</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>CB</ID>
+							<Name>Rekreaciniai vandens telkiniai</Name>
+							<Description>Vandens telkiniai, skirti mėgėjų žūklei, vandens sportui, poilsiui, turizmui.</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>CC</ID>
+							<Name>Ekosistemas saugantys vandens telkiniai</Name>
+							<Description>Ekosistemas saugantys vandens telkiniai, esantys saugomose teritorijose, kurių funkcijos susijusios su ekosistemų apsauga.</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>CD</ID>
+							<Name>Bendrojo naudojimo vandens telkiniai</Name>
+							<Description>Vandens ūkio paskirties žemės sklypai, nepriskirti CA, CB, CC 2 lygio klasės kodo pavadinimams.</Description>
+							<Children />
+						</Item>
+					</Children>
+				</Item>
+				<Item>
+					<ID>D</ID>
+					<Name>Konservacinės paskirties</Name>
+					<Description>Konservacinės paskirties žemė</Description>
+					<Children>
+						<Item>
+							<ID>DA</ID>
+							<Name>Gamtinių rezervatų žemės sklypai</Name>
+							<Description>Žemės sklypai, skirti valstybiniams rezervatams ir rezervatinėms apyrubėms, valstybinių parkų ar biosferos stebėsenos teritorijų rezervatams, gamtos paveldo objektams, kuriuose draudžiama ūkinė veikla.</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>DB</ID>
+							<Name>Kultūros paveldo objektų žemės sklypai</Name>
+							<Description>Saugomiems kultūros paveldo objektams ar vietovėms skirti žemės sklypai, kuriems nustatomos šių sklypų ir kitų nekilnojamųjų daiktų tvarkymo ir naudojimo specialiosios sąlygos.</Description>
+							<Children />
+						</Item>
+					</Children>
+				</Item>
+				<Item>
+					<ID>E</ID>
+					<Name>Kitos paskirties</Name>
+					<Description>Kitos paskirties žemė</Description>
+					<Children>
+						<Item>
+							<ID>EA</ID>
+							<Name>Vienbučių ir dvibučių gyvenamųjų pastatų teritorijos</Name>
+							<Description>Žemės sklypai, skirti vienbučių ir dvibučių paskirties grupės pastatams ir įvairių socialinių grupių paskirties pastatams, skirtiems socialinės globos ar socialinės priežiūros paslaugoms su apgyvendinimu ne daugiau kaip 10 paslaugų gavėjų, nurodytų prie konkrečios socialinės paslaugos socialinės apsaugos ir darbo ministro tvirtinamame socialinių paslaugų kataloge, teikti.</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>EB</ID>
+							<Name>Daugiabučių gyvenamųjų pastatų ir bendrabučių teritorijos</Name>
+							<Description>Žemės sklypai, skirti daugiabučių paskirties pastatams ir įvairių socialinių grupių paskirties pastatams.</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>EC</ID>
+							<Name>Visuomeninės paskirties teritorijos</Name>
+							<Description>Žemės sklypai, skirti visuomeninės paskirties grupės pastatams; valstybės ir savivaldybės institucijų, kitų iš valstybės ar savivaldybių biudžetų išlaikomų įstaigų administraciniams pastatams ir jų funkcijoms vykdyti; religinių bendruomenių ir bendrijų veiklai; sporto paskirties inžineriniams statiniams, specialiosios paskirties pastatams, kitų iš valstybės ar savivaldybių biudžetų išlaikomų įvairių socialinių grupių paskirties pastatams (pusiaukelės namams, motinos ir vaiko namams, bendruomeniniams šeimos namams ir pan.).</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>ED</ID>
+							<Name>Pramonės ir sandėliavimo objektų teritorijos</Name>
+							<Description>Žemės sklypai, skirti gamybos, remonto ir pramonės įmonių ar dirbtuvių, sandėlių statiniams, automatizuotų sandėliavimo sistemų statiniams, energetikos objektams, įskaitant branduolinės energetikos objektus ir statinius (atominė elektrinė, branduolinis reaktorius, branduolinių medžiagų ir radioaktyviųjų atliekų saugykla, jų perdirbimo objektas, taip pat radioaktyviųjų atliekų tvarkymo įrenginys radioaktyviųjų atliekų kapinynas ir kita), atliekų naudojimo, atliekų paruošimo naudoti ar šalinti, atliekų surinkimo ir atliekų laikymo (naudoti skirtoms atliekoms laikyti ne ilgiau kaip 3 metus, šalinti skirtoms atliekoms laikyti ne ilgiau kaip 1 metus) statiniams ir (ar) įrenginiams.</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>EE</ID>
+							<Name>Komercinės paskirties objektų teritorijos</Name>
+							<Description>Žemės sklypai, skirti komercinės, administracinės, visuomeninės, specialiųjų paslaugų pastatų paskirties grupių pastatams, sporto paskirties inžineriniams statiniams, įstaigų, teikiančių socialinės globos ar socialinės priežiūros paslaugas su apgyvendinimu pastatams, degalinėms.</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>EF</ID>
+							<Name>Susisiekimo ir inžinerinių komunikacijų aptarnavimo objektų teritorijos</Name>
+							<Description>Žemės sklypai, skirti transporto paskirties grupės pastatams, nuotekų valyklų statiniams, elektroninių ryšių infrastruktūros statiniams (perdavimo bokštams, radijo ryšio statiniams, ryšio retransliatoriams ir kitiems inžineriniams statiniams), inžinerinių tinklų maitinimo šaltinių statiniams (įvairių tipų elektrinėms, katilinėms, transformatorių pastotėms, skirstykloms, naftos perdirbimo ir kitiems pastatams, skirtiems energijos ar energijos išteklių gavybai, gamybai, perdirbimui, išskyrus atominę elektrinę ir branduolinį reaktorių) ir įrenginiams, vandenvietėms.</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>EG</ID>
+							<Name>Susisiekimo ir inžinerinių tinklų koridorių teritorijos</Name>
+							<Description>Žemės sklypai, skirti susisiekimo komunikacijoms, inžineriniams tinklams, vandenvietėms, taip pat saulės šviesos energijos elektrinėms esamose vandenvietėse, esamų nuotekų valyklų statiniams.</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>EH</ID>
+							<Name>Rekreacinės teritorijos</Name>
+							<Description>Žemės sklypai, skirti ilgalaikiam (stacionariam) ar trumpalaikiam poilsiui su viešajam naudojimui skirtais poilsio paskirties pastatais, viešbučiais, sanatorijomis ir sporto aikštynais. Šio naudojimo būdo žemės sklypuose tik teritorijų planavimo dokumentuose nustatytose vietose gali būti statomi asmeninio poilsio paskirties pastatai.</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>EY</ID>
+							<Name>Bendrojo naudojimo (miestų, miestelių ir kaimų ar savivaldybių bendrojo naudojimo) teritorijos</Name>
+							<Description>Žemės sklypai, skirti viešajam naudojimui: botanikos ir zoologijos sodams, kapinėms ir palaikų laikymo statiniams, urbanizuotų teritorijų viešosioms erdvėms.</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>EJ</ID>
+							<Name>Naudingųjų iškasenų teritorijos</Name>
+							<Description>Žemės sklypai, skirti naudingųjų iškasenų gavybai ir kasybai atviruose kasiniuose (karjeruose), požeminiuose kasiniuose (šachtose) ir gręžiniuose, taip pat joms sandėliuoti.</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>EK</ID>
+							<Name>Teritorijos krašto apsaugos tikslams</Name>
+							<Description>Žemės sklypai, skirti specialiesiems krašto apsaugos tikslams.</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>EL</ID>
+							<Name>Atliekų saugojimo, rūšiavimo ir utilizavimo (sąvartynai) teritorijos</Name>
+							<Description>Žemės sklypai, skirti atliekų šalinimo ir (ar) atliekų naudojimo veiklai vykdyti, atliekoms surinkti ir laikyti, esamų nuotekų valyklų statiniams, saulės šviesos energijos elektrinėms.</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>EM</ID>
+							<Name>Teritorijos valstybės sienos apsaugos tikslams</Name>
+							<Description>Žemės sklypai, skirti valstybės sienos apsaugos tikslams.</Description>
+							<Children />
+						</Item>
+						<Item>
+							<ID>EN</ID>
+							<Name>Atskirųjų želdynų teritorijos</Name>
+							<Description>Žemės sklypai, skirti atskiriesiems rekreacinės, mokslinės, kultūrinės, memorialinės, apsauginės ir ekologinės paskirties želdynams įrengti.</Description>
+							<Children />
+						</Item>
+					</Children>
+				</Item>
+			</Items>
+		</System>
+	</Classification>
+</BuildingInformation>
