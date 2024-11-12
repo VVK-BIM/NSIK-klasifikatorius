@@ -7,3 +7,5 @@ Per "Parameters manager" galima susikurti parametrų grupę, pvz "NSIK klasifika
 
 *Atnaujinta* pagal LR AM įsakymą Nr. D1-346 (2024-10-28), JSON failas iš Regimantas Ramanauskas | http://nsiklab.lt
 
+2024-11-01 AM įsakymu Nr. D1-346 patvirtintai NSIK versijai priskirtas versijos numeris '1.0'. Iki patvirtinimo buvusioms ontologijoms priskirtas versijos numeris '0.9'
+
