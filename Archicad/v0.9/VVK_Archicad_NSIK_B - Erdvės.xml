@@ -1,0 +1,1188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<BuildingInformation>
+	<Classification>
+		<System>
+			<Name>NSIK &lt;B&gt;</Name>
+			<EditionVersion>1.0</EditionVersion>
+			<EditionDate>
+				<Year>2023</Year>
+				<Month>09</Month>
+				<Day>01</Day>
+			</EditionDate>
+			<Description>Erdvės</Description>
+			<Source>https://www.nsiklab.lt/</Source>
+			<Items>
+				<Item>
+					<ID>A</ID>
+					<Name>Gyvenamoji erdvė</Name>
+					<Description>Erdvė, skirta žmonių būstui ir su ja susijusiai veiklai</Description>
+					<Children>
+						<Item>
+							<ID>AA</ID>
+							<Name>Naudinga erdvė</Name>
+							<Description>Žmogaus būsto erdvė poilsiui, atsipalaidavimui, relaksacijai ar laukimui</Description>
+							<Children>
+								<Item>
+									<ID>AAA</ID>
+									<Name>Privati gyvenamoji erdvė</Name>
+									<Description>Privati asmeninio naudojimo erdvė pastoviam gyvenimui ar laikinam apsistojimui viešbučiuose, pensionatuose, poilsio namuose, kempinguose</Description>
+									<Children>
+										<Item>
+											<ID>%AAA10</ID>
+											<Name>Svetainė</Name>
+											<Description>Privati erdvė būste, skirta poilsiui, svečių priėmimui ir laisvalaikio praleidimui</Description>
+											<Children />
+										</Item>
+										<Item>
+											<ID>%AAA20</ID>
+											<Name>Vaiko kambarys</Name>
+											<Description>Ikimokyklinio arba mokyklinio amžiaus privati vaiko erdvė, skirta miegui, poilsiui ir užsiėmimams</Description>
+											<Children />
+										</Item>
+										<Item>
+											<ID>%AAA30</ID>
+											<Name>Miegamasis</Name>
+											<Description>Erdvė privačiame būste, skirta miegui ir poilsiui</Description>
+											<Children />
+										</Item>
+										<Item>
+											<ID>%AAA40</ID>
+											<Name>Bendrabučio kambarys</Name>
+											<Description>Privati gyvenamoji erdvė bendrabutyje</Description>
+											<Children />
+										</Item>
+										<Item>
+											<ID>%AAA50</ID>
+											<Name>Privati virtuvė</Name>
+											<Description>Maisto paruošimui ir saugojimui skirta privati erdvė</Description>
+											<Children />
+										</Item>
+										<Item>
+											<ID>%AAA60</ID>
+											<Name>Valgomasis</Name>
+											<Description>Valgymui ir maitinimui skirta privati erdvė</Description>
+											<Children />
+										</Item>
+										<Item>
+											<ID>%AAA70</ID>
+											<Name>Viešbučio kambarys</Name>
+											<Description>Privati erdvė apsistojant viešbutyje</Description>
+											<Children />
+										</Item>
+										<Item>
+											<ID>%AAA80</ID>
+											<Name>Vienuolyno celė</Name>
+											<Description>Privati gyvenamoji erdvė vienuolyne</Description>
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+								<Item>
+									<ID>AAB</ID>
+									<Name>Bendra erdvė</Name>
+									<Description>Bendra viešo naudojimo erdvė</Description>
+									<Children>
+										<Item>
+											<ID>%AAB10</ID>
+											<Name>Poilsio kambarys</Name>
+											<Description>Bendra erdvė, skirta įstaigos lankytojų ar personalo poilsiui</Description>
+											<Children />
+										</Item>
+										<Item>
+											<ID>%AAB20</ID>
+											<Name>Vaikų miegamasis</Name>
+											<Description>Erdvė, skirta rėžimo užtikrinimo vaikų darželyje, mokykloje ar internate</Description>
+											<Children />
+										</Item>
+										<Item>
+											<ID>%AAB30</ID>
+											<Name>Laikinos prieglaudos patalpa</Name>
+											<Description>Erdvė, skirta pabėgelių ar stichinių nelaimių ištiktų žmonių laikinam priėmimui</Description>
+											<Children />
+										</Item>
+										<Item>
+											<ID>%AAB40</ID>
+											<Name>Žaidimų kambarys</Name>
+											<Description>Erdvė, skirta žaidimams</Description>
+											<Children />
+										</Item>
+										<Item>
+											<ID>%AAB50</ID>
+											<Name>Fitoterapijos erdvė</Name>
+											<Description>Erdvė, skirta gydomosios tradicinės medicinos procedūroms</Description>
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+								<Item>
+									<ID>AAC</ID>
+									<Name>Tarpinė erdvė</Name>
+									<Description>Trumpalaikio naudojimo erdvė (kito veiksmo laukimui)</Description>
+									<Children>
+										<Item>
+											<ID>%AAC10</ID>
+											<Name>Holas</Name>
+											<Description>Susisiekimui skirta erdvė, užtikrinanti patekimą į vieną ar keletą patalpų</Description>
+											<Children />
+										</Item>
+										<Item>
+											<ID>%AAC20</ID>
+											<Name>Fojė</Name>
+											<Description>Erdvė, skirta laukti spektaklio, koncerto, renginio ar įvykio</Description>
+											<Children />
+										</Item>
+										<Item>
+											<ID>%AAC30</ID>
+											<Name>Rūkomasis</Name>
+											<Description>Specialiai įrengta erdvė rūkyti</Description>
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+								<Item>
+									<ID>AAD</ID>
+									<Name>Kiemas</Name>
+									<Description>Išorinė erdvė, kurią visiškai ar iš dalies supa pastatai</Description>
+									<Children>
+										<Item>
+											<ID>%AAD10</ID>
+											<Name>Atriumas</Name>
+											<Description>Išorinė erdvė, visiškai apsupta statinių</Description>
+											<Children />
+										</Item>
+										<Item>
+											<ID>%AAD20</ID>
+											<Name>Terasa</Name>
+											<Description>Išorinė erdvė priklausanti statiniui</Description>
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+							</Children>
+						</Item>
+						<Item>
+							<ID>AB</ID>
+							<Name>Asmeninės higienos erdvė</Name>
+							<Description>Būsto erdvė, naudojama asmeninės higienos reikmėms</Description>
+							<Children>
+								<Item>
+									<ID>ABA</ID>
+									<Name>Sanitarinis mazgas</Name>
+									<Description>Asmeninės higienos erdvė, skirta žmonėms nusiprausti ir galimai nusilengvinti (nusituštinti)</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>ABB</ID>
+									<Name>Tualetas</Name>
+									<Description>Asmeninės higienos erdvė, skirta žmonėms nusilengvinti (nusituštinti)</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>ABC</ID>
+									<Name>Kūdikių vystymo kambarys</Name>
+									<Description>Asmeninės higienos erdvė mažiems vaikams</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>ABD</ID>
+									<Name>Persirengimo kambarys</Name>
+									<Description>Asmeninės higienos erdvė persirengti drabužius</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>ABE</ID>
+									<Name>Dušas</Name>
+									<Description>Asmeninės higienos erdvė, skirta žmonėms nusiprausti</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>ABF</ID>
+									<Name>Pirtis</Name>
+									<Description>Asmeninės higienos erdvė, skirta žmonėms būti prakaitą sukeliančioje aplinkoje</Description>
+									<Children />
+								</Item>
+							</Children>
+						</Item>
+						<Item>
+							<ID>AC</ID>
+							<Name>Izoliacijos erdvė</Name>
+							<Description>Būsto plotas, skirtas izoliuoti(s)</Description>
+							<Children>
+								<Item>
+									<ID>ACA</ID>
+									<Name>Slėptuvė</Name>
+									<Description>Izoliavimo erdvė apsauganti žmones nuo pavojingų situacijų</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>ACB</ID>
+									<Name>Kamera</Name>
+									<Description>Izoliavimo erdvė atskirianti asmenis nuo kitų asmenų</Description>
+									<Children />
+								</Item>
+							</Children>
+						</Item>
+					</Children>
+				</Item>
+				<Item>
+					<ID>B</ID>
+					<Name>Žmogaus veiklos erdvė</Name>
+					<Description>Erdvė, skirta žmonių laisvalaikiui ir verslui</Description>
+					<Children>
+						<Item>
+							<ID>BA</ID>
+							<Name>Darbo erdvė</Name>
+							<Description>Erdvė, skirta veiklai, kurios rezultatai nėra materialūs</Description>
+							<Children>
+								<Item>
+									<ID>BAA</ID>
+									<Name>Biuras</Name>
+									<Description>Darbo erdvė, skirta informacijos kūrimui, apdorojimui ir interpretavimui</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>BAB</ID>
+									<Name>Posėdžių erdvė</Name>
+									<Description>Darbo erdvė susitikimams</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>BAC</ID>
+									<Name>Priimamasis</Name>
+									<Description>Darbo erdvė, skirta priimti lankytojus ir prekes</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>BAD</ID>
+									<Name>Pardavimų erdvė</Name>
+									<Description>Darbo erdvė, skirta parduoti prekes ir paslaugas</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>BAE</ID>
+									<Name>Mokymų erdvė</Name>
+									<Description>Darbo erdvė, skirta žinių ir kompetencijų perdavimui</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>BAF</ID>
+									<Name>Skaitykla</Name>
+									<Description>Darbo erdvė skaitymui</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>BAG</ID>
+									<Name>Skalbykla</Name>
+									<Description>Darbo erdvė drabužių ir patalynės skalbimui</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>BAH</ID>
+									<Name>Gydymo erdvė</Name>
+									<Description>Darbo erdvė veikloms, susijusioms su sveikatinimu bei kitokiu gydymu ar žmonių priežiūra</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>BAJ</ID>
+									<Name>Tyrimų erdvė</Name>
+									<Description>Darbo erdvė diagnozės nustatymui</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>BAK</ID>
+									<Name>Stebėjimo erdvė</Name>
+									<Description>Darbo vieta asmenų stebėjimui</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>BAL</ID>
+									<Name>Apžiūros erdvė</Name>
+									<Description>Darbo erdvė procesų ir žmonių stebėjimui gretimoje erdvėje</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>BAM</ID>
+									<Name>Medijų dirbtuvės</Name>
+									<Description>Darbo erdvė medijų įrašymui ir redagavimui</Description>
+									<Children />
+								</Item>
+							</Children>
+						</Item>
+						<Item>
+							<ID>BB</ID>
+							<Name>Gamybos erdvė</Name>
+							<Description>Erdvė, skirta veiklai, kurios rezultatai yra materialūs</Description>
+							<Children>
+								<Item>
+									<ID>BBA</ID>
+									<Name>Virtuvė</Name>
+									<Description>Gamybos erdvė darbui su maisto produktais</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>BBB</ID>
+									<Name>Medžiagų dirbtuvės</Name>
+									<Description>Gamybos erdvė darbui su medžiagomis</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>BBC</ID>
+									<Name>Mechanizmų cechas</Name>
+									<Description>Gamybos erdvė darbui su mechanizmais ir įranga</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>BBD</ID>
+									<Name>Studija</Name>
+									<Description>Gamybos erdvė darbui su dailės ir amatų dirbiniais</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>BBE</ID>
+									<Name>Pakavimo vieta</Name>
+									<Description>Gamybos erdvė daiktų rūšiavimui ir pakavimui</Description>
+									<Children />
+								</Item>
+							</Children>
+						</Item>
+						<Item>
+							<ID>BC</ID>
+							<Name>Laboratorija</Name>
+							<Description>Erdvė tyrimų ir bandymų atlikimui bei analizei</Description>
+							<Children>
+								<Item>
+									<ID>BCA</ID>
+									<Name>Mokslinių tyrimų laboratorija</Name>
+									<Description>Erdvė, skirta moksliniams tyrimams ir bandymams</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>BCB</ID>
+									<Name>Medžiagų laboratorija</Name>
+									<Description>Erdvė, skirta medžiagų savybių tyrimams</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>BCC</ID>
+									<Name>Biologijos laboratorija</Name>
+									<Description>Erdvė, skirta biologiniams ir medicininiams tyrimams</Description>
+									<Children />
+								</Item>
+							</Children>
+						</Item>
+						<Item>
+							<ID>BD</ID>
+							<Name>Treniruočių erdvė</Name>
+							<Description>Erdvė žmonių sporto ar kultūros veiklai</Description>
+							<Children>
+								<Item>
+									<ID>BDA</ID>
+									<Name>Sporto salė</Name>
+									<Description>Spoto treniruočių erdvė</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>BDB</ID>
+									<Name>Treniruočių patalpa</Name>
+									<Description>Erdvė, skirta jėgos treniruotėms, fizinei būklei ir pusiausvyrai palaikyti</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>BDC</ID>
+									<Name>Repeticijų patalpa</Name>
+									<Description>Meninių gebėjimų lavinimo erdvė</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>BDD</ID>
+									<Name>Scena</Name>
+									<Description>Meninės veiklos atlikimo erdvė</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>BDE</ID>
+									<Name>Žaidimų kambarys</Name>
+									<Description>Vaikų žaidimų erdvė</Description>
+									<Children />
+								</Item>
+							</Children>
+						</Item>
+						<Item>
+							<ID>BE</ID>
+							<Name>Susibūrimo erdvė</Name>
+							<Description>Erdvė sutelktinio žmonių bendrabūvio veiklai</Description>
+							<Children>
+								<Item>
+									<ID>BEA</ID>
+									<Name>Valgymo erdvė</Name>
+									<Description>Bendra maisto vartojimo erdvė</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>BEB</ID>
+									<Name>Salė</Name>
+									<Description>Bendra socialinių renginių erdvė</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>BEC</ID>
+									<Name>Galerija</Name>
+									<Description>Bendra objektų eksponavimo erdvė</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>BED</ID>
+									<Name>Religinių apeigų erdvė</Name>
+									<Description>Bendra religinės praktikos erdvė</Description>
+									<Children />
+								</Item>
+							</Children>
+						</Item>
+					</Children>
+				</Item>
+				<Item>
+					<ID>C</ID>
+					<Name>Saugojimo erdvė</Name>
+					<Description>Erdvė medžiagoms, įrangai ir organizmams laikyti</Description>
+					<Children>
+						<Item>
+							<ID>CA</ID>
+							<Name>Medžiagų laikymo erdvė</Name>
+							<Description>Išteklių laikymo erdvė</Description>
+							<Children>
+								<Item>
+									<ID>CAA</ID>
+									<Name>Atliekų laikymo erdvė</Name>
+									<Description>Atmestų, išmestų bei atsisakytų medžiagų bei daiktų laikymo erdvė</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>CAB</ID>
+									<Name>Chemikalų laikymo erdvė</Name>
+									<Description>Chemikalų laikymo erdvė</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>CAC</ID>
+									<Name>Vaistų laikymo erdvė</Name>
+									<Description>Vaistų ir medikamentų laikymo erdvė</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>CAD</ID>
+									<Name>Archyvo laikymo erdvė</Name>
+									<Description>Fizinių dokumentų ar medijų laikmenų laikymo erdvė</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>CAE</ID>
+									<Name>Skysčių laikymo erdvė</Name>
+									<Description>Skysčių laikymo erdvė</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>CAF</ID>
+									<Name>Žaliavų laikymo erdvė</Name>
+									<Description>Substancijų ar produktų, naudojamų gamybos procesuose, laikymo erdvė</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>CAG</ID>
+									<Name>Maisto laikymo erdvė</Name>
+									<Description>Maisto ir gėrimų laikymo erdvė</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>CAH</ID>
+									<Name>Vertybių laikymo erdvė</Name>
+									<Description>Vertingų objektų laikymo erdvė</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>CAJ</ID>
+									<Name>Pakuočių laikymo erdvė</Name>
+									<Description>Pakavimo medžiagų laikymo erdvė</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>CAK</ID>
+									<Name>Drabužių laikymo erdvė</Name>
+									<Description>Drabužių, batų ir skalbinių medžiagų laikymo erdvė</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>CAL</ID>
+									<Name>Statybinių medžiagų laikymo erdvė</Name>
+									<Description>Statybinių medžiagų laikymo erdvė</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>CAM</ID>
+									<Name>Sprogmenų laikymo erdvė</Name>
+									<Description>Erdvė skirta laikyti pavojingas sprogias ar degias medžiagas</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>CAN</ID>
+									<Name>Atsargų laikymo erdvė</Name>
+									<Description>Įvairių produktų, daiktų ir įrangos atsargų laikymo erdvė</Description>
+									<Children />
+								</Item>
+							</Children>
+						</Item>
+						<Item>
+							<ID>CB</ID>
+							<Name>Įrangos laikymo erdvė</Name>
+							<Description>Kilnojamos techninės įrangos laikymo erdvė</Description>
+							<Children>
+								<Item>
+									<ID>CBA</ID>
+									<Name>Baldų laikymo erdvė</Name>
+									<Description>Patalpų (erdvių) apdailos priemonių, daiktų ir inventoriaus laikymo erdvė</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>CBB</ID>
+									<Name>Įrankių laikymo erdvė</Name>
+									<Description>Įrankių laikymo erdvė</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>CBC</ID>
+									<Name>Prietaisų laikymo erdvė</Name>
+									<Description>Techninių instrumentų laikymo erdvė</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>CBD</ID>
+									<Name>Transporto priemonės laikymo erdvė</Name>
+									<Description>Transporto priemonių rūšių laikymo erdvė</Description>
+									<Children />
+								</Item>
+							</Children>
+						</Item>
+						<Item>
+							<ID>CC</ID>
+							<Name>Gyvūnų aptvaras</Name>
+							<Description>Gyvūnų laikymo erdvė</Description>
+							<Children>
+								<Item>
+									<ID>CCA</ID>
+									<Name>Narvas</Name>
+									<Description>Gyvūnų aptvaras, skirtas juos laikyti užrakintus</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>CCB</ID>
+									<Name>Gardas</Name>
+									<Description>Gyvūnų aptvaras, skirtas juos laikyti aptvertus</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>CCC</ID>
+									<Name>Tvartas</Name>
+									<Description>Gyvūnų aptvaras su pastogę</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>CCD</ID>
+									<Name>Vandens aptvėrimas gyvūnams</Name>
+									<Description>Gyvūnų aptvaras, skirtas juos laikyti vandenyje</Description>
+									<Children>
+										<Item>
+											<ID>%CCD10</ID>
+											<Name>Akvariumas</Name>
+											<Description>Permatomas vandens gyvūnų aptvaras, leidžiantis juos stebėti iš išorės</Description>
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+							</Children>
+						</Item>
+						<Item>
+							<ID>CD</ID>
+							<Name>Sodinimo erdvė</Name>
+							<Description>Augalų laikymo erdvė</Description>
+							<Children>
+								<Item>
+									<ID>CDA</ID>
+									<Name>Vidaus sodinimo erdvė</Name>
+									<Description>Sodinimo erdvė augalams auginti vidaus patalpose</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>CDB</ID>
+									<Name>Lauko sodinimo erdvė</Name>
+									<Description>Sodinimo erdvė augalams auginti lauke</Description>
+									<Children />
+								</Item>
+							</Children>
+						</Item>
+						<Item>
+							<ID>CE</ID>
+							<Name>Negyvo kūno laikymo erdvė</Name>
+							<Description>Negyvų kūnų laikymo erdvė</Description>
+							<Children>
+								<Item>
+									<ID>CEA</ID>
+									<Name>Laidojimo namų koplyčia</Name>
+									<Description>Negyvo kūno laikymo erdvė laikinam saugojimui</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>CEB</ID>
+									<Name>Kripta</Name>
+									<Description>Negyvo kūno laikymo erdvė nuolatiniam saugojimui</Description>
+									<Children />
+								</Item>
+							</Children>
+						</Item>
+					</Children>
+				</Item>
+				<Item>
+					<ID>D</ID>
+					<Name>Erdvė techninėms sistemoms</Name>
+					<Description>Erdvė, skirta aktyviai naudojamai techninei įrangai</Description>
+					<Children>
+						<Item>
+							<ID>DA</ID>
+							<Name>Instaliacijos montavimo erdvė</Name>
+							<Description>Erdvė techninėms sistemoms, palaikančioms statybinių objektų funkcijas</Description>
+							<Children>
+								<Item>
+									<ID>DAA</ID>
+									<Name>Elektros instaliacijos erdvė</Name>
+									<Description>Stacionarios elektros įrangos montavimo erdvė</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>DAB</ID>
+									<Name>Informacinių technologijų (IT) įrangos erdvė</Name>
+									<Description>Stacionarios elektroninės įrangos montavimo erdvė</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>DAC</ID>
+									<Name>Mechaninės instaliacijos erdvė</Name>
+									<Description>Stacionarios mechaninės įrangos montavimo erdvė</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>DAD</ID>
+									<Name>Inžinerinės instaliacijos erdvė</Name>
+									<Description>Stacionarios techninės, inžinerinės įrangos montavimo erdvė</Description>
+									<Children>
+										<Item>
+											<ID>%DAD10</ID>
+											<Name>Vandens apskaitos erdvė</Name>
+											<Description>Vandens apskaitos, slėgio pakėlimo, tiekimo užtikrinimo ir kontrolės įrangos erdvė</Description>
+											<Children />
+										</Item>
+										<Item>
+											<ID>%DAD20</ID>
+											<Name>Šilumos punktas</Name>
+											<Description>Šilumos apskaitos, tiekimo užtikrinimo ir kontrolės įrangos erdvė</Description>
+											<Children />
+										</Item>
+										<Item>
+											<ID>%DAD30</ID>
+											<Name>Ventkamera</Name>
+											<Description>Oro apdorojimo įrangos erdvė</Description>
+											<Children />
+										</Item>
+										<Item>
+											<ID>%DAD40</ID>
+											<Name>Dujų punktas</Name>
+											<Description>Gamtinių ir kitos rūšies techninių dujų apskaitos, tiekimo užtikrinimo ir kontrolės įrangos erdvė</Description>
+											<Children />
+										</Item>
+										<Item>
+											<ID>%DAD50</ID>
+											<Name>Gaisrų gesinimos įrangos erdvė</Name>
+											<Description>Gaisrų gesinimui skirtos slėginės ir kitos įrangos erdvė</Description>
+											<Children />
+										</Item>
+										<Item>
+											<ID>%DAD60</ID>
+											<Name>Šaldymo įrangos erdvė</Name>
+											<Description>Šaldymui skirtos įrangos erdvė</Description>
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+							</Children>
+						</Item>
+						<Item>
+							<ID>DB</ID>
+							<Name>Įrangos erdvė</Name>
+							<Description>Erdvė techninėms sistemoms, palaikančioms žmogaus veiklą</Description>
+							<Children>
+								<Item>
+									<ID>DBA</ID>
+									<Name>Valdymo įrangos erdvė</Name>
+									<Description>Valdymui, reguliavimui ir stebėjimui skirtos įrangos erdvė</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>DBB</ID>
+									<Name>Gamybos erdvė</Name>
+									<Description>Gamybai ir paruošimui skirtos įrangos erdvė</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>DBC</ID>
+									<Name>Aptarnavimo įrangos erdvė</Name>
+									<Description>Aptarnavimo funkcijoms skirtos įrangos erdvė</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>DBD</ID>
+									<Name>Analizės įrangos erdvė</Name>
+									<Description>Analizei skirtos įrangos erdvė</Description>
+									<Children />
+								</Item>
+							</Children>
+						</Item>
+						<Item>
+							<ID>DC</ID>
+							<Name>Įrangos veikimo erdvė</Name>
+							<Description>Erdvė techninėms sistemoms, suteikianti erdvę įrangai eksploatuoti</Description>
+							<Children>
+								<Item>
+									<ID>DCA</ID>
+									<Name>Įrangos darbinė erdvė</Name>
+									<Description>Įrangos veikimo erdvė, reikalinga įrangos judėjimui užtikrinti</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>DCB</ID>
+									<Name>Įrangos prieigos erdvė</Name>
+									<Description>Įrangos eksploatacinė erdvė, reikalinga įrangos veikimo saugai užtikrinti</Description>
+									<Children />
+								</Item>
+							</Children>
+						</Item>
+					</Children>
+				</Item>
+				<Item>
+					<ID>E</ID>
+					<Name>Infrastruktūrinė erdvė</Name>
+					<Description>Erdvė, skirta sukurti ryšius tarp veiklos erdvių</Description>
+					<Children>
+						<Item>
+							<ID>EA</ID>
+							<Name>Susisiekimo erdvė</Name>
+							<Description>Erdvė prieigos infrastruktūrai</Description>
+							<Children>
+								<Item>
+									<ID>EAA</ID>
+									<Name>Vestibiulis</Name>
+									<Description>Susisiekimui skirta erdvė tarp išorinių ir vidinių erdvių</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>EAB</ID>
+									<Name>Oro užsklanda</Name>
+									<Description>Susisiekimui skirta erdvė, leidžianti reguliuoti praėjimą tarp erdvių</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>EAC</ID>
+									<Name>Koridorius</Name>
+									<Description>Horizontali susisiekimo erdvė tarp dviejų ar daugiau erdvių</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>EAD</ID>
+									<Name>Laiptinė</Name>
+									<Description>Vertikali neautomatizuota susisiekimo erdvė tarp dviejų ar daugiau aukštų ar lygių</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>EAE</ID>
+									<Name>Lifto erdvė</Name>
+									<Description>Vertikali ir automatizuota susisiekimo erdvė tarp dviejų ar daugiau lygių</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>EAF</ID>
+									<Name>Portikas</Name>
+									<Description>Susisiekimo erdvė kertanti arba einanti pastatu</Description>
+									<Children />
+								</Item>
+							</Children>
+						</Item>
+						<Item>
+							<ID>EB</ID>
+							<Name>Aptarnavimo sistemų erdvė</Name>
+							<Description>Erdvė infrastruktūrai, skirta paskirstyti technines paslaugas ar medijas</Description>
+							<Children>
+								<Item>
+									<ID>EBA</ID>
+									<Name>Aptarnavimo tunelis</Name>
+									<Description>Aptarnavimo erdvė su horizontalia prieiga žmonėms</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>EBB</ID>
+									<Name>Šachta</Name>
+									<Description>Aptarnavimo erdvė su vertikalia prieiga žmonėms</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>EBC</ID>
+									<Name>Ortakis</Name>
+									<Description>Aptarnavimo erdvė be prieigos žmonėms</Description>
+									<Children />
+								</Item>
+							</Children>
+						</Item>
+					</Children>
+				</Item>
+				<Item>
+					<ID>F</ID>
+					<Name>Eismo erdvė</Name>
+					<Description>Erdvė skirta eismui</Description>
+					<Children>
+						<Item>
+							<ID>FA</ID>
+							<Name>Transporto priemonių eismo erdvė</Name>
+							<Description>Eismo erdvė skirta transporto priemonių eismo užtikrinimui</Description>
+							<Children>
+								<Item>
+									<ID>FAA</ID>
+									<Name>Važiuojamoji dalis</Name>
+									<Description>Transporto priemonių eismo erdvės dalis skirta motorizuotoms transporto priemonėms</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>FAB</ID>
+									<Name>Eismo juosta</Name>
+									<Description>Transporto priemonių eismo erdvės dalis skirta   transporto priemonėms važiuoti viena eile</Description>
+									<Children>
+										<Item>
+											<ID>%FAB10</ID>
+											<Name>Greitėjimo/lietėjimo juosta</Name>
+											<Description>Transporto priemonių eismo erdvės dalis skirta transporto priemonių srauto susiliejimui ar išsiskyrimui sankryžose ar tarp gretimų kelių</Description>
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+								<Item>
+									<ID>FAC</ID>
+									<Name>Kelkraštis</Name>
+									<Description>Erdvė formuojanti važiuojamosios kelio dalies ribas, avariniam transporto priemonių sustojimui skirtą kelio kraštą, ar formuojanti apželdintą zoną tarp kelio krašto ir pėsčiųjų tako, ar formuojanti apželdintus kelio šlaitus</Description>
+									<Children>
+										<Item>
+											<ID>%FAC10</ID>
+											<Name>Kelio vidinis šlaitas</Name>
+											<Description>Erdvė greta kelio, kelkraščio, kuri tipiškai formuoja nuokalnę nuo kelio iki griovio</Description>
+											<Children />
+										</Item>
+										<Item>
+											<ID>%FAC20</ID>
+											<Name>Kelio išorinis šlaitas</Name>
+											<Description>Erdvė greta kelio, kuri tipiškai formuoja įkalnę nuo kelio griovio tolyn nuo kelio važiuojamosios dalies</Description>
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+								<Item>
+									<ID>FAD</ID>
+									<Name>Sustojimo vieta</Name>
+									<Description>Transporto priemonių eismo erdvės dalis skirta transporto priemonėms sustoti greta važiuojamosios kelio dalies, ar lygiagrečiai kelio įrengtoje aikštelėje su ar be nuovažos į ją</Description>
+									<Children>
+										<Item>
+											<ID>%FAD10</ID>
+											<Name>Lygiagreti sustojimo vieta</Name>
+											<Description>Erdvė transporto priemonių laikinam stovėjimui tiesiogiai greta eismo juostos</Description>
+											<Children />
+										</Item>
+										<Item>
+											<ID>%FAD20</ID>
+											<Name>Poilsio aikštelė</Name>
+											<Description>Erdvė laikinam transporto priemonių stovėjimui ar poilsiui, atskirta skiriamąją juosta nuo greta esančio kelio</Description>
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+								<Item>
+									<ID>FAE</ID>
+									<Name>Sankryža</Name>
+									<Description>Transporto priemonių eismo erdvės dalis, kurioje susikerta dviejų ar daugiau kelių eismas, arba vieta, kuri skirta prasilenkti dviem transporto priemonėms si
+ skirta prasilenkti dviem transporto priemonėms (pvz.: automobiliams siaurame kelyje ar ant siauro tilto</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>FAF</ID>
+									<Name>Nuovaža</Name>
+									<Description>Transporto priemonių eismo erdvės dalis skirta transporto priemonių nuvažiavimui nuo ar įvažiavimui į pagrindinį kelią</Description>
+									<Children>
+										<Item>
+											<ID>%FAF10</ID>
+											<Name>Įvaža/išvaža</Name>
+											<Description>Transporto priemonių eismo erdvės dalis skirta įvažiavimui ar išvažiavimui iš vieno kelio į kitą susikertantį kelią.</Description>
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+							</Children>
+						</Item>
+						<Item>
+							<ID>FB</ID>
+							<Name>Aktyvaus judėjimo erdvė</Name>
+							<Description>Eismo erdvė skirta žmonėms, gyvūnams bei dviračiams</Description>
+							<Children>
+								<Item>
+									<ID>FBA</ID>
+									<Name>Pėsčiųjų takas</Name>
+									<Description>Pėsčiųjų eismui skirtas takas, eismo erdvės dalis</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>FBB</ID>
+									<Name>Dviračių takas</Name>
+									<Description>Dviračių eismui skirtas takas, eismo juosta, eismo erdvės dalis</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>FBC</ID>
+									<Name>Dviračių ir pėsčiųjų takas</Name>
+									<Description>Mišriam pėsčiųjų bei dviračių eismui skirtas takas, eismo erdvės dalis</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>FBD</ID>
+									<Name>Gyvūnų takas</Name>
+									<Description>Takas skirtas gyvūnų eismui, migracijai bei aktyviai veiklai su gyvūnais</Description>
+									<Children />
+								</Item>
+							</Children>
+						</Item>
+						<Item>
+							<ID>FC</ID>
+							<Name>Orlaivių eismo erdvė</Name>
+							<Description>Eismo erdvė skirta orlaivių judėjimui</Description>
+							<Children>
+								<Item>
+									<ID>FCA</ID>
+									<Name>Orlaivių kilimo ir tūpimo takas</Name>
+									<Description>Eismo erdvė skirta orlaivių kilimui ir nusileidimui</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>FCB</ID>
+									<Name>Orlaivių riedėjimo takas</Name>
+									<Description>Eismo erdvė skirta orlaivių riedėjimui</Description>
+									<Children />
+								</Item>
+							</Children>
+						</Item>
+						<Item>
+							<ID>FD</ID>
+							<Name>Bėginio transporto eismo erdvė</Name>
+							<Description>Eismo erdvė skirta bėginiam transportui</Description>
+							<Children>
+								<Item>
+									<ID>FDA</ID>
+									<Name>Geležinkelio bėgių kelias</Name>
+									<Description>Bėginių transporto priemonių eismo erdvės dalis skirta traukinių, tramvajų ar kitų bėginių transporto priemonių judėjimui</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>FDB</ID>
+									<Name>Geležinkelio pervaža</Name>
+									<Description>Bėginių transporto priemonių eismo erdvės dalis skirta nebėginių transporto priemonių pervažai per bėgius</Description>
+									<Children />
+								</Item>
+							</Children>
+						</Item>
+						<Item>
+							<ID>FE</ID>
+							<Name>Laivų eismo erdvė</Name>
+							<Description>Eismo erdvė skirta laivų judėjimui</Description>
+							<Children>
+								<Item>
+									<ID>FEA</ID>
+									<Name>Farvateris</Name>
+									<Description>Laivų eismo erdvės dalis skirta horizontaliam judėjimui</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>FEB</ID>
+									<Name>Šliuzas</Name>
+									<Description>Laivų eismo erdvės dalis skirta vertikaliam judėjimui</Description>
+									<Children />
+								</Item>
+							</Children>
+						</Item>
+						<Item>
+							<ID>FF</ID>
+							<Name>Eismo valdymo erdvė</Name>
+							<Description>Eismo erdvė skirta eismo skirstymui bei valdymui</Description>
+							<Children>
+								<Item>
+									<ID>FFA</ID>
+									<Name>Skiriamoji juosta</Name>
+									<Description>Eismo valdymo erdvės dalis atskirianti kitas eismo erdves (pvz.: skiriamoji juosta tarp dviejų važiuojamųjų kelio dalių, skiriamoji juosta tarp dviračių tako bei važiuojamosios kelio dalies, vejos skirtingų lygių sankryžose)</Description>
+									<Children>
+										<Item>
+											<ID>%FFA10</ID>
+											<Name>Saugumo salelė</Name>
+											<Description>Eismo valdymo erdvės dalis atskirianti eismo erdves bei suteinkianti atskirtą vietą pėstėsiems ir dviratininkams saugiai sustoti kertant kelią</Description>
+											<Children />
+										</Item>
+										<Item>
+											<ID>%FFA20</ID>
+											<Name>Skiriamoji salelė</Name>
+											<Description>Eismo valdymo erdvės dalis formuojanti dengtas ar apželdintas erdves tarp kelių, eismo juostų ar sankryžos elementų (pvz.: žiedinės sankryžos apželdintas centras, vejos sankryžų kilpose)</Description>
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+								<Item>
+									<ID>FFB</ID>
+									<Name>Platforma</Name>
+									<Description>Eismo valdymo erdvės dalis skirta transporto priemonės pakeitimui (pvz.: autobusų stotelė, dviračių aikštelė, geležinkelio peronas)</Description>
+									<Children>
+										<Item>
+											<ID>%FFB10</ID>
+											<Name>Autobusų stotelė</Name>
+											<Description>Eismo valdymo erdvės dalis skirta keleiviams įlaipinti / išlaipinti iš autobuso stotyje ar stotelėje</Description>
+											<Children />
+										</Item>
+										<Item>
+											<ID>%FFB20</ID>
+											<Name>Geležinkelio platforma</Name>
+											<Description>Eismo valdymo erdvės dalis skirta keleiviams įlaipinti / išlaipinti ar kroviniams pakrauti / iškrauti geležinkelio perone, platformoje</Description>
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+								<Item>
+									<ID>FFC</ID>
+									<Name>Eismo informacijos erdvė</Name>
+									<Description>Eismo valdymo erdvės dalis skirta informacijos perteikimui ar eismo srautų reguliavimui</Description>
+									<Children>
+										<Item>
+											<ID>%FFC10</ID>
+											<Name>Perėja</Name>
+											<Description>Eismo valdymo erdvės dalis skirta pėstiesiems ir dviratininkams kirsti kelią ar gatvę</Description>
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+								<Item>
+									<ID>FFD</ID>
+									<Name>Artumo gabaritas</Name>
+									<Description>Eismo valdymo erdvės dalis skirta reguliuoti eismo srautus, suteikti pirmenybę vieniems objektams prieš kitus, kontroliuoti transporto priemonių aukštį ir pan.</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>FFE</ID>
+									<Name>Eismo ribojimo erdvė</Name>
+									<Description>Eismo valdymo erdvės dalis skirta riboti transporto priemonių eismą</Description>
+									<Children />
+								</Item>
+							</Children>
+						</Item>
+					</Children>
+				</Item>
+				<Item>
+					<ID>P</ID>
+					<Name>Fizikinių procesų  erdvė</Name>
+					<Description>Erdvė, skirta fizikiniams procesams susidaryti, ar jų metu susidariusioms medžiagoms judėti</Description>
+					<Children>
+						<Item>
+							<ID>PA</ID>
+							<Name>Medžiagos srauto erdvė</Name>
+							<Description>Fizikinių procesų erdvė, kurioje teka, kaupiasi ar vyksta kitoks medžiagų judėjimas</Description>
+							<Children>
+								<Item>
+									<ID>PAA</ID>
+									<Name>Nuolaužų srauto erdvė</Name>
+									<Description>Erdvė, kurioje susidaro ar yra transportuojami, vyksta kitoks nuolaužų, objektų judėjimas</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>PAB</ID>
+									<Name>Kietųjų medžiagų srauto erdvė</Name>
+									<Description>Erdvė, kurioje transportuojamos, ar vyksta kitoks kietųjų medžiagų judėjimas</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>PAC</ID>
+									<Name>Dujų srauto erdvė</Name>
+									<Description>Dujų srauto susidarymo erdvė</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>PAD</ID>
+									<Name>Skysčio srauto vieta</Name>
+									<Description>Vieta, kurioje susidaro skysčio srautas</Description>
+									<Children>
+										<Item>
+											<ID>%PAD10</ID>
+											<Name>Kelio griovys</Name>
+											<Description>Griovys šalia kelio, skysčiui nuvesti</Description>
+											<Children />
+										</Item>
+									</Children>
+								</Item>
+								<Item>
+									<ID>PAE</ID>
+									<Name>Plazmos srauto erdvė</Name>
+									<Description>Plazmos srauto susidarymo erdvė </Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>PAF</ID>
+									<Name>Dūmų susidarymo erdvė</Name>
+									<Description>Kelių medžiagų rūšių susidarymo erdvė </Description>
+									<Children />
+								</Item>
+							</Children>
+						</Item>
+						<Item>
+							<ID>PB</ID>
+							<Name>Energijos srauto erdvė</Name>
+							<Description>Fizikinių procesų erdvė, skirta energijos srautui tekėti  </Description>
+							<Children>
+								<Item>
+									<ID>PBA</ID>
+									<Name>Elektros energijos srauto erdvė</Name>
+									<Description>Elektros energijos susidarymo erdvė   </Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>PBB</ID>
+									<Name>Šiluminės energijos srauto erdvė</Name>
+									<Description>Šiluminės energijos susidarymo erdvė   </Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>PBC</ID>
+									<Name>Mechaninės energijos srauto erdvė</Name>
+									<Description>Erdvė, kurioje įrengti mechaniniai įrenginiai, perduodantys mechaninę energiją</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>PBD</ID>
+									<Name>Sprogimo vieta</Name>
+									<Description>Sprogimo energijos susidarymo vieta</Description>
+									<Children />
+								</Item>
+								<Item>
+									<ID>PBE</ID>
+									<Name>Degimo proceso vieta</Name>
+									<Description>Degimo proceso energijos susidarymo vieta</Description>
+									<Children />
+								</Item>
+							</Children>
+						</Item>
+					</Children>
+				</Item>
+			</Items>
+		</System>
+	</Classification>
+</BuildingInformation>

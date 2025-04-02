@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<BuildingInformation>
+	<Classification>
+		<System>
+			<Name>NSIK &lt;P&gt;</Name>
+			<EditionVersion>1.0</EditionVersion>
+			<EditionDate>
+				<Year>2023</Year>
+				<Month>09</Month>
+				<Day>01</Day>
+			</EditionDate>
+			<Description>Statybinės medžiagos</Description>
+			<Source>https://www.nsiklab.lt/</Source>
+			<Items />
+		</System>
+	</Classification>
+</BuildingInformation>
